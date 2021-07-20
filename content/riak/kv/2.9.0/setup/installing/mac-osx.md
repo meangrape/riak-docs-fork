@@ -41,12 +41,28 @@ appropriate platform:
 ### 64-bit
 
 ```bash
-curl -O https://files.tiot.jp/riak/kv/2.2/2.9.0/osx/10.11/riak-2.9.0-OSX-x86_64.tar.gz
+curl -O https://files.tiot.jp/riak/kv/2.9/2.9.0/osx/10.11/riak-2.9.0-OSX-x86_64.tar.gz
 tar xzvf riak-2.9.0-osx-x86_64.tar.gz
 ```
 
 After the release is untarred, you will be able to `cd` into the `riak`
 directory and execute `bin/riak start` to start the Riak node.
+
+In the event that Riak starts but then dies a few seconds afterwards,
+check `log/console.log` for `libcrypto.1.0.0.dylib` related errors. If found,
+download working copies of that and `libssl.1.0.0.dylib` from our server to 
+`/usr/local/opt/openssl/lib/`
+
+```bash
+curl https://files.tiot.jp/riak/kv/2.9/2.9.0/osx/10.11/libssl.1.0.0.dylib > /usr/local/opt/openssl/lib/
+curl https://files.tiot.jp/riak/kv/2.9/2.9.0/osx/10.11/libcrypto.1.0.0.dylib > /usr/local/opt/openssl/lib/
+```
+
+If you prefer, you can instead choose to manually compile any version of 
+OpenSSL between 0.9.8 and 1.0.0 which will also generate these files.
+
+Once these files are in place, you should now be able to start Riak with `bin/riak start`
+and not receive `libcrypto.1.0.0.dy;ib` related errors any more.
 
 ## Homebrew
 
