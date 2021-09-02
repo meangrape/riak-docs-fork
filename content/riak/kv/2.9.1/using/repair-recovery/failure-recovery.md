@@ -51,7 +51,7 @@ If data is lost, several options are available for restoring it.
 2.  **Restore from multi-cluster replication** --- If replication is enabled
     between two or more clusters, the missing data will gradually be
     restored via realtime replication and fullsync replication. A
-    fullsync operation can also be triggered manually via the `riak repl`
+    fullsync operation can also be triggered manually via the `riak-repl`
     command.
 3.  **Restore using intra-cluster repair** --- Riak versions 1.2 and greater
     include a repair feature which will restore lost partitions with
@@ -97,7 +97,7 @@ the number of siblings, causing longer disk service times and slower
 network responses.
 
 Sibling explosion can be detected by examining the `node_get_fsm_siblings`
-and `node_get_fsm_objsize` statistics from the `riak admin status` command.
+and `node_get_fsm_objsize` statistics from the `riak-admin status` command.
 To recover from sibling explosion, the application should be throttled and
 the resolution policy might need to be invoked manually on offending keys.
 

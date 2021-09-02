@@ -33,10 +33,10 @@ file:
 #!/bin/sh
 
 ## Resume from where we left off
-riak repl resume-fullsync
+riak-repl resume-fullsync
 
 ## Start fullsync if nothing is running
-riak repl start-fullsync
+riak-repl start-fullsync
 ```
 
 At the end of the sync window:
@@ -45,5 +45,5 @@ At the end of the sync window:
 #!/bin/sh
 
 ## Stop fullsync until start of next sync window
-riak repl pause-fullsync
+riak-repl pause-fullsync
 ```
