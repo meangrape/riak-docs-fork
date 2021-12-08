@@ -11,8 +11,8 @@ menu:
     parent: "developing_usage"
 toc: true
 aliases:
-  - /riak-docs/riak/2.9.2/dev/using/updates
-  - /riak-docs/riak/kv/2.9.2/dev/using/updates
+  - /riak/2.9.2/dev/using/updates
+  - /riak/kv/2.9.2/dev/using/updates
 ---
 
 [glossary vnode]: {{<baseurl>}}riak/kv/2.9.2/learn/glossary/#vnode
@@ -280,7 +280,7 @@ logger.info("vclock: %s", fetchedObj.getVClock().toString('base64'));
 riakc_obj:vclock(Obj).
 
 %% The context object will look something like this in the Erlang shell:
-%% <<107,206,97,96,96,96,204,96,2.9.2,82,28,202,156,255,126,
+%% <<107,206,97,96,96,96,204,96,226,82,28,202,156,255,126,
 %% 6,175,157,255,57,131,41,145,49,143,149,225,240,...>>
 ```
 

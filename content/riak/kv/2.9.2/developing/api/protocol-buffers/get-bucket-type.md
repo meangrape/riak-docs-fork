@@ -11,8 +11,8 @@ menu:
     parent: "apis_pbc"
 toc: true
 aliases:
-  - /riak-docs/riak/2.9.2/dev/references/protocol-buffers/get-bucket-type
-  - /riak-docs/riak/kv/2.9.2/dev/references/protocol-buffers/get-bucket-type
+  - /riak/2.9.2/dev/references/protocol-buffers/get-bucket-type
+  - /riak/kv/2.9.2/dev/references/protocol-buffers/get-bucket-type
 ---
 
 Gets the bucket properties associated with a [bucket type]({{<baseurl>}}riak/kv/2.9.2/using/cluster-operations/bucket-types).

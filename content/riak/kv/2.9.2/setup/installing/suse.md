@@ -12,10 +12,10 @@ menu:
     parent: "installing"
 toc: false
 aliases:
-  - /riak-docs/riak/2.9.2/ops/building/installing/Installing-on-SUSE
-  - /riak-docs/riak/kv/2.9.2/ops/building/installing/Installing-on-SUSE
-  - /riak-docs/riak/2.9.2/installing/suse/
-  - /riak-docs/riak/kv/2.9.2/installing/suse/
+  - /riak/2.9.2/ops/building/installing/Installing-on-SUSE
+  - /riak/kv/2.9.2/ops/building/installing/Installing-on-SUSE
+  - /riak/2.9.2/installing/suse/
+  - /riak/kv/2.9.2/installing/suse/
 ---
 
 [install verify]: {{<baseurl>}}riak/kv/2.9.2/setup/installing/verify

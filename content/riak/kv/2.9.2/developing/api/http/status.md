@@ -11,8 +11,8 @@ menu:
     parent: "apis_http"
 toc: true
 aliases:
-  - /riak-docs/riak/2.9.2/dev/references/http/status
-  - /riak-docs/riak/kv/2.9.2/dev/references/http/status
+  - /riak/2.9.2/dev/references/http/status
+  - /riak/kv/2.9.2/dev/references/http/status
 ---
 
 Reports about the performance and configuration of the Riak node to which it was requested. You must have the `{riak_kv_stat,true}` configuration setting in app.config for this endpoint to be active.
@@ -124,7 +124,7 @@ $ curl -v http://127.0.0.1:8098/stats -H "Accept: text/plain"
     "erlang_js_version": "0.4",
     "runtime_tools_version": "1.8.3",
     "crypto_version": "1.6.4",
-    "os_mon_version": "2.9.2",
+    "os_mon_version": "2.9.1",
     "sasl_version": "2.1.9",
     "stdlib_version": "1.16.5",
     "kernel_version": "2.13.5"

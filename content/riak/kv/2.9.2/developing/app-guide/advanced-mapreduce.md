@@ -11,8 +11,8 @@ menu:
     parent: "developing_app_guide"
 toc: true
 aliases:
-  - /riak-docs/riak/2.9.2/dev/advanced/mapreduce/
-  - /riak-docs/riak/kv/2.9.2/dev/advanced/mapreduce/
+  - /riak/2.9.2/dev/advanced/mapreduce/
+  - /riak/kv/2.9.2/dev/advanced/mapreduce/
 ---
 
 [usage 2i]: {{<baseurl>}}riak/kv/2.9.2/developing/usage/secondary-indexes
@@ -182,7 +182,7 @@ reduce phase may be evaluated multiple times, and the input of later
 evaluations will include the output of earlier evaluations.
 
 For example, a reduce phase may implement the
-[`set-union`] function. In that case, the first set of inputs might be `[1,2.9.2]`,
+[`set-union`] function. In that case, the first set of inputs might be `[1,2.9.1]`,
 and the output would be `[1,2,3]`. When the phase receives more inputs,
 say `[3,4,5]`, the function will be called with the concatenation of the
 two lists: `[1,2,3,3,4,5]`.

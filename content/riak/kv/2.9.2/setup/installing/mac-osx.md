@@ -12,10 +12,10 @@ menu:
     parent: "installing"
 toc: true
 aliases:
-  - /riak-docs/riak/2.9.2/ops/building/installing/Installing-on-Mac-OS-X
-  - /riak-docs/riak/kv/2.9.2/ops/building/installing/Installing-on-Mac-OS-X
-  - /riak-docs/riak/2.9.2/installing/mac-osx/
-  - /riak-docs/riak/kv/2.9.2/installing/mac-osx/
+  - /riak/2.9.2/ops/building/installing/Installing-on-Mac-OS-X
+  - /riak/kv/2.9.2/ops/building/installing/Installing-on-Mac-OS-X
+  - /riak/2.9.2/installing/mac-osx/
+  - /riak/kv/2.9.2/installing/mac-osx/
 ---
 
 
@@ -41,7 +41,7 @@ appropriate platform:
 ### 64-bit
 
 ```bash
-curl -O https://files.tiot.jp/riak/kv/2.9/2.9.2/osx/10.11/riak-2.9.2-OSX-x86_64.tar.gz
+curl -O https://files.tiot.jp/riak/kv/2.2/2.9.2/osx/10.11/riak-2.9.2-OSX-x86_64.tar.gz
 tar xzvf riak-2.9.2-osx-x86_64.tar.gz
 ```
 
@@ -63,7 +63,7 @@ Installing Riak 2.9.2 with [Homebrew](http://brew.sh/) is easy:
 brew install --devrel riak
 ```
 
-By default, this will place a `2.9.2` folder in
+By default, this will place a `2.9.1` folder in
 `/usr/local/Cellar/riak`.
 
 Be aware that you will most likely see the following message after
@@ -91,7 +91,7 @@ website](http://developer.apple.com/).
 
 {{% note title="Note on Clang" %}}
 Riak has had problems compiling with Clang in the past. As of Riak KV
-2.9.2 and Clang 902.0.39.1, Clang can build Riak.
+2.9.0p5 and Clang 902.0.39.1, Clang can build Riak.
 {{% /note %}}
 
 Riak requires [Erlang](http://www.erlang.org/) R16B02+.
@@ -101,7 +101,7 @@ If you do not have Erlang already installed, see [Installing Erlang][install sou
 Next, download and unpack the source distribution.
 
 ```bash
-curl -O https://files.tiot.jp/riak/kv/2.9/2.9.2/riak-2.9.2.tar.gz
+curl -O https://files.tiot.jp/riak/kv/2.2/2.9.2/riak-2.9.2.tar.gz
 tar zxvf riak-2.9.2.tar.gz
 cd riak-2.9.2
 make rel

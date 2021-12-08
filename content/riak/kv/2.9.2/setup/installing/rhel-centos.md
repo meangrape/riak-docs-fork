@@ -12,10 +12,10 @@ menu:
     parent: "installing"
 toc: true
 aliases:
-  - /riak-docs/riak/2.9.2/ops/building/installing/Installing-on-RHEL-and-CentOS
-  - /riak-docs/riak/kv/2.9.2/ops/building/installing/Installing-on-RHEL-and-CentOS
-  - /riak-docs/riak/2.9.2/installing/rhel-centos/
-  - /riak-docs/riak/kv/2.9.2/installing/rhel-centos/
+  - /riak/2.9.2/ops/building/installing/Installing-on-RHEL-and-CentOS
+  - /riak/kv/2.9.2/ops/building/installing/Installing-on-RHEL-and-CentOS
+  - /riak/2.9.2/installing/rhel-centos/
+  - /riak/kv/2.9.2/installing/rhel-centos/
 ---
 
 
@@ -50,14 +50,14 @@ sudo yum install -y epel-release
 Once the EPEL has been installed, you can install CentOS 8/RHEL 8 using yum, which we recommend:
 
 ```bash
-wget https://files.tiot.jp/riak/kv/2.9/2.9.2/rhel/8/riak-2.9.2-1.el8.x86_64.rpm
+wget https://files.tiot.jp/riak/kv/2.2/2.9.2/rhel/8/riak-2.9.2-1.el8.x86_64.rpm
 sudo yum localinstall -y riak-2.9.2-1.el8.x86_64.rpm
 ```
 
 Or you can install the `.rpm` package manually:
 
 ```bash
-wget https://files.tiot.jp/riak/kv/2.9/2.9.2/rhel/8/riak-2.9.2-1.el8.x86_64.rpm
+wget https://files.tiot.jp/riak/kv/2.2/2.9.2/rhel/8/riak-2.9.2-1.el8.x86_64.rpm
 sudo rpm -Uvh riak-2.9.2-1.el8.x86_64.rpm
 ```
 

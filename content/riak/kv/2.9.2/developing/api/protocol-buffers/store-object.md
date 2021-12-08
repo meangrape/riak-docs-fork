@@ -11,8 +11,8 @@ menu:
     parent: "apis_pbc"
 toc: true
 aliases:
-  - /riak-docs/riak/2.9.2/dev/references/protocol-buffers/store-object
-  - /riak-docs/riak/kv/2.9.2/dev/references/protocol-buffers/store-object
+  - /riak/2.9.2/dev/references/protocol-buffers/store-object
+  - /riak/kv/2.9.2/dev/references/protocol-buffers/store-object
 ---
 
 Stores an object under the specified location, as determined by the
@@ -134,7 +134,7 @@ Hex      00 00 00 62 0C 0A 31 0A 0D 7B 22 66 6F 6F 22 3A
 Erlang <<0,0,0,98,12,10,49,10,13,123,34,102,111,111,34,58,34,98,97,114,34,125,
          42,22,49,99,97,121,107,79,68,57,54,105,78,65,104,111,109,121,101,86,
          106,79,89,67,56,175,176,163,222,4,64,144,231,24,18,44,107,206,97,96,
-         96,96,202,96,2.9.2,82,44,44,233,12,134,25,76,137,140,121,172,12,90,33,
+         96,96,202,96,226,82,44,44,233,12,134,25,76,137,140,121,172,12,90,33,
          182,71,249,32,194,108,205,73,172,13,119,124,160,18,250,32,137,44,0>>
 
 RpbPutResp protoc decode:

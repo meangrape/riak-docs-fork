@@ -2,7 +2,7 @@
 title: "Download for Riak KV 2.9.2"
 description: "Download some stuff!"
 menu:
-  riak_kv-2.9.1:
+  riak_kv-2.9.2:
     name: "Download Riak KV"
     identifier: "download_riak_kv"
     weight: 101
@@ -17,6 +17,6 @@ listed_projects:
       title: "Riak KV"
       install_instructions_set: "setup/installing"
 aliases:
-  - /riak-docs/riak/2.9.2/downloads
-  - /riak-docs/riak/kv/2.9.2/downloads
+  - /riak/2.9.2/downloads
+  - /riak/kv/2.9.2/downloads
 ---

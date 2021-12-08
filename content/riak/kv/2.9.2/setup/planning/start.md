@@ -11,8 +11,8 @@ menu:
     parent: "planning"
 toc: true
 aliases:
-  - /riak-docs/riak/2.9.2/ops/building/planning/system-planning
-  - /riak-docs/riak/kv/2.9.2/ops/building/planning/system-planning
+  - /riak/2.9.2/ops/building/planning/system-planning
+  - /riak/kv/2.9.2/ops/building/planning/system-planning
 ---
 
 [plan backend]: {{<baseurl>}}riak/kv/2.9.2/setup/planning/backend
