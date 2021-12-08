@@ -11,7 +11,12 @@ menu:
     parent: "add-ons_redis_setup"
 toc: true
 commercial_offering: true
+aliases:
+  - /riak/latest/add-ons/redis/set-up-rra/deployment-models/
+  - /riak/kv/latest/add-ons/redis/set-up-rra/deployment-models/
+  - /riakkv/latest/add-ons/redis/set-up-rra/deployment-models/
 ---
+
 
 [Local-deployment]: {{<baseurl>}}images/redis/rra_deployment_local.png
 [Colocated-deployment]: {{<baseurl>}}images/redis/rra_deployment_colocated.png
@@ -136,4 +141,5 @@ most notably the increased cache hit rate and reduced connection overhead,
 should make it the standout choice for applications requiring the scale and
 operational simplicity of Riak. For this reason, we recommend the Distributed
 Cache Deployment.
+
 

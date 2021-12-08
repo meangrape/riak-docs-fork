@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/data-modeling/
   - /riak/kv/2.9.7/dev/data-modeling/
+  - /riak/latest/learn/use-cases/
+  - /riak/kv/latest/learn/use-cases/
+  - /riakkv/latest/learn/use-cases/
 ---
+
 
 
 [dev data model articles etc]: {{<baseurl>}}riak/kv/2.9.7/developing/data-modeling/#articles-blog-posts-and-other-content
@@ -398,5 +402,6 @@ or other pieces of information useful for later retrieval.
     </td>
   </tr>
 </table>
+
 
 

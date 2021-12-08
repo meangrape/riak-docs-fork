@@ -11,7 +11,12 @@ menu:
     parent: "add-ons_redis"
 toc: true
 commercial_offering: true
+aliases:
+  - /riak/latest/add-ons/redis/redis-add-on-features/
+  - /riak/kv/latest/add-ons/redis/redis-add-on-features/
+  - /riakkv/latest/add-ons/redis/redis-add-on-features/
 ---
+
 
 [ee]: https://www.tiot.jp/en/about-us/contact-us/
 [GET-sequence]: {{<baseurl>}}images/redis/GET_seq.msc.png
@@ -129,4 +134,5 @@ full object lifetime for a key-value is represented by the following
 sequence diagram:
 
 ![Object lifetime sequence diagram]({{<baseurl>}}images/redis/Object_lifetime.msc.png)
+
 

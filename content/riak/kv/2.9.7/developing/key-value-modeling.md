@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/data-modeling/key-value/
   - /riak/kv/2.9.7/dev/data-modeling/key-value/
+  - /riak/latest/developing/key-value-modeling/
+  - /riak/kv/latest/developing/key-value-modeling/
+  - /riakkv/latest/developing/key-value-modeling/
 ---
+
 
 While Riak enables you to take advantage of a wide variety of features
 that can be useful in application development, such as [Search]({{<baseurl>}}riak/kv/2.9.7/developing/usage/search), [secondary indexes (2i)]({{<baseurl>}}riak/kv/2.9.7/developing/usage/secondary-indexes/), and [Riak Data Types]({{<baseurl>}}riak/kv/2.9.7/developing/data-types/), Riak almost always performs best when you
@@ -529,4 +533,5 @@ presentation](http://www.youtube.com/watch?v=-_3Us7Ystyg#aid=P-4heI_bFwo)
 by Basho evangelist [Hector Castro](https://github.com/hectcastro), with
 the presentation slides available [on Speaker
 Deck](https://speakerdeck.com/hectcastro/throw-some-keys-on-it-data-modeling-for-key-value-data-stores-by-example).
+
 

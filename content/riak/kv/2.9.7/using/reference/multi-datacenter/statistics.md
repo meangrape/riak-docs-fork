@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/ops/mdc/statistics
   - /riak/kv/2.9.7/ops/mdc/statistics
+  - /riak/latest/using/reference/multi-datacenter/statistics/
+  - /riak/kv/latest/using/reference/multi-datacenter/statistics/
+  - /riakkv/latest/using/reference/multi-datacenter/statistics/
 ---
+
 
 The following definitions describe the output of `riak-repl status`.
 Both Version 2 and Version 3 Replication statistics can be obtained
@@ -238,4 +242,5 @@ A simple way to view formatted statistics is to use a command such as:
 ```curl
 curl -q http://127.0.0.1:8098/riak-repl/stats | json_pp
 ```
+
 

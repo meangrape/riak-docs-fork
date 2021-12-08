@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/theory/why-riak/
   - /riak/kv/2.9.7/theory/why-riak/
+  - /riak/latest/learn/why-riak-kv/
+  - /riak/kv/latest/learn/why-riak-kv/
+  - /riakkv/latest/learn/why-riak-kv/
 ---
+
 
 
 [apps replication properties]: {{<baseurl>}}riak/kv/2.9.7/developing/app-guide/replication-properties
@@ -219,4 +223,5 @@ according to which the majority of nodes must respond.
 
 There is more on [replication properties][apps replication properties] elsewhere in the
 documentation.
+
 

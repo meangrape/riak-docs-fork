@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/references/protocol-buffers/server-info
   - /riak/kv/2.9.7/dev/references/protocol-buffers/server-info
+  - /riak/latest/developing/api/protocol-buffers/server-info/
+  - /riak/kv/latest/developing/api/protocol-buffers/server-info/
+  - /riakkv/latest/developing/api/protocol-buffers/server-info/
 ---
+
 
 A message from Riak that contains two pieces of information about the
 server: the name of the node and the version of Riak in use on that
@@ -56,4 +60,5 @@ RpbGetServerInfoResp protoc decode:
 node: "riak@127.0.0.1"
 server_version: "0.10"
 ```
+
 

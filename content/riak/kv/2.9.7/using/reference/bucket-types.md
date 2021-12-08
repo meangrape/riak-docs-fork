@@ -10,7 +10,12 @@ menu:
     weight: 102
     parent: "managing_ref"
 toc: true
+aliases:
+  - /riak/latest/using/reference/bucket-types/
+  - /riak/kv/latest/using/reference/bucket-types/
+  - /riakkv/latest/using/reference/bucket-types/
 ---
+
 
 Bucket types allow groups of buckets to share configuration details and
 for Riak users to manage bucket properties more efficiently than in the
@@ -816,4 +821,5 @@ use four bucket type/bucket pairs:
 
 All four of these pairs are isolated keyspaces. The key `favorite_meme`
 could hold different values in all four bucket type/bucket spaces.
+
 

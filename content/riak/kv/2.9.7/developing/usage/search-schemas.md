@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/advanced/search-schema
   - /riak/kv/2.9.7/dev/advanced/search-schema
+  - /riak/latest/developing/usage/search-schemas/
+  - /riak/kv/latest/developing/usage/search-schemas/
+  - /riakkv/latest/developing/usage/search-schemas/
 ---
+
 
 [concept clusters]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/clusters
 
@@ -505,4 +509,5 @@ the case.
 ```erlang
 {analyzer_factory, {erlang, text_analyzers, noop_analyzer_factory}}}
 ```
+
 

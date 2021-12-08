@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/references/http/search-query
   - /riak/kv/2.9.7/dev/references/http/search-query
+  - /riak/latest/developing/api/http/search-query/
+  - /riak/kv/latest/developing/api/http/search-query/
+  - /riakkv/latest/developing/api/http/search-query/
 ---
+
 
 Performs a [Riak KV Search]({{<baseurl>}}riak/kv/2.9.7/developing/usage/search) query.
 
@@ -26,13 +30,21 @@ GET /search/query/<index_name>
 ## Optional Query Parameters
 
 * `wt`
+  - /riak/latest/developing/api/http/search-query/
+  - /riak/kv/latest/developing/api/http/search-query/
+  - /riakkv/latest/developing/api/http/search-query/
 ---
+
 The [response
     writer](https://cwiki.apache.org/confluence/display/solr/Response+Writers)
     to be used when returning the Search payload. The currently
     available options are `json` and `xml`. The default is `xml`.
 * `q`
+  - /riak/latest/developing/api/http/search-query/
+  - /riak/kv/latest/developing/api/http/search-query/
+  - /riakkv/latest/developing/api/http/search-query/
 ---
+
 The actual Search query itself. Examples can be found in
     [Using Search]({{<baseurl>}}riak/kv/2.9.7/developing/usage/search). If a query is not specified, Riak will return
     information about the index itself, e.g. the number of documents
@@ -45,15 +57,27 @@ The actual Search query itself. Examples can be found in
 ## Typical Error Codes
 
 * `400 Bad Request`
+  - /riak/latest/developing/api/http/search-query/
+  - /riak/kv/latest/developing/api/http/search-query/
+  - /riakkv/latest/developing/api/http/search-query/
 ---
+
 Returned when, for example, a malformed query is
     supplied
 * `404 Object Not Found`
+  - /riak/latest/developing/api/http/search-query/
+  - /riak/kv/latest/developing/api/http/search-query/
+  - /riakkv/latest/developing/api/http/search-query/
 ---
+
 Returned if the Search index you are
     attempting to query does not exist
 * `503 Service Unavailable`
+  - /riak/latest/developing/api/http/search-query/
+  - /riak/kv/latest/developing/api/http/search-query/
+  - /riakkv/latest/developing/api/http/search-query/
 ---
+
 The request timed out internally
 
 ## Response
@@ -77,4 +101,5 @@ has no documents associated with it:
   }
 }
 ```
+
 

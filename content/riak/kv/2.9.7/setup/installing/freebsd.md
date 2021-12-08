@@ -17,7 +17,10 @@ aliases:
   - /riak/2.9.7/installing/freebsd/
   - /riak/kv/2.9.7/installing/freebsd/
   - /riak/kv/latest/setup/installing/freebsd/
+  - /riak/latest/setup/installing/freebsd/
+  - /riakkv/latest/setup/installing/freebsd/
 ---
+
 
 
 
@@ -127,5 +130,6 @@ gmake devrel
 ## Next Steps
 
 Now that Riak is installed, check out [Verifying a Riak Installation][install verify].
+
 
 

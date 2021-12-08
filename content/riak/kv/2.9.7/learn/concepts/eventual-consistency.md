@@ -15,7 +15,11 @@ aliases:
   - /riak/kv/2.9.7/theory/concepts/Eventual-Consistency
   - /riak/2.9.7/theory/concepts/eventual-consistency
   - /riak/kv/2.9.7/theory/concepts/eventual-consistency
+  - /riak/latest/learn/concepts/eventual-consistency/
+  - /riak/kv/latest/learn/concepts/eventual-consistency/
+  - /riakkv/latest/learn/concepts/eventual-consistency/
 ---
+
 
 
 [concept buckets]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/buckets
@@ -196,4 +200,5 @@ whether the operation truly failed.
 
 * [Understanding Riak's Configurable Behaviors blog series](http://basho.com/understanding-riaks-configurable-behaviors-part-1/)
 * Werner Vogels, et. al.: [Eventually Consistent - Revisited](http://www.allthingsdistributed.com/2008/12/eventually_consistent.html)
+
 

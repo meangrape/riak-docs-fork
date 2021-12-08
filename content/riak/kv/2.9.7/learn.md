@@ -12,7 +12,10 @@ menu:
 toc: true
 aliases:
   - /riak/kv/latest/learn/
+  - /riak/latest/learn/
+  - /riakkv/latest/learn/
 ---
+
 
 [learn why riak]: ./why-riak-kv/
 [learn use cases]: ./use-cases/
@@ -47,5 +50,6 @@ A list of terms relating to Riak used throughout the documentation.
 Provides definitions for, insight into, and high level information about the various parts of Riak KV
 
 [Learn More >>][concepts]
+
 
 

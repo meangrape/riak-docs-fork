@@ -11,7 +11,12 @@ menu:
     parent: "managing_ref"
 toc: true
 commercial_offering: true
+aliases:
+  - /riak/latest/using/reference/multi-datacenter/
+  - /riak/kv/latest/using/reference/multi-datacenter/
+  - /riakkv/latest/using/reference/multi-datacenter/
 ---
+
 
 [ref mdc stats]: ./statistics
 [ref mdc per bucket]: ./per-bucket-replication
@@ -46,4 +51,5 @@ Overview of monitoring in a Multi-Datacenter environment.
 Compares Version 2 and Version 3 of Riak's Multi-Datacenter Replication capabilities.
 
 [Learn More >>][ref mdc comparison]
+
 

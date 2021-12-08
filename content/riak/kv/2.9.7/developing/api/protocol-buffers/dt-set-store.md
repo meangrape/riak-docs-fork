@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/references/protocol-buffers/dt-set-store
   - /riak/kv/2.9.7/dev/references/protocol-buffers/dt-set-store
+  - /riak/latest/developing/api/protocol-buffers/dt-set-store/
+  - /riak/kv/latest/developing/api/protocol-buffers/dt-set-store/
+  - /riakkv/latest/developing/api/protocol-buffers/dt-set-store/
 ---
+
 
 An operation to update a set, either on its own (at the bucket/key
 level) or [inside of a map]({{<baseurl>}}riak/kv/2.9.7/developing/api/protocol-buffers/dt-map-store).
@@ -30,4 +34,5 @@ message SetOp {
 Set members are binary values that can only be added (`adds`) or removed
 (`removes`) from a set. You can add and/or remove as many members of a
 set in a single message as you would like.
+
 

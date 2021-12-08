@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/theory/concepts/aae
   - /riak/kv/2.9.7/theory/concepts/aae
+  - /riak/latest/learn/concepts/active-anti-entropy/
+  - /riak/kv/latest/learn/concepts/active-anti-entropy/
+  - /riakkv/latest/learn/concepts/active-anti-entropy/
 ---
+
 
 [cluster ops v3 mdc]: {{<baseurl>}}riak/kv/2.9.7/using/cluster-operations/v3-multi-datacenter
 [cluster ops aae]: {{<baseurl>}}riak/kv/2.9.7/using/cluster-operations/active-anti-entropy
@@ -105,4 +109,5 @@ Riak to detect silent data corruption to on-disk data arising from disk
 failure, faulty hardware, and other sources. The default time period for
 this regeneration is one week, but this can be adjusted in each node's
 [configuration file][config aae].
+
 

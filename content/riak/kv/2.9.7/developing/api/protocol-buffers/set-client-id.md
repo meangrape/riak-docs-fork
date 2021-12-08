@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/references/protocol-buffers/set-client-id
   - /riak/kv/2.9.7/dev/references/protocol-buffers/set-client-id
+  - /riak/latest/developing/api/protocol-buffers/set-client-id/
+  - /riak/kv/latest/developing/api/protocol-buffers/set-client-id/
+  - /riakkv/latest/developing/api/protocol-buffers/set-client-id/
 ---
+
 
 {{% note title="Deprecation notice" %}}
 The use of client IDs in conflict resolution is now deprecated in Riak. If you
@@ -60,4 +64,5 @@ Erlang <<0,0,0,1,6>>
 
 RpbSetClientIdResp - only message code defined
 ```
+
 

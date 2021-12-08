@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/ops/running/nodes/inspecting
   - /riak/kv/2.9.7/ops/running/nodes/inspecting
+  - /riak/latest/using/cluster-operations/inspecting-node/
+  - /riak/kv/latest/using/cluster-operations/inspecting-node/
+  - /riakkv/latest/using/cluster-operations/inspecting-node/
 ---
+
 
 When inspection of a Riak node to gather metrics on performance or
 potential issues is desired, a number of tools are available to help,
@@ -476,18 +480,30 @@ Those extra options are usually assigned by the `riak-admin` script for
 you, but here's how to set them:
 
 * `--etc`
+  - /riak/latest/using/cluster-operations/inspecting-node/
+  - /riak/kv/latest/using/cluster-operations/inspecting-node/
+  - /riakkv/latest/using/cluster-operations/inspecting-node/
 ---
+
 The location of your Riak configuration directory (usually
     `/etc`). In the example above, configuration is in the generated
     directory of a source checkout of Riak.
 * `--base`
+  - /riak/latest/using/cluster-operations/inspecting-node/
+  - /riak/kv/latest/using/cluster-operations/inspecting-node/
+  - /riakkv/latest/using/cluster-operations/inspecting-node/
 ---
+
 The "base" directory of Riak, usually the root of the
     generated directory or `/usr/lib/riak` on Linux. Scan the
     `riak-admin` script for how the `RUNNER_BASE_DIR` variable is
     assigned on your platform.
 * `--user`
+  - /riak/latest/using/cluster-operations/inspecting-node/
+  - /riak/kv/latest/using/cluster-operations/inspecting-node/
+  - /riakkv/latest/using/cluster-operations/inspecting-node/
 ---
+
 The user/UID as which the Riak node runs. In a source
     checkout, it's the current user; on most systems, it's `riak`.
 
@@ -496,4 +512,5 @@ The user/UID as which the Riak node runs. In a source
 * [The riak-admin configuration management tool](../../admin/riak-admin/)
 * [Riaknostic](http://riaknostic.basho.com/)
 * [HTTP API Status](../../../developing/api/http/status/)
+
 

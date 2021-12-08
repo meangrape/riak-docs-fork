@@ -10,7 +10,12 @@ menu:
     weight: 110
     parent: "configuring"
 toc: true
+aliases:
+  - /riak/latest/configuring/backend/
+  - /riak/kv/latest/configuring/backend/
+  - /riakkv/latest/configuring/backend/
 ---
+
 
 [plan backend leveldb]: {{<baseurl>}}riak/kv/2.9.7/setup/planning/backend/leveldb
 [plan backend leveled]: {{<baseurl>}}riak/kv/2.9.7/setup/planning/backend/leveled
@@ -640,4 +645,5 @@ multi_backend.customer_backend.storage_backend = leveldb
 multi_backend.customer_backend.leveldb.data_root = $(platform_data_dir)/leveldb_backends/customer_backend
 multi_backend.customer_backend.leveldb.maximum_memory.percent = 50
 ```
+
 

@@ -10,7 +10,12 @@ menu:
     weight: 104
     parent: "learn"
 toc: true
+aliases:
+  - /riak/latest/learn/concepts/
+  - /riak/kv/latest/learn/concepts/
+  - /riakkv/latest/learn/concepts/
 ---
+
 
 [concept aae]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/active-anti-entropy
 [concept buckets]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/buckets
@@ -42,4 +47,5 @@ Learn more about:
 * [Keys and Objects][concept keys objects]
 * [Replication][concept replication]
 * [Virtual Nodes (vnodes)][concept vnodes]
+
 

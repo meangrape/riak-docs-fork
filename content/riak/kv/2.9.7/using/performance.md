@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/kv/2.9.7/ops/tuning/linux/
   - /riak/2.9.7/ops/tuning/linux/
+  - /riak/latest/using/performance/
+  - /riak/kv/latest/using/performance/
+  - /riakkv/latest/using/performance/
 ---
+
 
 Many Unix-like operating systems and distributions are tuned for desktop
 or light use out of the box and not for a production database. This
@@ -262,4 +266,5 @@ details.
 * [Erlang VM Tuning]({{<baseurl>}}riak/kv/2.9.7/using/performance/erlang)
 * [Latency Reduction]({{<baseurl>}}riak/kv/2.9.7/using/performance/latency-reduction)
 * [Open Files Limit]({{<baseurl>}}riak/kv/2.9.7/using/performance/open-files-limit/)
+
 

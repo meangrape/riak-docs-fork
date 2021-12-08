@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/references/http/fetch-object
   - /riak/kv/2.9.7/dev/references/http/fetch-object
+  - /riak/latest/developing/api/http/fetch-object/
+  - /riak/kv/latest/developing/api/http/fetch-object/
+  - /riakkv/latest/developing/api/http/fetch-object/
 ---
+
 
 Reads an object from the specified bucket/key.
 
@@ -240,4 +244,5 @@ Last-Modified: Wed, 10 Mar 2010 17:55:03 GMT
 * Connection #0 to host 127.0.0.1 left intact
 * Closing connection #0
 ```
+
 

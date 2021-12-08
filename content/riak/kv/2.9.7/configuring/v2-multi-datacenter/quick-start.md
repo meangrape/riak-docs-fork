@@ -15,7 +15,11 @@ commercial_offering: true
 aliases:
   - /riak/2.9.7/ops/mdc/v2/quick-start
   - /riak/kv/2.9.7/ops/mdc/v2/quick-start
+  - /riak/latest/configuring/v2-multi-datacenter/quick-start/
+  - /riak/kv/latest/configuring/v2-multi-datacenter/quick-start/
+  - /riakkv/latest/configuring/v2-multi-datacenter/quick-start/
 ---
+
 
 {{% note title="Deprecation Warning" %}}
 v2 Multi-Datacenter Replication is deprecated and will be removed in a future version. Please use [v3]({{<baseurl>}}riak/kv/2.9.7/configuring/v3-multi-datacenter/quick-start/) instead.
@@ -365,4 +369,5 @@ riak-repl cancel-fullsync
 Fullsync operations may also be paused, resumed, or scheduled for
 certain times using cron jobs. A complete list of fullsync commands is
 available in the [MDC Operations][cluster ops v2 mdc] documentation.
+
 

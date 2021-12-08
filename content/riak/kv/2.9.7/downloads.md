@@ -21,6 +21,9 @@ aliases:
   - /riak/kv/2.9.7/downloads
   - /riak/kv/latest/downloads/
   - /riak/latest/downloads/
+  - /riakkv/latest/downloads/
 ---
+
+
 
 

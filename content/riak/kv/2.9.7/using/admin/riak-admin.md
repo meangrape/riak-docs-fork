@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/ops/running/tools/riak-admin
   - /riak/kv/2.9.7/ops/running/tools/riak-admin
+  - /riak/latest/using/admin/riak-admin/
+  - /riak/kv/latest/using/admin/riak-admin/
+  - /riakkv/latest/using/admin/riak-admin/
 ---
+
 
 [config reference]: {{<baseurl>}}riak/kv/2.9.7/configuring/reference
 [use admin commands]: {{<baseurl>}}riak/kv/2.9.7/using/admin/commands
@@ -715,4 +719,5 @@ That will produce the following output:
 nodename:
   Name of the Erlang node
 ```
+
 

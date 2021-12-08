@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/ops/advanced/backends/leveldb/
   - /riak/kv/2.9.7/ops/advanced/backends/leveldb/
+  - /riak/latest/setup/planning/backend/leveldb/
+  - /riak/kv/latest/setup/planning/backend/leveldb/
+  - /riakkv/latest/setup/planning/backend/leveldb/
 ---
+
 
 [upgrade 2.0#upgrading-leveldB]: {{<baseurl>}}
 [glossary vnode]: {{<baseurl>}}riak/kv/2.9.7/learn/glossary/#vnode
@@ -67,7 +71,11 @@ A number of changes have been introduced in the LevelDB backend in Riak
 ## Strengths
 
 1. **License**
+  - /riak/latest/setup/planning/backend/leveldb/
+  - /riak/kv/latest/setup/planning/backend/leveldb/
+  - /riakkv/latest/setup/planning/backend/leveldb/
 ---
+
 The LevelDB and eLevelDB licenses are the [New BSD
    License](http://www.opensource.org/licenses/bsd-license.php) and the
    [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0.html),
@@ -75,7 +83,11 @@ The LevelDB and eLevelDB licenses are the [New BSD
    Google for choosing a completely FLOSS license so that everyone can
    benefit from this innovative storage engine.
 2. **Data compression**
+  - /riak/latest/setup/planning/backend/leveldb/
+  - /riak/kv/latest/setup/planning/backend/leveldb/
+  - /riakkv/latest/setup/planning/backend/leveldb/
 ---
+
 LevelDB provides two compression algorithms
    to reduce storage size and increase efficient use of storage bandwidth:
       * Google's [Snappy](https://code.google.com/p/snappy/) data compression
@@ -504,4 +516,5 @@ automated.
 But if you'd like to use tiered storage in an existing installation that
 is not currently using it, you will need to manually move your
 installation's `.sst` files from one configuration to another.
+
 

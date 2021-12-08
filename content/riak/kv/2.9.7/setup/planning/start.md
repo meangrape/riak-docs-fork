@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/ops/building/planning/system-planning
   - /riak/kv/2.9.7/ops/building/planning/system-planning
+  - /riak/latest/setup/planning/start/
+  - /riak/kv/latest/setup/planning/start/
+  - /riakkv/latest/setup/planning/start/
 ---
+
 
 [plan backend]: {{<baseurl>}}riak/kv/2.9.7/setup/planning/backend
 [plan cluster capacity]: {{<baseurl>}}riak/kv/2.9.7/setup/planning/cluster-capacity
@@ -54,5 +58,6 @@ following should work adequately:
 * nginx
 * lighttpd
 * Apache
+
 
 

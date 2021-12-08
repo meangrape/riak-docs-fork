@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/ops/building/configuration/
   - /riak/kv/2.9.7/ops/building/configuration/
+  - /riak/latest/configuring/basic/
+  - /riak/kv/latest/configuring/basic/
+  - /riakkv/latest/configuring/basic/
 ---
+
 
 [config reference]: {{<baseurl>}}riak/kv/2.9.7/configuring/reference
 [use running cluster]: {{<baseurl>}}riak/kv/2.9.7/using/running-a-cluster
@@ -233,4 +237,5 @@ cluster.
 ## Joining the nodes together
 
 Please see [Running A Cluster][use running cluster] for the cluster creation process.
+
 

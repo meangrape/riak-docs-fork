@@ -10,7 +10,12 @@ menu:
     weight: 102
     parent: "managing_cluster_operations"
 toc: true
+aliases:
+  - /riak/latest/using/cluster-operations/replacing-node/
+  - /riak/kv/latest/using/cluster-operations/replacing-node/
+  - /riakkv/latest/using/cluster-operations/replacing-node/
 ---
+
 
 At some point, for various reasons, you might need to replace a node in
 your Riak cluster (which is different from [recovering a failed node]({{<baseurl>}}riak/kv/2.9.7/using/repair-recovery)). Here is the recommended way to go
@@ -93,4 +98,5 @@ when you start the new node and the ring settles with the new IP info.
 The ring is considered settled when the new node reports `true` when you run
 the `riak-admin ringready` command.
 {{% /note %}}
+
 

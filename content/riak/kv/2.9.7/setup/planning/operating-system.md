@@ -10,7 +10,12 @@ menu:
     weight: 101
     parent: "planning"
 toc: true
+aliases:
+  - /riak/latest/setup/planning/operating-system/
+  - /riak/kv/latest/setup/planning/operating-system/
+  - /riakkv/latest/setup/planning/operating-system/
 ---
+
 
 [downloads]: {{<baseurl>}}riak/kv/2.9.7/downloads/
 
@@ -23,4 +28,5 @@ Basho provides [binary packages][downloads] of Riak KV for the following distrib
 * **Red Hat based:** Red Hat Enterprise Linux, CentOS, Fedora Core
 * **Debian based:** Debian, Ubuntu
 * **Solaris based:** Sun Solaris, OpenSolaris
+
 

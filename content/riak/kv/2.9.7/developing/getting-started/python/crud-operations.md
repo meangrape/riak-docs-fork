@@ -11,7 +11,12 @@ menu:
     weight: 100
     parent: "getting_started_python"
 toc: true
+aliases:
+  - /riak/latest/developing/getting-started/python/crud-operations/
+  - /riak/kv/latest/developing/getting-started/python/crud-operations/
+  - /riakkv/latest/developing/getting-started/python/crud-operations/
 ---
+
 
 ## Creating Objects In Riak
 
@@ -143,4 +148,5 @@ Finally, let’s clean up our mess:
 ```python
 fetchedBook.delete()
 ```
+
 

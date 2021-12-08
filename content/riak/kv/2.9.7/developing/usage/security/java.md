@@ -14,7 +14,11 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/advanced/client-security/java
   - /riak/kv/2.9.7/dev/advanced/client-security/java
+  - /riak/latest/developing/usage/security/java/
+  - /riak/kv/latest/developing/usage/security/java/
+  - /riakkv/latest/developing/usage/security/java/
 ---
+
 
 This tutorial shows you how to set up a Riak Java client to authenticate
 itself when connecting to Riak.
@@ -115,4 +119,5 @@ password.
 
 Certificate-based authentication is not currently supported in the
 official Riak Java client.
+
 

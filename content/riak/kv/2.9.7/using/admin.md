@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/ops/running/cluster-admin
   - /riak/kv/2.9.7/ops/running/cluster-admin
+  - /riak/latest/using/admin/
+  - /riak/kv/latest/using/admin/
+  - /riakkv/latest/using/admin/
 ---
+
 
 [use admin commands]: ./commands/
 [use admin riak cli]: ./riak-cli/
@@ -45,4 +49,5 @@ Covers the `riak` interface, which enables control of the processes associated w
 Overview of Riak Control, a web-based administrative console for Riak clusters.
 
 [Learn More >>][use admin riak control]
+
 

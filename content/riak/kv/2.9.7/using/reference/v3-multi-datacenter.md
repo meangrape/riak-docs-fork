@@ -10,7 +10,12 @@ menu:
     weight: 114
     parent: "managing_ref"
 toc: true
+aliases:
+  - /riak/latest/using/reference/v3-multi-datacenter/
+  - /riak/kv/latest/using/reference/v3-multi-datacenter/
+  - /riakkv/latest/using/reference/v3-multi-datacenter/
 ---
+
 
 [v3 mdc arch]: ./architecture
 [v3 mdc aae]: ./aae
@@ -45,4 +50,5 @@ Details the cascading realtime writes feature.
 Brief tutorial on scheduling fullsync operations.
 
 [Learn More >>][v3 mdc fullsync]
+
 

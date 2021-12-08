@@ -11,7 +11,12 @@ menu:
     parent: "managing_performance"
 toc: true
 commercial_offering: true
+aliases:
+  - /riak/latest/using/performance/v2-scheduling-fullsync/
+  - /riak/kv/latest/using/performance/v2-scheduling-fullsync/
+  - /riakkv/latest/using/performance/v2-scheduling-fullsync/
 ---
+
 
 {{% note title="Deprecation Warning" %}}
 v2 Multi-Datacenter Replication is deprecated and will be removed in a future version. Please use [v3]({{<baseurl>}}riak/kv/2.9.7/using/cluster-operations/v3-multi-datacenter/#fullsync-replication-commands/) instead.
@@ -43,4 +48,5 @@ At the end of the sync window:
 ## Stop fullsync until start of next sync window
 riak-repl pause-fullsync
 ```
+
 

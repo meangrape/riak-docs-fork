@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/references/http/delete-search-index
   - /riak/kv/2.9.7/dev/references/http/delete-search-index
+  - /riak/latest/developing/api/http/delete-search-
+  - /riak/kv/latest/developing/api/http/delete-search-
+  - /riakkv/latest/developing/api/http/delete-search-
 ---
+
 
 Deletes a Riak Search index.
 
@@ -26,13 +30,22 @@ DELETE /search/index/<index_name>
 ## Normal Response Codes
 
 * `204 No Content`
+  - /riak/latest/developing/api/http/delete-search-
+  - /riak/kv/latest/developing/api/http/delete-search-
+  - /riakkv/latest/developing/api/http/delete-search-
 ---
+
 The index was successfully deleted (also returned
     if the index did not exist to begin with)
 
 ## Typical Error Codes
 
 * `503 Service Unavailable`
+  - /riak/latest/developing/api/http/delete-search-
+  - /riak/kv/latest/developing/api/http/delete-search-
+  - /riakkv/latest/developing/api/http/delete-search-
 ---
+
 The request timed out internally
+
 

@@ -13,7 +13,11 @@ toc: true
 commercial_offering: true
 aliases:
   - /riak/kv/2.9.7/add-ons/redis/get-started-with-rra
+  - /riak/latest/add-ons/redis/using-rra/
+  - /riak/kv/latest/add-ons/redis/using-rra/
+  - /riakkv/latest/add-ons/redis/using-rra/
 ---
+
 
 [addon redis develop]: ../developing-rra/
 [addon redis setup]: ../set-up-rra/
@@ -240,4 +244,5 @@ As with RRA, Redis statistics available on the Redis client port allow for monit
 * Custom - http://volumelabs.net/redis_monitoring/
 * NewRelic - http://newrelic.com/plugins/poison-pen-llc/28
 * Nagios - https://exchange.nagios.org/directory/Plugins/Databases/check_redis-2Epl/details
+
 

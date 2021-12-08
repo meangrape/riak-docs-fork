@@ -10,7 +10,12 @@ menu:
     weight: 130
     parent: "configuring"
 toc: true
+aliases:
+  - /riak/latest/configuring/managing/
+  - /riak/kv/latest/configuring/managing/
+  - /riakkv/latest/configuring/managing/
 ---
+
 
 [use admin riak cli]: {{<baseurl>}}riak/kv/2.9.7/using/admin/riak-cli
 [use admin riak cli#chkconfig]: {{<baseurl>}}riak/kv/2.9.7/using/admin/riak-cli/#chkconfig
@@ -114,4 +119,5 @@ riak config generate -l debug
 If there are issues with your configuration, you will see detailed
 output that might provide a better sense of what has gone wrong in the
 config generation process.
+
 

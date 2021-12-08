@@ -16,7 +16,10 @@ aliases:
   - /riak/2.9.7/installing/source/erlang/
   - /riak/kv/2.9.7/installing/source/erlang/
   - /riak/kv/latest/setup/installing/source/erlang/
+  - /riak/latest/setup/installing/source/erlang/
+  - /riakkv/latest/setup/installing/source/erlang/
 ---
+
 
 [install index]: {{<baseurl>}}riak/kv/2.9.7/setup/installing
 [security basics]: {{<baseurl>}}riak/kv/2.9.7/using/security/basics
@@ -565,5 +568,6 @@ And start Erlang from your terminal with:
 ```bash
 erl
 ```
+
 
 

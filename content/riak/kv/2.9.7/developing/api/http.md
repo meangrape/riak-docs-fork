@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/references/http
   - /riak/kv/2.9.7/dev/references/http
+  - /riak/latest/developing/api/http/
+  - /riak/kv/latest/developing/api/http/
+  - /riakkv/latest/developing/api/http/
 ---
+
 
 Riak has a rich, full-featured HTTP 1.1 API. This is an overview of the
 operations you can perform via HTTP and can be used as a guide for
@@ -87,4 +91,5 @@ Method | URL | Doc
 `DELETE` | `/search/index/<index_name>` | [HTTP Delete Search Index]({{<baseurl>}}riak/kv/2.9.7/developing/api/http/delete-search-index)
 `GET` | `/search/schema/<schema_name>` | [HTTP Fetch Search Schema]({{<baseurl>}}riak/kv/2.9.7/developing/api/http/fetch-search-schema)
 `PUT` | `/search/schema/<schema_name>` | [HTTP Store Search Schema]({{<baseurl>}}riak/kv/2.9.7/developing/api/http/store-search-schema)
+
 

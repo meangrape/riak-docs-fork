@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/taste-of-riak/java
   - /riak/kv/2.9.7/dev/taste-of-riak/java
+  - /riak/latest/developing/getting-started/java/
+  - /riak/kv/latest/developing/getting-started/java/
+  - /riakkv/latest/developing/getting-started/java/
 ---
+
 
 
 
@@ -87,4 +91,5 @@ RiakClient client = new RiakClient(cluster);
 ## Next Steps
 
 [CRUD Operations]({{<baseurl>}}riak/kv/2.9.7/developing/getting-started/java/crud-operations)
+
 

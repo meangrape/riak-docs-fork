@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/theory/concepts/vnodes
   - /riak/kv/2.9.7/theory/concepts/vnodes
+  - /riak/latest/learn/concepts/vnodes/
+  - /riak/kv/latest/learn/concepts/vnodes/
+  - /riakkv/latest/learn/concepts/vnodes/
 ---
+
 
 
 [concept causal context]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/causal-context
@@ -154,4 +158,5 @@ Field | Description
 `VNode` | The ID of the vnode in question
 `Backend` | The storage [backend][plan backend] utilized by the vnode
 `Status` | The number of keys managed by the vnode and the file where the vnode stores its data. The other information can be ignored.
+
 

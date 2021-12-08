@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/ops/building/planning/cluster
   - /riak/kv/2.9.7/ops/building/planning/cluster
+  - /riak/latest/setup/planning/cluster-capacity/
+  - /riak/kv/latest/setup/planning/cluster-capacity/
+  - /riakkv/latest/setup/planning/cluster-capacity/
 ---
+
 
 [plan backend leveldb]: {{<baseurl>}}riak/kv/2.9.7/setup/planning/backend/leveldb
 [plan bitcask capacity]: {{<baseurl>}}riak/kv/2.9.7/setup/planning/bitcask-capacity-calc
@@ -232,4 +236,5 @@ access should take this into account. Because Riak is clustered and your
 data is stored on multiple physical nodes, you should consider forgoing
 a traditional RAID setup for redundancy and focus on providing the least
 latency possible using SATA Drives or SSDs, for example.
+
 

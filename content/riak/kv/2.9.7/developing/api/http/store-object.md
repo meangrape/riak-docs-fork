@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/references/http/store-object
   - /riak/kv/2.9.7/dev/references/http/store-object
+  - /riak/latest/developing/api/http/store-object/
+  - /riak/kv/latest/developing/api/http/store-object/
+  - /riakkv/latest/developing/api/http/store-object/
 ---
+
 
 Stores an object under the specified bucket / key. Storing an object comes in
 two forms, depending on whether you want to use a key of your choosing, or let
@@ -144,4 +148,5 @@ $ curl -v -XPUT -d '{"bar":"baz"}' -H "Content-Type: application/json" -H "X-Ria
 * Closing connection #0
 {"bar":"baz"}
 ```
+
 

@@ -14,7 +14,11 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/advanced/client-security/erlang
   - /riak/kv/2.9.7/dev/advanced/client-security/erlang
+  - /riak/latest/developing/usage/security/erlang/
+  - /riak/kv/latest/developing/usage/security/erlang/
+  - /riakkv/latest/developing/usage/security/erlang/
 ---
+
 
 This tutorial shows you how to set up a Riak Erlang client to
 authenticate itself when connecting to Riak.
@@ -112,4 +116,5 @@ SecurityOptions = [
                   ],
 {ok, Pid} = riakc_pb_socket:start("127.0.0.1", 8087, SecurityOptions).
 ```
+
 

@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/ops/advanced/configs/configuration-files/
   - /riak/kv/2.9.7/ops/advanced/configs/configuration-files/
+  - /riak/latest/configuring/reference/
+  - /riak/kv/latest/configuring/reference/
+  - /riakkv/latest/configuring/reference/
 ---
+
 
 [concept clusters]: ../../learn/concepts/clusters
 [plan backend bitcask]: ../../setup/planning/backend/bitcask
@@ -149,19 +153,39 @@ the cluster). Must be a power of 2. The minimum is 8 and the maximum is
 Riak enables you to choose from the following storage backends:
 
 * [Bitcask][plan backend bitcask]
+  - /riak/latest/configuring/reference/
+  - /riak/kv/latest/configuring/reference/
+  - /riakkv/latest/configuring/reference/
 ---
+
 [configuration][config backend bitcask]
 * [LevelDB][plan backend leveldb]
+  - /riak/latest/configuring/reference/
+  - /riak/kv/latest/configuring/reference/
+  - /riakkv/latest/configuring/reference/
 ---
+
 [configuration][config backend leveldb]
 * [Leveled][plan backend leveled]
+  - /riak/latest/configuring/reference/
+  - /riak/kv/latest/configuring/reference/
+  - /riakkv/latest/configuring/reference/
 ---
+
 [configuration][config backend leveled]
 * [Memory][plan backend memory]
+  - /riak/latest/configuring/reference/
+  - /riak/kv/latest/configuring/reference/
+  - /riakkv/latest/configuring/reference/
 ---
+
 [configuration][config backend memory]
 * [Multi][plan backend multi]
+  - /riak/latest/configuring/reference/
+  - /riak/kv/latest/configuring/reference/
+  - /riakkv/latest/configuring/reference/
 ---
+
 [configuration][config backend multi]
 
 <table class="riak-conf">
@@ -2038,4 +2062,5 @@ Field | Default | Valid values |
 `cluster.job.riak_kv.secondary_index`|`enabled`|`enabled` or `disabled`
 `cluster.job.riak_search.query`|`enabled`|`enabled` or `disabled`
 `cluster.job.yokozuna.query`|`enabled`|`enabled` or `disabled`
+
 

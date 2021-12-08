@@ -10,7 +10,12 @@ menu:
     weight: 208
     parent: "managing"
 toc: true
+aliases:
+  - /riak/latest/using/reference/
+  - /riak/kv/latest/using/reference/
+  - /riakkv/latest/using/reference/
 ---
+
 
 [ref log]: ./logging
 [ref handoff]: ./handoff
@@ -128,4 +133,5 @@ Overview of Riak's Multi-Datacenter system.
 Details Riak's V3 Multi-Datacenter system.
 
 [Learn More >>][ref v3 mdc]
+
 

@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/search/custom-extractors
   - /riak/kv/2.9.7/dev/search/custom-extractors
+  - /riak/latest/developing/usage/custom-extractors/
+  - /riak/kv/latest/developing/usage/custom-extractors/
+  - /riakkv/latest/developing/usage/custom-extractors/
 ---
+
 
 Solr, and by extension Riak Search, has default extractors for a wide
 variety of data types, including JSON, XML, and plaintext. Riak Search
@@ -39,11 +43,19 @@ Creating a custom extract involves creating an Erlang interface that
 implements two functions:
 
 * `extract/1`
+  - /riak/latest/developing/usage/custom-extractors/
+  - /riak/kv/latest/developing/usage/custom-extractors/
+  - /riakkv/latest/developing/usage/custom-extractors/
 ---
+
 Takes the contents of the object and calls `extract/2` 
     with the same contents and an empty list
 * `extract/2`
+  - /riak/latest/developing/usage/custom-extractors/
+  - /riak/kv/latest/developing/usage/custom-extractors/
+  - /riakkv/latest/developing/usage/custom-extractors/
 ---
+
 Takes the contents of the object and returns an Erlang
     [proplist](http://www.erlang.org/doc/man/proplists.html) with a
     single field name and a single value associated with that name
@@ -422,4 +434,5 @@ curl "$RIAK_HOST/search/query/header_data?wt=json&q=method:GET"
 # This should return a fairly large JSON object with a "num_found" field
 # The value of that field should be 1
 ```
+
 

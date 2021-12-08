@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/advanced/mapreduce/
   - /riak/kv/2.9.7/dev/advanced/mapreduce/
+  - /riak/latest/developing/app-guide/advanced-mapreduce/
+  - /riak/kv/latest/developing/app-guide/advanced-mapreduce/
+  - /riakkv/latest/developing/app-guide/advanced-mapreduce/
 ---
+
 
 [usage 2i]: {{<baseurl>}}riak/kv/2.9.7/developing/usage/secondary-indexes
 [apps replication properties]: {{<baseurl>}}riak/kv/2.9.7/developing/app-guide/replication-properties
@@ -557,13 +561,25 @@ Download the CSV file of stock data linked below and place it in the
 `dev` directory where we've been working.
 
 * [goog.csv](https://github.com/basho/basho_docs/raw/master/extras/data/goog.csv)
+  - /riak/latest/developing/app-guide/advanced-mapreduce/
+  - /riak/kv/latest/developing/app-guide/advanced-mapreduce/
+  - /riakkv/latest/developing/app-guide/advanced-mapreduce/
 ---
+
 Google historical stock data
 * [load_stocks.rb](https://github.com/basho/basho_docs/raw/master/extras/code-examples/load_stocks.rb)
+  - /riak/latest/developing/app-guide/advanced-mapreduce/
+  - /riak/kv/latest/developing/app-guide/advanced-mapreduce/
+  - /riakkv/latest/developing/app-guide/advanced-mapreduce/
 ---
+
 Alternative script in Ruby to load the data
 * [load_data.erl](https://github.com/basho/basho_docs/raw/master/extras/code-examples/load_data.erl)
+  - /riak/latest/developing/app-guide/advanced-mapreduce/
+  - /riak/kv/latest/developing/app-guide/advanced-mapreduce/
+  - /riakkv/latest/developing/app-guide/advanced-mapreduce/
 ---
+
 Erlang script to load data (as shown in snippet)
 
 Now load the data into Riak KV.
@@ -802,4 +818,5 @@ by the shell. Use `catch_exception`:
 > catch_exception(true).
 false
 ```
+
 

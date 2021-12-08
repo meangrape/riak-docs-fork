@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/ops/building/planning/backends/
   - /riak/kv/2.9.7/ops/building/planning/backends/
+  - /riak/latest/setup/planning/backend/
+  - /riak/kv/latest/setup/planning/backend/
+  - /riakkv/latest/setup/planning/backend/
 ---
+
 
 [plan backend bitcask]: {{<baseurl>}}riak/kv/2.9.7/setup/planning/backend/bitcask
 [plan backend leveldb]: {{<baseurl>}}riak/kv/2.9.7/setup/planning/backend/leveldb
@@ -54,4 +58,5 @@ Tiered storage
 
 <sup>1</sup> Noted here since this can affect Riak start times for large
 keyspaces.
+
 

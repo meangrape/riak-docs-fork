@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/ops/building/basic-cluster-setup
   - /riak/kv/2.9.7/ops/building/basic-cluster-setup
+  - /riak/latest/using/running-a-cluster/
+  - /riak/kv/latest/using/running-a-cluster/
+  - /riakkv/latest/using/running-a-cluster/
 ---
+
 
 Configuring a Riak cluster involves instructing each node to listen on a
 non-local interface, i.e. not `127.0.0.1`, and then joining all of the
@@ -333,4 +337,5 @@ one computer. If a node hasn’t joined an existing cluster, it will
 behave just as a cluster would. Running multiple clusters on one
 computer is simply a matter of having two or more distinct nodes or
 groups of clustered nodes.
+
 

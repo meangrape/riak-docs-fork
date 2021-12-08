@@ -11,7 +11,12 @@ menu:
     weight: 100
     parent: "getting_started_ruby"
 toc: true
+aliases:
+  - /riak/latest/developing/getting-started/ruby/crud-operations/
+  - /riak/kv/latest/developing/getting-started/ruby/crud-operations/
+  - /riakkv/latest/developing/getting-started/ruby/crud-operations/
 ---
+
 
 ## Creating Objects In Riak
 
@@ -144,4 +149,5 @@ Now, let’s clean up our mess:
 ```ruby
 new_book.delete()
 ```
+
 

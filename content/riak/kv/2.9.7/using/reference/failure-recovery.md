@@ -11,7 +11,12 @@ menu:
     weight: 105
     parent: "managing_ref"
 toc: true
+aliases:
+  - /riak/latest/using/reference/failure-recovery/
+  - /riak/kv/latest/using/reference/failure-recovery/
+  - /riakkv/latest/using/reference/failure-recovery/
 ---
+
 
 ## Hanc capellae
 
@@ -78,4 +83,5 @@ Nominis haec lacrimis orba gloria obstipuere tu Ceyx tepebat fetus me equorum
 potero! Iampridem illi; deducit [reor orbem](http://heeeeeeeey.com/), comes, et
 nec rubebant pietas, ipsa.
 ```
+
 

@@ -13,7 +13,11 @@ toc: true
 aliases:
   - /riak/2.9.7/ops/advanced/backends/bitcask/
   - /riak/kv/2.9.7/ops/advanced/backends/bitcask/
+  - /riak/latest/setup/planning/backend/bitcask/
+  - /riak/kv/latest/setup/planning/backend/bitcask/
+  - /riakkv/latest/setup/planning/backend/bitcask/
 ---
+
 
 [github bitcask]: https://github.com/basho/bitcask
 [bitcask design pdf]: http://basho.com/assets/bitcask-intro.pdf
@@ -207,15 +211,27 @@ complete.
 The following sync strategies are available:
 
   * `none`
+  - /riak/latest/setup/planning/backend/bitcask/
+  - /riak/kv/latest/setup/planning/backend/bitcask/
+  - /riakkv/latest/setup/planning/backend/bitcask/
 ---
+
 lets the operating system manage syncing writes
     (default)
   * `o_sync`
+  - /riak/latest/setup/planning/backend/bitcask/
+  - /riak/kv/latest/setup/planning/backend/bitcask/
+  - /riakkv/latest/setup/planning/backend/bitcask/
 ---
+
 uses the `O_SYNC` flag, which forces syncs on every
     write
   * Time interval
+  - /riak/latest/setup/planning/backend/bitcask/
+  - /riak/kv/latest/setup/planning/backend/bitcask/
+  - /riakkv/latest/setup/planning/backend/bitcask/
 ---
+
 Riak will force Bitcask to sync at specified
     intervals
 
@@ -324,10 +340,18 @@ The `io_mode` setting specifies which code module Bitcask should use for
 file access. The available settings are:
 
 * `erlang` (default)
+  - /riak/latest/setup/planning/backend/bitcask/
+  - /riak/kv/latest/setup/planning/backend/bitcask/
+  - /riakkv/latest/setup/planning/backend/bitcask/
 ---
+
 Writes are made via Erlang's built-in file API
 * `nif`
+  - /riak/latest/setup/planning/backend/bitcask/
+  - /riak/kv/latest/setup/planning/backend/bitcask/
+  - /riakkv/latest/setup/planning/backend/bitcask/
 ---
+
 Writes are made via direct calls to the POSIX C API
 
 The following example sets `io_mode` to `erlang`:
@@ -408,14 +432,26 @@ Bitcask enables you to select a merge policy, i.e. when during the day
 merge operations are allowed to be triggered. The valid options are:
 
 * `always`
+  - /riak/latest/setup/planning/backend/bitcask/
+  - /riak/kv/latest/setup/planning/backend/bitcask/
+  - /riakkv/latest/setup/planning/backend/bitcask/
 ---
+
 No restrictions on when merge operations can occur
   (default)
 * `never`
+  - /riak/latest/setup/planning/backend/bitcask/
+  - /riak/kv/latest/setup/planning/backend/bitcask/
+  - /riakkv/latest/setup/planning/backend/bitcask/
 ---
+
 Merge will never be attempted
 * `window`
+  - /riak/latest/setup/planning/backend/bitcask/
+  - /riak/kv/latest/setup/planning/backend/bitcask/
+  - /riakkv/latest/setup/planning/backend/bitcask/
 ---
+
 Merge operations occur during specified hours
 
 If you are using the newer, `riak.conf`-based configuration system, you
@@ -485,7 +521,11 @@ Merge triggers determine the conditions under which merging will be
 invoked. These conditions fall into two basic categories:
 
 * **Fragmentation**
+  - /riak/latest/setup/planning/backend/bitcask/
+  - /riak/kv/latest/setup/planning/backend/bitcask/
+  - /riakkv/latest/setup/planning/backend/bitcask/
 ---
+
 This describes the ratio of dead keys to total
   keys in a file that will trigger merging. The value of this setting is
   an integer percentage (0-100). For example, if a data file contains 6
@@ -495,7 +535,11 @@ This describes the ratio of dead keys to total
   often.
 
 * **Dead Bytes**
+  - /riak/latest/setup/planning/backend/bitcask/
+  - /riak/kv/latest/setup/planning/backend/bitcask/
+  - /riakkv/latest/setup/planning/backend/bitcask/
 ---
+
 This setting describes how much data stored for
   dead keys in a single file will trigger merging. If a file meets or
   exceeds the trigger value for dead bytes, a merge will be triggered.
@@ -537,7 +581,11 @@ Merge thresholds determine which files will be chosen for inclusion in
 a merge operation.
 
 * **Fragmentation**
+  - /riak/latest/setup/planning/backend/bitcask/
+  - /riak/kv/latest/setup/planning/backend/bitcask/
+  - /riakkv/latest/setup/planning/backend/bitcask/
 ---
+
 This setting describes which ratio of dead keys
   to total keys in a file will cause it to be included in the merge. The
   value of this setting is a percentage (0-100). For example, if a data
@@ -547,7 +595,11 @@ This setting describes which ratio of dead keys
   files to be merged.
 
 * **Dead Bytes**
+  - /riak/latest/setup/planning/backend/bitcask/
+  - /riak/kv/latest/setup/planning/backend/bitcask/
+  - /riakkv/latest/setup/planning/backend/bitcask/
 ---
+
 This setting describes which ratio the minimum
   amount of data occupied by dead keys in a file to cause it to be
   included in the merge. Increasing this value will cause fewer files to
@@ -555,7 +607,11 @@ This setting describes which ratio the minimum
   merged. The default is 128 MB.
 
 * **Small File**
+  - /riak/latest/setup/planning/backend/bitcask/
+  - /riak/kv/latest/setup/planning/backend/bitcask/
+  - /riakkv/latest/setup/planning/backend/bitcask/
 ---
+
 This setting describes the minimum size a file must
   be to be _excluded_ from the merge. Files smaller than the threshold
   will be included. Increasing the value will cause more files to be
@@ -1014,4 +1070,5 @@ bitcask/
 ```
 
 This is normal operational behavior for Bitcask.
+
 

@@ -14,7 +14,11 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/using/conflict-resolution/csharp
   - /riak/kv/2.9.7/dev/using/conflict-resolution/csharp
+  - /riak/latest/developing/usage/conflict-resolution/csharp/
+  - /riak/kv/latest/developing/usage/conflict-resolution/csharp/
+  - /riakkv/latest/developing/usage/conflict-resolution/csharp/
 ---
+
 
 For reasons explained in the [Introduction to conflict resolution]({{<baseurl>}}riak/kv/2.9.7/developing/usage/conflict-resolution), we strongly recommend adopting a conflict resolution strategy that requires applications to resolve siblings according to use-case-specific
 criteria. Here, we'll provide a brief guide to conflict resolution using the
@@ -117,4 +121,5 @@ Debug.Assert(updatedObject.Siblings.Count == 0);
 
 
 [riak_dotnet_client]: https://github.com/basho/riak-dotnet-client
+
 
