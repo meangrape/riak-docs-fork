@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/using/cluster-operations/adding-removing-nodes/
 ---
 
-
 [use running cluster]: {{<baseurl>}}riak/kv/2.9.7/using/running-a-cluster
 
 This page describes the process of adding and removing nodes to and from
@@ -196,5 +195,6 @@ To pause during `riak-admin cluster join` or `riak-admin cluster leave`, set the
 ```bash
 riak-admin transfer-limit <node> 0
 ```
+
 
 

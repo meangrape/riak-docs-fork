@@ -16,8 +16,8 @@ aliases:
   - /riak/latest/developing/usage/conflict-resolution/
   - /riak/kv/latest/developing/usage/conflict-resolution/
   - /riakkv/latest/developing/usage/conflict-resolution/
+  - /riak/kv/latest/dev/using/conflict-resolution/
 ---
-
 
 [usage bucket types]: {{<baseurl>}}riak/kv/2.9.7/developing/usage/bucket-types
 [use ref strong consistency]: {{<baseurl>}}riak/kv/2.9.7/using/reference/strong-consistency
@@ -72,21 +72,18 @@ strong consistency feature, please refer to the following documents:
   - /riak/kv/latest/developing/usage/conflict-resolution/
   - /riakkv/latest/developing/usage/conflict-resolution/
 ---
-
 A guide for developers
 > * [Managing Strong Consistency]({{<baseurl>}}riak/kv/2.9.7/configuring/strong-consistency)
   - /riak/latest/developing/usage/conflict-resolution/
   - /riak/kv/latest/developing/usage/conflict-resolution/
   - /riakkv/latest/developing/usage/conflict-resolution/
 ---
-
 A guide for operators
 > * [strong consistency][use ref strong consistency]
   - /riak/latest/developing/usage/conflict-resolution/
   - /riak/kv/latest/developing/usage/conflict-resolution/
   - /riakkv/latest/developing/usage/conflict-resolution/
 ---
-
 A more theoretical explication of strong
   consistency
 
@@ -230,7 +227,6 @@ inside of a single object:
   - /riak/kv/latest/developing/usage/conflict-resolution/
   - /riakkv/latest/developing/usage/conflict-resolution/
 ---
-
 If two writes occur simultaneously from
 clients, Riak may not be able to choose a single value to store, in
 which case the object will be given a sibling. These writes could happen
@@ -240,7 +236,6 @@ on the same node or on different nodes.
   - /riak/kv/latest/developing/usage/conflict-resolution/
   - /riakkv/latest/developing/usage/conflict-resolution/
 ---
-
 Writes from any client using a stale
 [causal context]({{<baseurl>}}riak/kv/2.9.7/learn/concepts/causal-context). This is a less likely scenario if a client updates
 the object by reading the object first, fetching the causal context
@@ -258,7 +253,6 @@ object.
   - /riak/kv/latest/developing/usage/conflict-resolution/
   - /riakkv/latest/developing/usage/conflict-resolution/
 ---
-
 If an object is updated with no causal
 context attached, siblings are very likely to be created. This is an
 unlikely scenario if you're using a Basho client library, but it _can_
@@ -715,5 +709,6 @@ Additional background information on vector clocks:
 * [Why Vector Clocks are Easy](http://basho.com/why-vector-clocks-are-easy/)
 * [Why Vector Clocks are Hard](http://basho.com/why-vector-clocks-are-hard/)
 * The vector clocks used in Riak are based on the [work of Leslie Lamport](http://portal.acm.org/citation.cfm?id=359563)
+
 
 

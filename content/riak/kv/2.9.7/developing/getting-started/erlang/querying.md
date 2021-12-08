@@ -20,7 +20,6 @@ aliases:
 ---
 
 
-
 ## A Quick Note on Querying and Schemas
 
 _Schemas_? Yes, we said that correctly: S-C-H-E-M-A-S. It's not a dirty
@@ -306,5 +305,6 @@ So, to recap:
 * Indices can have either Integer or Binary(String) keys
 * You can search for specific values, or a range of values
 * Riak will return a list of keys that match the index query
+
 
 

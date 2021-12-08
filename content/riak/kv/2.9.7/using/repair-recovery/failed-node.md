@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/using/repair-recovery/failed-node/
 ---
 
-
 ## General Recovery Notes
 
 A Riak node can fail for many reasons, but a handful of checks enable you to
@@ -112,5 +111,6 @@ Valid:1 / Leaving:0 / Exiting:0 / Joining:0 / Down:0
     ```bash
     riak-admin cluster commit
     ```
+
 
 

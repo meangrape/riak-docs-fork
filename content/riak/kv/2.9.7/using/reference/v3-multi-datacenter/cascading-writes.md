@@ -20,7 +20,6 @@ aliases:
   - /riakkv/latest/using/reference/v3-multi-datacenter/cascading-writes/
 ---
 
-
 ## Introduction
 
 Riak includes a feature that cascades realtime writes across
@@ -100,5 +99,6 @@ To enable cascading:
 To disable cascading:
 
 `riak-repl realtime cascades never`
+
 
 

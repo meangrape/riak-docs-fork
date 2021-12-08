@@ -16,7 +16,6 @@ aliases:
   - /riakkv/latest/developing/usage/creating-objects/
 ---
 
-
 [usage content types]: {{<baseurl>}}riak/kv/2.9.7/developing/usage/content-types
 
 Writes in Riak KV (storing or modifying objects) are like HTTP `PUT`
@@ -553,5 +552,6 @@ curl -i -XPOST \
 
 Location: /buckets/test/keys/G7FYUXtTsEdru4NP32eijMIRK3o
 ```
+
 
 

@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/using/reference/search/
 ---
 
-
 [concept clusters]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/clusters
 [configuring search]: {{<baseurl>}}riak/kv/2.9.7/configuring/search
 
@@ -456,4 +455,5 @@ The Riak Search batching subsystem provides statistics on run-time characteristi
 
 While most of the default values are sufficient, you may have to
 increase [`search.solr.start_timeout`][configuring search] as more data is indexed, which may cause Solr to require more time to start.
+
 

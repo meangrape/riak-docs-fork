@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/using/running-a-cluster/
 ---
 
-
 Configuring a Riak cluster involves instructing each node to listen on a
 non-local interface, i.e. not `127.0.0.1`, and then joining all of the
 nodes together to participate in the cluster.
@@ -337,5 +336,6 @@ one computer. If a node hasn’t joined an existing cluster, it will
 behave just as a cluster would. Running multiple clusters on one
 computer is simply a matter of having two or more distinct nodes or
 groups of clustered nodes.
+
 
 

@@ -17,7 +17,6 @@ aliases:
   - /riakkv/latest/developing/getting-started/ruby/crud-operations/
 ---
 
-
 ## Creating Objects In Riak
 
 First, let’s create a few objects and a bucket to keep them in.
@@ -149,5 +148,6 @@ Now, let’s clean up our mess:
 ```ruby
 new_book.delete()
 ```
+
 
 

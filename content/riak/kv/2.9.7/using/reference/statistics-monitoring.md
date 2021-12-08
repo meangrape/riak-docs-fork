@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/using/reference/statistics-monitoring/
 ---
 
-
 Riak provides data related to current operating status, which includes
 statistics in the form of counters and histograms. These statistics
 are made available through the HTTP API via the [`/stats`]({{<baseurl>}}riak/kv/2.9.7/developing/api/http/status) endpoint, or through the [`riak-admin`]({{<baseurl>}}riak/kv/2.9.7/using/admin/riak-admin/) interface, in particular the `stat` and `status` commands.
@@ -393,5 +392,6 @@ Docs](https://github.com/basho/basho_docs).
 [riak_zabbix]: https://github.com/basho/riak-zabbix
 [riak_new_relic]: https://github.com/basho/riak_newrelic
 [riak_ganglia]: https://github.com/jnewland/gmond_python_modules/tree/master/riak/
+
 
 

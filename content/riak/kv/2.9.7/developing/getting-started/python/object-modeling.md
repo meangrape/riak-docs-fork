@@ -19,7 +19,6 @@ aliases:
   - /riakkv/latest/developing/getting-started/python/object-modeling/
 ---
 
-
 To get started, let's create the data structures that we'll be using.
 
 ```python
@@ -261,6 +260,7 @@ So to recap, in this chapter we learned:
 
 * How to choose bucket names
 * How to choose natural keys based on how we want to partition our data.
+
 
 
 

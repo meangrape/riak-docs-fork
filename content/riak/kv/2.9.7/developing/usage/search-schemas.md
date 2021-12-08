@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/usage/search-schemas/
 ---
 
-
 [concept clusters]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/clusters
 
 > **Note on Search 2.0 vs. Legacy Search**
@@ -509,5 +508,6 @@ the case.
 ```erlang
 {analyzer_factory, {erlang, text_analyzers, noop_analyzer_factory}}}
 ```
+
 
 

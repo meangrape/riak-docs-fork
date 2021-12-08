@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/using/performance/erlang/
 ---
 
-
 Riak was written almost exclusively in [Erlang](http://www.erlang.org)
 and runs on an Erlang virtual machine (VM), which makes proper Erlang VM
 tuning an important part of optimizing Riak performance. The Erlang VM
@@ -369,5 +368,6 @@ Once this duration elapses, all existing processes are killed.
 Decreasing shutdown time can be useful in situations in which you are
 frequently starting and stopping a cluster, e.g. in test clusters. In
 `vm.args` you can set the `-shutdown_time` flag in milliseconds.
+
 
 

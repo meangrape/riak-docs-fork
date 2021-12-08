@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/usage/document-store/
 ---
 
-
 Although Riak wasn't explicitly created as a document store, two
 features recently added to Riak---[Riak Search]({{<baseurl>}}riak/kv/2.9.7/developing/usage/search/) and [Riak Data Types]({{<baseurl>}}riak/kv/2.9.7/developing/data-types/)---make it possible to use Riak as a
 highly scalable document store with rich querying capabilities. In this
@@ -615,5 +614,6 @@ Info | Query
 Unpublished posts | `published_flag:false`
 Titles that begin with `Loving*` | `title_register:Loving*`
 Post bodies containing the words `furry` and `jumping` | `content_register:[furry AND jumping]`
+
 
 

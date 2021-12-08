@@ -16,7 +16,6 @@ aliases:
   - /riakkv/latest/using/reference/
 ---
 
-
 [ref log]: ./logging
 [ref handoff]: ./handoff
 [ref bucket types]: ./bucket-types
@@ -133,5 +132,6 @@ Overview of Riak's Multi-Datacenter system.
 Details Riak's V3 Multi-Datacenter system.
 
 [Learn More >>][ref v3 mdc]
+
 
 

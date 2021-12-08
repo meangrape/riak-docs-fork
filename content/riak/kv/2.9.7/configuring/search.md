@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/configuring/search/
 ---
 
-
 [usage search]: {{<baseurl>}}riak/kv/2.9.7/developing/usage/search
 [usage search schema]: {{<baseurl>}}riak/kv/2.9.7/developing/usage/search-schemas
 [usage search data types]: {{<baseurl>}}riak/kv/2.9.7/developing/usage/searching-data-types
@@ -276,5 +275,6 @@ recommend the following documents for getting started:
 
 A wide variety of other documentation is available from the Solr OSS
 community.
+
 
 

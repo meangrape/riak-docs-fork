@@ -21,7 +21,6 @@ aliases:
   - /riakkv/latest/developing/data-types/counters/
 ---
 
-
 Counters are a bucket-level Riak data type that can be used by themselves, associated with a bucket/key pair, or used [within a map](../maps#counters-within-maps). A counter's value can only be a positive integer, negative integer, or zero.
 
 The examples in this section will show you how to use counters on their own.
@@ -633,5 +632,6 @@ curl -XPOST http://localhost:8098/types/counters/buckets/counters/datatypes/traf
   -H "Content-Type: application/json" \
   -d '{"decrement": 3}'
 ```
+
 
 

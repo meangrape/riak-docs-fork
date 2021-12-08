@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/usage/updating-objects/
 ---
 
-
 [glossary vnode]: {{<baseurl>}}riak/kv/2.9.7/learn/glossary/#vnode
 
 ## Using Causal Context
@@ -776,5 +775,6 @@ In general, you should use no-operation updates only on keys that you
 suspect may have accumulated siblings or on keys that are frequently
 updated (and thus bear the possibility of accumulating siblings).
 Otherwise, you're better off performing normal reads.
+
 
 

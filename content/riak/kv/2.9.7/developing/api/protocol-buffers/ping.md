@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/protocol-buffers/ping/
 ---
 
-
 Check if the server is alive
 
 ## Request
@@ -44,5 +43,6 @@ Response
 Hex    00 00 00 01 02
 Erlang <<0,0,0,1,2>>
 ```
+
 
 

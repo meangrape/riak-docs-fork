@@ -16,7 +16,6 @@ aliases:
   - /riakkv/latest/using/cluster-operations/replacing-node/
 ---
 
-
 At some point, for various reasons, you might need to replace a node in
 your Riak cluster (which is different from [recovering a failed node]({{<baseurl>}}riak/kv/2.9.7/using/repair-recovery)). Here is the recommended way to go
 about replacing a node.
@@ -98,5 +97,6 @@ when you start the new node and the ring settles with the new IP info.
 The ring is considered settled when the new node reports `true` when you run
 the `riak-admin ringready` command.
 {{% /note %}}
+
 
 

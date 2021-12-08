@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/http/reset-bucket-props/
 ---
 
-
 Resets bucket properties like `n_val` and `allow_mult` back to the
 default settings.
 
@@ -59,5 +58,6 @@ $ curl -XDELETE -v localhost:8098/buckets/bucket/props                          
 * Connection #0 to host localhost left intact
 * Closing connection #0
 ```
+
 
 

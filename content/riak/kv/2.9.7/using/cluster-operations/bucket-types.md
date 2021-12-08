@@ -16,7 +16,6 @@ aliases:
   - /riakkv/latest/using/cluster-operations/bucket-types/
 ---
 
-
 Buckets are essentially a flat namespace in Riak. They allow the same
 key name to exist in multiple buckets and enable you to apply
 configurations across keys.
@@ -61,5 +60,6 @@ inherit that setting and have its values indexed.
 riak-admin bucket-type create animals '{"props":{"search_index":"famous"}}'
 riak-admin bucket-type activate animals
 ```
+
 
 

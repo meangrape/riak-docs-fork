@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/http/search-index-info/
 ---
 
-
 Retrieves information about all currently available [Search indexes]({{<baseurl>}}riak/kv/2.9.7/developing/usage/search) in JSON format.
 
 ## Request
@@ -56,7 +55,6 @@ Below is the example output if there is one Search index, called
   - /riak/kv/latest/developing/api/http/search-index-info/
   - /riakkv/latest/developing/api/http/search-index-info/
 ---
-
 Typically returned if Riak Search is not
     currently enabled on the node
 * `503 Service Unavailable`
@@ -64,7 +62,7 @@ Typically returned if Riak Search is not
   - /riak/kv/latest/developing/api/http/search-index-info/
   - /riakkv/latest/developing/api/http/search-index-info/
 ---
-
 The request timed out internally
+
 
 

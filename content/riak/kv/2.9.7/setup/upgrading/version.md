@@ -18,9 +18,9 @@ aliases:
 
   - /riak/kv/latest/setup/upgrading/version/
   - /riak/latest/setup/upgrading/version/
+  - /riak/kv/latest/setup/upgrading/version/
   - /riakkv/latest/setup/upgrading/version/
 ---
-
 
 
 [production checklist]: {{<baseurl>}}riak/kv/2.9.7/setup/upgrading/checklist
@@ -171,16 +171,16 @@ sudo dpkg -i »riak_package_name«.deb
   * `riak_core`
   - /riak/kv/latest/setup/upgrading/version/
   - /riak/latest/setup/upgrading/version/
+  - /riak/kv/latest/setup/upgrading/version/
   - /riakkv/latest/setup/upgrading/version/
 ---
-
 the `cluster_mgr` setting must be present. See [MDC v3 Configuration][config v3 mdc] for more information.
   * `riak_repl`
   - /riak/kv/latest/setup/upgrading/version/
   - /riak/latest/setup/upgrading/version/
+  - /riak/kv/latest/setup/upgrading/version/
   - /riakkv/latest/setup/upgrading/version/
 ---
-
 See [MDC v3 Configuration][config v3 mdc] for more information.
   * There is a sample configuration included at the end of the [Release Notes][release notes] for reference purposes.
 
@@ -261,6 +261,7 @@ riak-admin diag
 ```
 
 Make the recommended changes from the command output to ensure optimal node operation.
+
 
 
 

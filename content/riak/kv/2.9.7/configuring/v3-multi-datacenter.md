@@ -20,7 +20,6 @@ aliases:
   - /riakkv/latest/configuring/v3-multi-datacenter/
 ---
 
-
 [config reference#advanced]: {{<baseurl>}}riak/kv/2.9.7/configuring/reference/#advanced-configuration
 [config v3 ssl#verify-peer]: {{<baseurl>}}riak/kv/2.9.7/configuring/v3-multi-datacenter/ssl/#verifying-peer-certificates
 
@@ -159,5 +158,6 @@ To replicate between Riak KV versions 2.2.0 or greater and Riak KV clusters less
 ```
 
 If all of the Replication clusters are running Riak KV 2.2.0 or greater, this override is no longer necessary and should be removed.
+
 
 

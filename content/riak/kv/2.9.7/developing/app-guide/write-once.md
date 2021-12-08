@@ -20,7 +20,6 @@ aliases:
   - /riakkv/latest/developing/app-guide/write-once/
 ---
 
-
 [glossary vnode]: {{<baseurl>}}riak/kv/2.9.7/learn/glossary/#vnode
 [bucket type]: {{<baseurl>}}riak/kv/2.9.7/developing/usage/bucket-types
 [Riak data types]: {{<baseurl>}}riak/kv/2.9.7/developing/data-types
@@ -157,5 +156,6 @@ The [Multi]({{<baseurl>}}riak/kv/2.9.7/setup/planning/backend/multi) backend doe
 support asynchronous writes. Therefore, if LevelDB is used with the Multi
 backend, it will be used in synchronous mode.
 {{% /note %}}
+
 
 

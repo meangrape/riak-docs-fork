@@ -16,7 +16,6 @@ aliases:
   - /riakkv/latest/developing/getting-started/
 ---
 
-
 [install index]: {{<baseurl>}}riak/kv/2.9.7/setup/installing
 [dev client libraries]: {{<baseurl>}}riak/kv/2.9.7/developing/client-libraries
 
@@ -49,5 +48,6 @@ language with which you'd like to proceed:
 
 Please see our [client libraries][dev client libraries] page for a listing of
 community-supported clients.
+
 
 

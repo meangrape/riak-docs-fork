@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/protocol-buffers/set-bucket-props/
 ---
 
-
 Sets the properties for a bucket.
 
 ## Request
@@ -70,5 +69,6 @@ Erlang <<0,0,0,1,22>>
 
 RpbSetBucketResp - only message code defined
 ```
+
 
 

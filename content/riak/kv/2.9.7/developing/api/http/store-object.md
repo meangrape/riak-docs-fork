@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/http/store-object/
 ---
 
-
 Stores an object under the specified bucket / key. Storing an object comes in
 two forms, depending on whether you want to use a key of your choosing, or let
 Riak assign a key to a new object.
@@ -148,5 +147,6 @@ $ curl -v -XPUT -d '{"bar":"baz"}' -H "Content-Type: application/json" -H "X-Ria
 * Closing connection #0
 {"bar":"baz"}
 ```
+
 
 

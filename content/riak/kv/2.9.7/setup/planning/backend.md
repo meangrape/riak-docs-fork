@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/setup/planning/backend/
 ---
 
-
 [plan backend bitcask]: {{<baseurl>}}riak/kv/2.9.7/setup/planning/backend/bitcask
 [plan backend leveldb]: {{<baseurl>}}riak/kv/2.9.7/setup/planning/backend/leveldb
 [plan backend memory]: {{<baseurl>}}riak/kv/2.9.7/setup/planning/backend/memory
@@ -58,5 +57,6 @@ Tiered storage
 
 <sup>1</sup> Noted here since this can affect Riak start times for large
 keyspaces.
+
 
 

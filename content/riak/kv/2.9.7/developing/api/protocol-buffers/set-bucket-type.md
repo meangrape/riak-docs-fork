@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/protocol-buffers/set-bucket-type/
 ---
 
-
 Assigns a set of [bucket properties]({{<baseurl>}}riak/kv/2.9.7/developing/api/protocol-buffers/set-bucket-props) to a
 [bucket type]({{<baseurl>}}riak/kv/2.9.7/developing/usage/bucket-types).
 
@@ -33,5 +32,6 @@ message RpbSetBucketTypeReq {
 
 The `type` field specifies the name of the bucket type as a binary. The
 `props` field contains an [`RpbBucketProps`]({{<baseurl>}}riak/kv/2.9.7/developing/api/protocol-buffers/get-bucket-props).
+
 
 

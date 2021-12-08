@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/setup/planning/bitcask-capacity-calc/
 ---
 
-
 [plan backend bitcask]: {{<baseurl>}}riak/kv/2.9.7/setup/planning/backend/bitcask
 
 These calculators will assist you in sizing your cluster if you plan to
@@ -102,5 +101,6 @@ Additionally, Bitcask relies on your operating system's filesystem cache
 to deliver high performance reads. So when sizing your cluster, take
 this into account and plan on having several more gigabytes of RAM
 available for your filesystem cache.
+
 
 

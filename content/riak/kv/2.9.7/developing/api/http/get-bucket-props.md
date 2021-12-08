@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/http/get-bucket-props/
 ---
 
-
 Reads the bucket or bucket type properties.
 
 ## Request
@@ -84,5 +83,6 @@ chash_std_keyfun"},"linkfun":{"mod":"riak_kv_wm_link_walker","fun":"
 mapreduce_linkfun"},"old_vclock":86400,"young_vclock":20,"big_vclock":50,"
 small_vclock":10,"r":"quorum","w":"quorum","dw":"quorum","rw":"quorum"}}
 ```
+
 
 

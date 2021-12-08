@@ -23,7 +23,6 @@ aliases:
   - /riakkv/latest/setup/upgrading/search/
 ---
 
-
 If you're using Search in a version of Riak prior to 2.0 (1.3.0 to
 1.4.x), you should follow these steps to migrate your search indexes
 from the legacy `merge_index` to the new Solr-backed ([Yokozuna](../../../using/reference/search) indexes. The legacy version of Riak Search is now deprecated
@@ -281,6 +280,7 @@ search property is set to false.
 11. Finally, delete the merge index directories to reclaim disk space.
 
 For any questions reach out to the [Riak community]({{<baseurl>}}community). Preferably, ask your questions up front rather than during the middle of a migration.
+
 
 
 

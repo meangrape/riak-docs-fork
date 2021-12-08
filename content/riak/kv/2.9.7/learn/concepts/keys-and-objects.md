@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/learn/concepts/keys-and-objects/
 ---
 
-
 [concept buckets]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/buckets
 [concept causal context vc]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/causal-context/#vector-clocks
 
@@ -51,5 +50,6 @@ pair, but when there are more than one, the object is said to have
 across multiple nodes, and do occur when either more than one actor
 updates an object, a network partition occurs, or a stale vector clock
 is submitted when updating an object (see: [Vector Clocks][concept causal context vc]).
+
 
 

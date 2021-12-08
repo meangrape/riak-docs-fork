@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/setup/planning/backend/memory/
 ---
 
-
 [config reference]: {{<baseurl>}}riak/kv/2.9.7/configuring/reference
 [plan backend multi]: {{<baseurl>}}riak/kv/2.9.7/setup/planning/backend/multi
 [glossary vnode]: {{<baseurl>}}riak/kv/2.9.7/learn/glossary/#vnode
@@ -145,5 +144,6 @@ bucket or bucket type. The current workaround would be to define
 multiple Memory backends using the Multi backend, each with different
 `ttl` values. For more information, consult the documentation on the
 [Multi][plan backend multi] backend.
+
 
 

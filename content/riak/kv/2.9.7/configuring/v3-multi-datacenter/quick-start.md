@@ -20,7 +20,6 @@ aliases:
   - /riakkv/latest/configuring/v3-multi-datacenter/quick-start/
 ---
 
-
 [perf index]: {{<baseurl>}}riak/kv/2.9.7/using/performance
 [config v3 mdc]: {{<baseurl>}}riak/kv/2.9.7/configuring/v3-multi-datacenter
 [cluster ops v3 mdc]: {{<baseurl>}}riak/kv/2.9.7/using/cluster-operations/v3-multi-datacenter
@@ -170,5 +169,6 @@ Once this is done, bidirectional replication should be operating.
 
 For a full list of commands, you may enter `riak-repl` to see full
 instructions on usage, or check the [Operations][cluster ops v3 mdc] documentation.
+
 
 

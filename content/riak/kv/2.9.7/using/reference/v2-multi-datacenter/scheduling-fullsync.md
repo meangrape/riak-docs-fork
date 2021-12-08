@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/using/reference/v2-multi-datacenter/scheduling-fullsync/
 ---
 
-
 {{% note title="Deprecation Warning" %}}
 v2 Multi-Datacenter Replication is deprecated and will be removed in a future version. Please use [v3]({{<baseurl>}}riak/kv/2.9.7/using/reference/v3-multi-datacenter/scheduling-fullsync/) instead.
 {{% /note %}}
@@ -51,5 +50,6 @@ At the end of the sync window:
 ## Stop fullsync until start of next sync window
 riak-repl pause-fullsync
 ```
+
 
 

@@ -19,7 +19,6 @@ aliases:
   - /riakkv/latest/developing/usage/conflict-resolution/nodejs/
 ---
 
-
 For reasons explained in the [Introduction to conflict resolution]({{<baseurl>}}riak/kv/2.9.7/developing/usage/conflict-resolution), we strongly recommend adopting a conflict resolution strategy that
 requires applications to resolve siblings according to use-case-specific
 criteria. Here, we'll provide a brief guide to conflict resolution using the
@@ -60,5 +59,6 @@ This example shows a basic sibling resolution strategy in which the first
 sibling is chosen as the canonical value via a conflict resolution function.
 
 [*Example:* resolving siblings via `conflictResolver](https://github.com/basho/riak-nodejs-client-examples/blob/master/dev/using/conflict-resolution.js#L135-L170)
+
 
 

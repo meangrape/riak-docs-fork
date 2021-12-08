@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/using/cluster-operations/backing-up/
 ---
 
-
 [concept clusters]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/clusters
 [config reference]: {{<baseurl>}}riak/kv/2.9.7/configuring/reference
 [plan backend leveldb]: {{<baseurl>}}riak/kv/2.9.7/setup/planning/backend/leveldb
@@ -269,5 +268,6 @@ and for any other nodes whose names have changed:
 ## Restoring a Cluster
 
 Restoring a cluster from backups is documented [on its own page]({{<baseurl>}}riak/kv/2.9.7/using/repair-recovery/failure-recovery/#cluster-recovery-from-backups).
+
 
 

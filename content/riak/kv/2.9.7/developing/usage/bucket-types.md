@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/usage/bucket-types/
 ---
 
-
 If you ever need to turn off indexing for a bucket, set the
 `search_index` property to the `_dont_index_` sentinel value.
 
@@ -100,5 +99,6 @@ curl -XPUT $RIAK_HOST/buckets/cats/props \
      -H'content-type:application/json' \
      -d'{"props":{"search_index":"famous"}}'
 ```
+
 
 

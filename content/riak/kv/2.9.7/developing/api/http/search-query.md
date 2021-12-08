@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/http/search-query/
 ---
 
-
 Performs a [Riak KV Search]({{<baseurl>}}riak/kv/2.9.7/developing/usage/search) query.
 
 ## Request
@@ -34,7 +33,6 @@ GET /search/query/<index_name>
   - /riak/kv/latest/developing/api/http/search-query/
   - /riakkv/latest/developing/api/http/search-query/
 ---
-
 The [response
     writer](https://cwiki.apache.org/confluence/display/solr/Response+Writers)
     to be used when returning the Search payload. The currently
@@ -44,7 +42,6 @@ The [response
   - /riak/kv/latest/developing/api/http/search-query/
   - /riakkv/latest/developing/api/http/search-query/
 ---
-
 The actual Search query itself. Examples can be found in
     [Using Search]({{<baseurl>}}riak/kv/2.9.7/developing/usage/search). If a query is not specified, Riak will return
     information about the index itself, e.g. the number of documents
@@ -61,7 +58,6 @@ The actual Search query itself. Examples can be found in
   - /riak/kv/latest/developing/api/http/search-query/
   - /riakkv/latest/developing/api/http/search-query/
 ---
-
 Returned when, for example, a malformed query is
     supplied
 * `404 Object Not Found`
@@ -69,7 +65,6 @@ Returned when, for example, a malformed query is
   - /riak/kv/latest/developing/api/http/search-query/
   - /riakkv/latest/developing/api/http/search-query/
 ---
-
 Returned if the Search index you are
     attempting to query does not exist
 * `503 Service Unavailable`
@@ -77,7 +72,6 @@ Returned if the Search index you are
   - /riak/kv/latest/developing/api/http/search-query/
   - /riakkv/latest/developing/api/http/search-query/
 ---
-
 The request timed out internally
 
 ## Response
@@ -101,5 +95,6 @@ has no documents associated with it:
   }
 }
 ```
+
 
 

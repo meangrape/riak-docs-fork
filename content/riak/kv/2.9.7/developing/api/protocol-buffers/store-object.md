@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/protocol-buffers/store-object/
 ---
 
-
 Stores an object under the specified location, as determined by the
 intended [key]({{<baseurl>}}riak/kv/2.9.7/learn/concepts/keys-and-objects), [bucket]({{<baseurl>}}riak/kv/2.9.7/learn/concepts/buckets), and [bucket type]({{<baseurl>}}riak/kv/2.9.7/developing/usage/bucket-types). A bucket must always be specified (via
 `bucket`), whereas key (`key`) and bucket type (`type`) are optional. If
@@ -152,5 +151,6 @@ vclock: "k316a```312`312005R,,351014206031L211214y254014Z!266G371
 302l315I254rw|240022372 211,000"
 
 ```
+
 
 

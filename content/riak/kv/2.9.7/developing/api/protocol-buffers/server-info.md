@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/protocol-buffers/server-info/
 ---
 
-
 A message from Riak that contains two pieces of information about the
 server: the name of the node and the version of Riak in use on that
 node.
@@ -60,5 +59,6 @@ RpbGetServerInfoResp protoc decode:
 node: "riak@127.0.0.1"
 server_version: "0.10"
 ```
+
 
 

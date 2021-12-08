@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/protocol-buffers/yz-index-put/
 ---
 
-
 Create a new index or modify an existing index.
 
 ## Request
@@ -46,6 +45,7 @@ binary (as `name`). Optionally, you can specify a [`schema`]({{<baseurl>}}riak/k
 ## Response
 
 Returns a [RpbPutResp]({{<baseurl>}}riak/kv/2.9.7/developing/api/protocol-buffers/#message-codes) code with no data on success.
+
 
 
 

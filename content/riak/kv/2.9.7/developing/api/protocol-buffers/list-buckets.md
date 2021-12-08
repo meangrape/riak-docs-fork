@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/protocol-buffers/list-buckets/
 ---
 
-
 List all of the bucket names available.
 
 {{% note title="Caution" %}}
@@ -48,7 +47,6 @@ Values
   - /riak/kv/latest/developing/api/protocol-buffers/list-buckets/
   - /riakkv/latest/developing/api/protocol-buffers/list-buckets/
 ---
-
 Buckets on the server
 
 ## Example
@@ -84,5 +82,6 @@ buckets: "b2"
 buckets: "b6"
 buckets: "b7"
 ```
+
 
 

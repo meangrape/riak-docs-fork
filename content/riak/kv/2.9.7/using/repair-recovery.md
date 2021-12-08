@@ -16,7 +16,6 @@ aliases:
   - /riakkv/latest/using/repair-recovery/
 ---
 
-
 [repair recover fail]: ./failure-recovery/
 [repair recover errors]: ./errors/
 [repair recover repairs]: ./repairs/
@@ -51,5 +50,6 @@ Tutorials on running various repair operations.
 Brief guide on performing node-by-node restarts.
 
 [Learn More >>][repair recover restart]
+
 
 

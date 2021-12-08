@@ -20,7 +20,6 @@ aliases:
   - /riakkv/latest/configuring/v2-multi-datacenter/ssl/
 ---
 
-
 {{% note title="Deprecation Warning" %}}
 v2 Multi-Datacenter Replication is deprecated and will be removed in a future version. Please use [v3]({{<baseurl>}}riak/kv/2.9.7/configuring/v3-multi-datacenter/ssl/) instead.
 {{% /note %}}
@@ -162,5 +161,6 @@ guide](http://www.debian-administration.org/articles/618).
 
 Make sure that you remove the password protection from the keys you
 generate.
+
 
 

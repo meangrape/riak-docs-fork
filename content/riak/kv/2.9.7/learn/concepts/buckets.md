@@ -20,7 +20,6 @@ aliases:
   - /riakkv/latest/learn/concepts/buckets/
 ---
 
-
 [apps cluster metadata]: {{<baseurl>}}riak/kv/2.9.7/developing/app-guide/cluster-metadata
 [cluster ops bucket types]: {{<baseurl>}}riak/kv/2.9.7/using/cluster-operations/bucket-types
 [cluster ops strong consistency]: {{<baseurl>}}riak/kv/2.9.7/using/cluster-operations/strong-consistency
@@ -215,5 +214,6 @@ bucket.get_properties()
 ```curl
 curl http://localhost:8087/types/my_custom_type/buckets/animals/props
 ```
+
 
 

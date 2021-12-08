@@ -19,7 +19,6 @@ aliases:
   - /riakkv/latest/developing/getting-started/erlang/object-modeling/
 ---
 
-
 To get started, let's create the records that we'll be using.
 
 {{% note title="Code Download" %}}
@@ -339,6 +338,7 @@ So to recap, in this chapter we learned:
 
 * How to choose bucket names
 * How to choose natural keys based on how we want to partition our data.
+
 
 
 

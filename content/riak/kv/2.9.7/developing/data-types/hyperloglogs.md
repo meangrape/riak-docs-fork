@@ -21,7 +21,6 @@ aliases:
   - /riakkv/latest/developing/data-types/hyperloglogs/
 ---
 
-
 The examples in this section will show you how to use hyperloglogs on their own.
 
 ## Set Up a Bucket Type
@@ -641,5 +640,6 @@ curl http://localhost:8098/types/hlls/buckets/hello/datatypes/darkness
 # Response
 {"type":"hll","value":"4"}
 ```
+
 
 

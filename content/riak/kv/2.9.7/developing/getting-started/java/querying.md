@@ -19,7 +19,6 @@ aliases:
   - /riakkv/latest/developing/getting-started/java/querying/
 ---
 
-
 ## Java Version Setup
 
 For the Java version, please download the source from GitHub by either
@@ -278,5 +277,6 @@ So to recap:
 * Indexes can have either Integer or Binary(String) keys
 * You can search for specific values, or a range of values
 * Riak will return a list of keys that match the index query
+
 
 

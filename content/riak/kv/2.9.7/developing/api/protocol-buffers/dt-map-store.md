@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/protocol-buffers/dt-map-store/
 ---
 
-
 An operation to be applied to a value stored in a map (the contents of an update operation). The operation field that is present depends on the type of the field to which it is applied. All operations apply to individual fields nested in the map, i.e. counter-specific operations apply to specified counters in the map, set-specific operations to sets, etc.
 
 ## Request
@@ -75,5 +74,6 @@ The `MapField` parameter is explained above. The operations used to update field
 If you are updating a flag, you do so by including a `FlagOp` message. As shown in the `MapUpdate` message above, this operation takes one of two values: `ENABLE` and `DISABLE` (`1` and `2`, respectively).
 
 Updating a register does not involve sending a special message type. Instead, you must set the register to a desired value by specifying a binary for the `register_op` parameter.
+
 
 

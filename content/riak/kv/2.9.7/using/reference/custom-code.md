@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/using/reference/custom-code/
 ---
 
-
 Riak supports the use of Erlang named functions in compiled modules for
 [pre/post-commit hooks]({{<baseurl>}}riak/kv/2.9.7/developing/usage/commit-hooks), and MapReduce operations. This
 doc contains installation steps with simple examples for each use case.
@@ -133,5 +132,6 @@ in the [Commands documentation]({{<baseurl>}}riak/kv/2.9.7/using/admin/riak-admi
 It is important that you ensure riak_kv is active before restarting the next
 node.
 {{% /note %}}
+
 
 

@@ -21,7 +21,6 @@ aliases:
   - /riakkv/latest/developing/data-types/maps/
 ---
 
-
 Maps are the most versatile of the Riak data types because all other data types can be embedded within them, _including maps themselves_. This enables the creation of complex, custom data types from a few basic building blocks.
 
 Using counters, sets, and maps within maps are similar to working with those types at the bucket level.
@@ -1883,5 +1882,6 @@ curl -XPOST http://localhost:8098/types/maps/buckets/customers/datatypes/ahmed_i
   }
   '
 ```
+
 
 

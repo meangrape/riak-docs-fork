@@ -20,7 +20,6 @@ aliases:
 
 
 
-
 If you haven't set up a Riak Node and started it, please visit [Running A Cluster]({{<baseurl>}}riak/kv/2.9.7/using/running-a-cluster) first.
 
 To try this flavor of Riak, a working installation of Python is
@@ -42,21 +41,18 @@ First, you must install some packages needed by the Riak Python client:
   - /riak/kv/latest/developing/getting-started/python/
   - /riakkv/latest/developing/getting-started/python/
 ---
-
 Header files and a static library for Python
 * `libffi-dev`
   - /riak/latest/developing/getting-started/python/
   - /riak/kv/latest/developing/getting-started/python/
   - /riakkv/latest/developing/getting-started/python/
 ---
-
 Foreign function interface library
 * `libssl-dev`
   - /riak/latest/developing/getting-started/python/
   - /riak/kv/latest/developing/getting-started/python/
   - /riakkv/latest/developing/getting-started/python/
 ---
-
 libssl and libcrypto development libraries
 
 ### Ubuntu (12.04 & 14.04)
@@ -119,5 +115,6 @@ We are now ready to start interacting with Riak.
 ## Next Steps
 
 [CRUD Operations]({{<baseurl>}}riak/kv/2.9.7/developing/getting-started/python/crud-operations)
+
 
 

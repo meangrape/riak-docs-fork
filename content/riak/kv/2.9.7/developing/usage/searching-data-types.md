@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/usage/searching-data-types/
 ---
 
-
 Although [Riak Data Types]({{<baseurl>}}riak/kv/2.9.7/developing/data-types) function differently from other
 Riak objects in some respects, when you're using Search you can think of
 them as normal Riak objects with special metadata attached (metadata
@@ -1685,5 +1684,6 @@ client.execute(searchCmd);
 ```
 
 Success! We've now queried not just maps but also maps within maps.
+
 
 

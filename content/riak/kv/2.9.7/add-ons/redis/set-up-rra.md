@@ -17,7 +17,6 @@ aliases:
   - /riakkv/latest/add-ons/redis/set-up-rra/
 ---
 
-
 [addon redis develop]: ../developing-rra/
 [addon redis use]: ../using-rra
 [ee]: https://www.tiot.jp/en/about-us/contact-us/
@@ -283,5 +282,6 @@ ss -nlp |grep [n]utcracker
 ## Next Steps
 
 Get started with some [basic usage][addon redis use] or checkout out more info on [setting up for development (with examples)][addon redis develop].
+
 
 

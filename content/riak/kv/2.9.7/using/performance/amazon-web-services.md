@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/using/performance/amazon-web-services/
 ---
 
-
 This guide introduces best practices for tuning Riak cluster performance
 in the Amazon Web Services (AWS) Elastic Compute Cloud (EC2) environment.
 
@@ -245,5 +244,6 @@ For more information on EC2 storage options, please see their
 * [Improving Performance](../)
 * [Failure and Recovery](../../repair-recovery)
 * [Basho Client Services Help Desk](https://help.basho.com)
+
 
 

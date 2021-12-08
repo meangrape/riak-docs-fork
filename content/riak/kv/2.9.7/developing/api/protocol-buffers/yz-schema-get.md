@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/protocol-buffers/yz-schema-get/
 ---
 
-
 Fetch a [search schema]({{<baseurl>}}riak/kv/2.9.7/developing/usage/search-schemas) from Riak Search.
 
 ## Request
@@ -50,5 +49,6 @@ message RpbYokozunaSchema {
 ```
 
 This message includes the schema `name` and its xml `content`.
+
 
 

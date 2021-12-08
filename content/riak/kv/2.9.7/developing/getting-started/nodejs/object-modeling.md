@@ -19,7 +19,6 @@ aliases:
   - /riakkv/latest/developing/getting-started/nodejs/object-modeling/
 ---
 
-
 To get started, let's create the models that we'll be using.
 
 * [`Msg`](https://github.com/basho/taste-of-riak/blob/master/nodejs/Ch03-Msgy-Schema/models/msg.js)
@@ -120,6 +119,7 @@ So to recap, in this chapter we learned:
 
 * How to choose bucket names
 * How to choose natural keys based on how we want to partition our data
+
 
 
 

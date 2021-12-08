@@ -21,7 +21,6 @@ aliases:
   - /riakkv/latest/developing/data-types/sets/
 ---
 
-
 Sets are a bucket-level Riak data type that can be used by themselves, associated with a bucket/key pair, or used [within a map](../maps#sets-within-maps).
 
 Sets are collections of unique binary values (such as strings). All of
@@ -771,5 +770,6 @@ riakc_set:size(CitiesSet5).
 # With the HTTP interface, this can be determined from the output of
 # a fetch command like the one displayed in the example above
 ```
+
 
 

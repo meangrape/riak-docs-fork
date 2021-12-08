@@ -13,11 +13,10 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/references/http/delete-search-index
   - /riak/kv/2.9.7/dev/references/http/delete-search-index
-  - /riak/latest/developing/api/http/delete-search-
-  - /riak/kv/latest/developing/api/http/delete-search-
-  - /riakkv/latest/developing/api/http/delete-search-
+  - /riak/latest/developing/api/http/delete-search-index
+  - /riak/kv/latest/developing/api/http/delete-search-index
+  - /riakkv/latest/developing/api/http/delete-search-index
 ---
-
 
 Deletes a Riak Search index.
 
@@ -34,7 +33,6 @@ DELETE /search/index/<index_name>
   - /riak/kv/latest/developing/api/http/delete-search-
   - /riakkv/latest/developing/api/http/delete-search-
 ---
-
 The index was successfully deleted (also returned
     if the index did not exist to begin with)
 
@@ -45,7 +43,7 @@ The index was successfully deleted (also returned
   - /riak/kv/latest/developing/api/http/delete-search-
   - /riakkv/latest/developing/api/http/delete-search-
 ---
-
 The request timed out internally
+
 
 

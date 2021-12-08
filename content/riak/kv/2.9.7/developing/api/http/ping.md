@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/http/ping/
 ---
 
-
 Checks if the server is alive. This is useful for monitoring tools, load-balancers and automated scripts.
 
 ## Request
@@ -55,5 +54,6 @@ $ curl -v http://127.0.0.1:8098/ping
 * Closing connection #0
 OK
 ```
+
 
 

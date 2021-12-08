@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/usage/mapreduce/
 ---
 
-
 [usage 2i]: {{<baseurl>}}riak/kv/2.9.7/developing/usage/secondary-indexes
 [usage search]: {{<baseurl>}}riak/kv/2.9.7/developing/usage/search
 [usage types]: {{<baseurl>}}riak/kv/2.9.7/developing/usage/bucket-types
@@ -90,7 +89,6 @@ There are two steps in a MapReduce query:
   - /riak/kv/latest/developing/usage/mapreduce/
   - /riakkv/latest/developing/usage/mapreduce/
 ---
-
 The data collection phase, which breaks up large chunks of
   work into smaller ones and then takes action on each chunk. Map
   phases consist of a function and a list of objects on which the map
@@ -100,7 +98,6 @@ The data collection phase, which breaks up large chunks of
   - /riak/kv/latest/developing/usage/mapreduce/
   - /riakkv/latest/developing/usage/mapreduce/
 ---
-
 The data collation or processing phase, which combines
   the results from the map step into a single output. The reduce phase
   is optional.
@@ -256,5 +253,6 @@ counting the number of instances of the word.
 
 For more detailed information on MapReduce queries in Riak KV, we recommend
 checking out our [Advanced MapReduce][guide mapreduce] guide.
+
 
 

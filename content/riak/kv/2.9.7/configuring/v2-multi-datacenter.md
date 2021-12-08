@@ -20,7 +20,6 @@ aliases:
   - /riakkv/latest/configuring/v2-multi-datacenter/
 ---
 
-
 [config v2 ssl]: {{<baseurl>}}riak/kv/2.9.7/configuring/v2-multi-datacenter/ssl
 
 {{% note title="Deprecation Warning" %}}
@@ -158,5 +157,6 @@ Setting | Options | Default | Description
  allowed to connect.
  If no ACLs are configured, no checks on the common name are done, except
  as described for [Identical Local and Peer Common Names][config v2 ssl].
+
 
 

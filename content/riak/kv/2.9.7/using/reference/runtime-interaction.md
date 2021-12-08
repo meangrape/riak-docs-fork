@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/using/reference/runtime-interaction/
 ---
 
-
 [config reference]: {{<baseurl>}}riak/kv/2.9.7/configuring/reference
 [concept clusters]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/clusters
 
@@ -37,7 +36,6 @@ following port-related parameters are available:
   - /riak/kv/latest/using/reference/runtime-interaction/
   - /riakkv/latest/using/reference/runtime-interaction/
 ---
-
 Whether distribution
   ports with full input buffers will be counted as busy.
   * Default: `on`
@@ -46,7 +44,6 @@ Whether distribution
   - /riak/kv/latest/using/reference/runtime-interaction/
   - /riakkv/latest/using/reference/runtime-interaction/
 ---
-
 Whether ports with full input
   buffers will be counted as busy. Ports can represent open files or network sockets.
   * Default: `on`
@@ -55,7 +52,6 @@ Whether ports with full input
   - /riak/kv/latest/using/reference/runtime-interaction/
   - /riakkv/latest/using/reference/runtime-interaction/
 ---
-
 The threshold at which a
   warning will be triggered about the number of ports that are overly
   busy. Ports with full input buffers count toward this threshold.
@@ -72,7 +68,6 @@ triggered using the following parameters:
   - /riak/kv/latest/using/reference/runtime-interaction/
   - /riakkv/latest/using/reference/runtime-interaction/
 ---
-
 The threshold at which
   a warning will be triggered about the number of processes that are
   overly busy. Processes with large heaps or that take a long time to
@@ -83,7 +78,6 @@ The threshold at which
   - /riak/kv/latest/using/reference/runtime-interaction/
   - /riakkv/latest/using/reference/runtime-interaction/
 ---
-
 A process will be
   marked as busy when its size exceeds this size (in bytes).
   * Default: `160444000`
@@ -92,7 +86,6 @@ A process will be
   - /riak/kv/latest/using/reference/runtime-interaction/
   - /riakkv/latest/using/reference/runtime-interaction/
 ---
-
 A process
   will be marked as busy when it exceeds this amount of time doing
   garbage collection. Enabling this setting can cause performance
@@ -104,11 +97,11 @@ A process
   - /riak/kv/latest/using/reference/runtime-interaction/
   - /riakkv/latest/using/reference/runtime-interaction/
 ---
-
 A process will
   become busy when it exceeds this length of time during a single
   process scheduling and execution cycle.
   * Default: `off`
   * Example when enabled: `20ms`
+
 
 

@@ -19,7 +19,6 @@ aliases:
   - /riakkv/latest/developing/getting-started/csharp/querying/
 ---
 
-
 ## C Sharp Version Setup
 
 For the C# version, please download the source from GitHub by either
@@ -212,5 +211,6 @@ So to recap:
 
 [taste_of_riak]: https://github.com/basho/taste-of-riak
 [master_zip]: https://github.com/basho/taste-of-riak/archive/master.zip
+
 
 

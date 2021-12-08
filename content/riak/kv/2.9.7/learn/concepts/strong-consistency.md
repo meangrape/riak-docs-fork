@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/learn/concepts/strong-consistency/
 ---
 
-
 [usage bucket types]: {{<baseurl>}}riak/kv/2.9.7/developing/usage/bucket-types
 [concept eventual consistency]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/eventual-consistency
 
@@ -103,5 +102,6 @@ system:
 4. Nearly all reads to `k` now return `v2`, but a small number return
    the outdated `v` (or even `not found`) because the newer value hasn't
    yet been replicated to all nodes
+
 
 

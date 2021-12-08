@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/using/repair-recovery/failure-recovery/
 ---
 
-
 Riak was built to withstand---or at the very least reduce the severity
 of---many types of system failure. Nonetheless, bugs are a reality,
 hardware does break, and occasionally Riak itself will fail. Here, we'll
@@ -52,7 +51,6 @@ If data is lost, several options are available for restoring it.
   - /riak/kv/latest/using/repair-recovery/failure-recovery/
   - /riakkv/latest/using/repair-recovery/failure-recovery/
 ---
-
 A daily backup of Riak nodes can be helpful.
     The data in this backup may be stale depending on the time at which
     the node failed, but it can be used to partially restore data from
@@ -63,7 +61,6 @@ A daily backup of Riak nodes can be helpful.
   - /riak/kv/latest/using/repair-recovery/failure-recovery/
   - /riakkv/latest/using/repair-recovery/failure-recovery/
 ---
-
 If replication is enabled
     between two or more clusters, the missing data will gradually be
     restored via realtime replication and fullsync replication. A
@@ -74,7 +71,6 @@ If replication is enabled
   - /riak/kv/latest/using/repair-recovery/failure-recovery/
   - /riakkv/latest/using/repair-recovery/failure-recovery/
 ---
-
 Riak versions 1.2 and greater
     include a repair feature which will restore lost partitions with
     data from other replicas. Currently, this must be invoked manually
@@ -145,5 +141,6 @@ If you are a TI Tokyo Riak supprt customer and require assistance or
 further advice with a cluster recovery, please file a ticket with the
 <a href="https://support.tiot.jp">TI Tokyo Helpdesk</a>.
 {{% /note %}}
+
 
 

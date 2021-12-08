@@ -17,7 +17,6 @@ aliases:
   - /riakkv/latest/developing/getting-started/nodejs/crud-operations/
 ---
 
-
 [nodejs_wiki]: https://github.com/basho/riak-nodejs-client/wiki
 
 ### Creating Objects In Riak KV
@@ -136,5 +135,6 @@ The Riak Node.js Client has a lot of additional functionality that makes it easy
 to build rich, complex applications with Riak. Check out the
 [documentation][nodejs_wiki] to learn more about working with the Riak Node.js
 Client and Riak.
+
 
 

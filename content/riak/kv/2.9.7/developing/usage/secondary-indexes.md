@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/usage/secondary-indexes/
 ---
 
-
 [plan backend leveldb]: {{<baseurl>}}riak/kv/2.9.7/setup/planning/backend/leveldb
 [plan backend memory]: {{<baseurl>}}riak/kv/2.9.7/setup/planning/backend/memory
 [use ref strong consistency]: {{<baseurl>}}riak/kv/2.9.7/using/reference/strong-consistency
@@ -866,14 +865,12 @@ respectively:
   - /riak/kv/latest/developing/usage/secondary-indexes/
   - /riakkv/latest/developing/usage/secondary-indexes/
 ---
-
 Binary index `field1_bin` and integer index `field2_int`
 * `Moe`
   - /riak/latest/developing/usage/secondary-indexes/
   - /riak/kv/latest/developing/usage/secondary-indexes/
   - /riakkv/latest/developing/usage/secondary-indexes/
 ---
-
 Binary index `field1_bin` and integer index `field2_int`
   (note that the index names are set to lowercase by Riak)
 * `Curly`
@@ -881,7 +878,6 @@ Binary index `field1_bin` and integer index `field2_int`
   - /riak/kv/latest/developing/usage/secondary-indexes/
   - /riakkv/latest/developing/usage/secondary-indexes/
 ---
-
 Binary index `field1_bin` and integer index `field2_int`
   (note again that the index names are set to lowercase)
 * `Veronica`
@@ -889,7 +885,6 @@ Binary index `field1_bin` and integer index `field2_int`
   - /riak/kv/latest/developing/usage/secondary-indexes/
   - /riakkv/latest/developing/usage/secondary-indexes/
 ---
-
 Binary index `field1_bin` with the values `val4`,
   `val4a`, and `val4b` and integer index `field2_int` with the values
   `1004`, `1005`, `1006`, and `1007` (note that redundancies have been removed)
@@ -2052,5 +2047,6 @@ curl -XPOST localhost:8098/mapred\
 }
 EOF
 ```
+
 
 

@@ -16,7 +16,6 @@ aliases:
   - /riakkv/latest/configuring/strong-consistency/
 ---
 
-
 [apps strong consistency]: {{<baseurl>}}riak/kv/2.9.7/developing/app-guide/strong-consistency
 [concept strong consistency]: {{<baseurl>}}riak/kv/2.9.7/using/reference/strong-consistency
 [cluster ops add remove node]: {{<baseurl>}}riak/kv/2.9.7/using/cluster-operations/adding-removing-nodes
@@ -324,28 +323,24 @@ aliases:
   - /riak/kv/latest/configuring/strong-consistency/
   - /riakkv/latest/configuring/strong-consistency/
 ---
-
 The ID of the ensemble</li><li><code>Quorum</code>
 aliases:
   - /riak/latest/configuring/strong-consistency/
   - /riak/kv/latest/configuring/strong-consistency/
   - /riakkv/latest/configuring/strong-consistency/
 ---
-
 The number of ensemble peers that are either leading or following</li><li><code>Nodes</code>
 aliases:
   - /riak/latest/configuring/strong-consistency/
   - /riak/kv/latest/configuring/strong-consistency/
   - /riakkv/latest/configuring/strong-consistency/
 ---
-
 The number of nodes currently online</li><li><code>Leader</code>
 aliases:
   - /riak/latest/configuring/strong-consistency/
   - /riak/kv/latest/configuring/strong-consistency/
   - /riakkv/latest/configuring/strong-consistency/
 ---
-
 The current leader node for the ensemble</li></ul>
 
 **Note**: The **root ensemble**, designated by `root` in the sample
@@ -403,35 +398,30 @@ aliases:
   - /riak/kv/latest/configuring/strong-consistency/
   - /riakkv/latest/configuring/strong-consistency/
 ---
-
 The ID of the peer</li><li><code>Status</code>
 aliases:
   - /riak/latest/configuring/strong-consistency/
   - /riak/kv/latest/configuring/strong-consistency/
   - /riakkv/latest/configuring/strong-consistency/
 ---
-
 Whether the peer is a leader or a follower</li><li><code>Trusted</code>
 aliases:
   - /riak/latest/configuring/strong-consistency/
   - /riak/kv/latest/configuring/strong-consistency/
   - /riakkv/latest/configuring/strong-consistency/
 ---
-
 Whether the peer's Merkle tree is currently considered trusted or not</li><li><code>Epoch</code>
 aliases:
   - /riak/latest/configuring/strong-consistency/
   - /riak/kv/latest/configuring/strong-consistency/
   - /riakkv/latest/configuring/strong-consistency/
 ---
-
 The current consensus epoch for the peer. The epoch is incremented each time the leader changes.</li><li><code>Node</code>
 aliases:
   - /riak/latest/configuring/strong-consistency/
   - /riak/kv/latest/configuring/strong-consistency/
   - /riakkv/latest/configuring/strong-consistency/
 ---
-
 The node on which the peer resides.</li></ul>
 
 More information on leaders, peers, Merkle trees, and other details can
@@ -691,7 +681,6 @@ aliases:
   - /riak/kv/latest/configuring/strong-consistency/
   - /riakkv/latest/configuring/strong-consistency/
 ---
-
 If you do attach
   secondary index metadata to objects in strongly consistent buckets,
   strongly consistent operations can still proceed, but that metadata
@@ -702,7 +691,6 @@ aliases:
   - /riak/kv/latest/configuring/strong-consistency/
   - /riakkv/latest/configuring/strong-consistency/
 ---
-
 Data Types can currently be
   used only in an eventually consistent fashion
 * [Using commit hooks][usage commit hooks]
@@ -711,7 +699,6 @@ aliases:
   - /riak/kv/latest/configuring/strong-consistency/
   - /riakkv/latest/configuring/strong-consistency/
 ---
-
 Neither pre- nor post-commit hooks are supported in strongly consistent buckets. If you do associate a
   strongly consistent bucket with one or more commit hooks, strongly
   consistent operations can proceed as normal in that bucket, but all
@@ -734,7 +721,6 @@ aliases:
   - /riak/kv/latest/configuring/strong-consistency/
   - /riakkv/latest/configuring/strong-consistency/
 ---
-
 A
   [tombstone][cluster ops obj del] will be written if you perform a read
   against a key that a majority of peers claims to not exist. This is
@@ -747,7 +733,6 @@ aliases:
   - /riak/kv/latest/configuring/strong-consistency/
   - /riakkv/latest/configuring/strong-consistency/
 ---
-
 In Riak, key listing
   operations, such as listing all the keys in a bucket, do not filter
   out tombstones. While this is rarely a problem for
@@ -759,7 +744,6 @@ aliases:
   - /riak/kv/latest/configuring/strong-consistency/
   - /riakkv/latest/configuring/strong-consistency/
 ---
-
 Strongly consistent
   operations do not support [secondary indexes][cluster ops 2i] \(2i) at this time. Furthermore, any other metadata
   attached to objects, even if not related to 2i, will be silently
@@ -770,7 +754,6 @@ aliases:
   - /riak/kv/latest/configuring/strong-consistency/
   - /riakkv/latest/configuring/strong-consistency/
 ---
-
 At this time,
   consistent keys are *not* replicated across clusters using Multi-
   Datacenter Replication \(MDC). This is because MDC Replication currently supports only eventually consistent replication across clusters. Mixing strongly
@@ -784,9 +767,9 @@ aliases:
   - /riak/kv/latest/configuring/strong-consistency/
   - /riakkv/latest/configuring/strong-consistency/
 ---
-
 Basho's official [client
   libraries][dev client libraries] convert errors returned by Riak into generic exceptions,
   with a message derived from the returned server-side error message.
+
 
 

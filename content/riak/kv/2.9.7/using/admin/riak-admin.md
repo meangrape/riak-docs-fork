@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/using/admin/riak-admin/
 ---
 
-
 [config reference]: {{<baseurl>}}riak/kv/2.9.7/configuring/reference
 [use admin commands]: {{<baseurl>}}riak/kv/2.9.7/using/admin/commands
 [use admin commands#join]: {{<baseurl>}}riak/kv/2.9.7/using/admin/commands/#join
@@ -719,5 +718,6 @@ That will produce the following output:
 nodename:
   Name of the Erlang node
 ```
+
 
 

@@ -17,7 +17,6 @@ aliases:
 ---
 
 
-
 [apps replication properties]: {{<baseurl>}}riak/kv/2.9.7/developing/app-guide/replication-properties
 [basho bench GH]: http://github.com/basho/basho_bench/
 [cluster ops add remove node]: {{<baseurl>}}riak/kv/2.9.7/using/cluster-operations/adding-removing-nodes
@@ -356,5 +355,6 @@ the Riak Ring, and they coordinate requests for these partitions.
 * [vnodes][glossary vnode]
 * [Clusters][concept clusters]
 * [Dynamo][learn dynamo]
+
 
 

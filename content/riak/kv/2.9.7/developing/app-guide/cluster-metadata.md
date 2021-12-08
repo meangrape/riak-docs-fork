@@ -16,7 +16,6 @@ aliases:
   - /riakkv/latest/developing/app-guide/cluster-metadata/
 ---
 
-
 Cluster metadata is a subsystem inside of Riak that enables systems
 built on top of
 [`riak_core`](https://github.com/basho/riak_core/blob/develop/src/riak_core_metadata.erl)
@@ -70,5 +69,6 @@ the Erlang interface is defined in the
 module, which allows you to perform a variety of cluster metadata
 operations, including retrieving, modifying, and deleting metadata and
 iterating through metadata keys.
+
 
 

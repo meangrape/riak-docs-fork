@@ -20,7 +20,6 @@ aliases:
   - /riakkv/latest/using/reference/v3-multi-datacenter/scheduling-fullsync/
 ---
 
-
 [config reference#advanced]: {{<baseurl>}}riak/kv/2.9.7/configuring/reference/#advanced-configuration
 
 The `fullsync_interval` parameter can be configured in the `riak-repl`
@@ -70,5 +69,6 @@ Additional fullsync stats per sink have been added in Riak.
   specified cluster began.
 * `last_fullsync_duration` &mdash; The duration (in seconds) of the last
   completed fullsync.
+
 
 

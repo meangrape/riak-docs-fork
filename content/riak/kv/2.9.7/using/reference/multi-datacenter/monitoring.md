@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/using/reference/multi-datacenter/monitoring/
 ---
 
-
 Monitoring Riak's realtime replication allows you to identify trends and
 to receive alerts during times when replication is halted or delayed.
 Issues or delays in replication can be caused by:
@@ -58,7 +57,6 @@ graphing of realtime replication statistics:
   - /riak/kv/latest/using/reference/multi-datacenter/monitoring/
   - /riakkv/latest/using/reference/multi-datacenter/monitoring/
 ---
-
 
 #### Is the realtime replication queue backed up?
 
@@ -110,7 +108,6 @@ load.
   - /riak/kv/latest/using/reference/multi-datacenter/monitoring/
   - /riakkv/latest/using/reference/multi-datacenter/monitoring/
 ---
-
 
 Although the above statistics have been highlighted to answer specific
 questions, other statistics can also be helpful in diagnosing issues
@@ -180,5 +177,6 @@ It's important to note that each node in a cluster has its own realtime
 replication queue. The general process needs to be applied to every
 node in the source cluster, with a variety of canary objects and states,
 to get a complete picture of realtime replication between two clusters.
+
 
 

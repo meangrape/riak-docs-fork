@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/using/performance/multi-datacenter-tuning/
 ---
 
-
 [perf index]: {{<baseurl>}}riak/kv/2.9.7/using/performance
 
 Depending on the size of your objects and your replication latency
@@ -45,5 +44,6 @@ On Solaris, the following settings are suggested:
 /usr/sbin/ndd -set /dev/tcp tcp_xmit_hiwat 4000000
 /usr/sbin/ndd -set /dev/tcp tcp_recv_hiwat 4000000
 ```
+
 
 

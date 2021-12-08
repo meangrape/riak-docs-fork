@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/http/list-buckets/
 ---
 
-
 Lists all known buckets (ones that have keys stored in them).
 
 {{% note title="Not for production use" %}}
@@ -66,5 +65,6 @@ Content-Length: 21
 
 {"buckets":["files"]}
 ```
+
 
 

@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/using/cluster-operations/changing-cluster-info/
 ---
 
-
 [config reference]: {{<baseurl>}}riak/kv/2.9.7/configuring/reference
 
 ## Change the Node Name
@@ -456,5 +455,6 @@ Once all nodes are marked as down and our first node is listed as the claimant, 
     Valid:5 / Leaving:0 / Exiting:0 / Joining:0 / Down:0
 
     ```
+
 
 

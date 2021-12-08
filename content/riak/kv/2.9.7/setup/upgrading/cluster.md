@@ -19,10 +19,10 @@ aliases:
   - /riak/latest/ops/upgrading/rolling-upgrades/
   - /riak/kv/latest/ops/advanced/upgrading-cluster
   - /riak/kv/latest/setup/upgrading/cluster
+  - /riak/latest/setup/upgrading/cluster/
   - /riak/kv/latest/setup/upgrading/cluster/
   - /riakkv/latest/setup/upgrading/cluster/
 ---
-
 
 [production checklist]: {{<baseurl>}}riak/kv/2.9.7/setup/upgrading/checklist
 [use admin riak control]: {{<baseurl>}}riak/kv/2.9.7/using/admin/riak-control
@@ -270,40 +270,40 @@ directories.
   - /riak/latest/ops/upgrading/rolling-upgrades/
   - /riak/kv/latest/ops/advanced/upgrading-cluster
   - /riak/kv/latest/setup/upgrading/cluster
+  - /riak/latest/setup/upgrading/cluster/
   - /riak/kv/latest/setup/upgrading/cluster/
   - /riakkv/latest/setup/upgrading/cluster/
 ---
-
 the `cluster_mgr` setting must be present. See [MDC v3 Configuration][config v3 mdc] for more information.
   * `riak_repl`
   - /riak/latest/setup/upgrading/cluster/
   - /riak/latest/ops/upgrading/rolling-upgrades/
   - /riak/kv/latest/ops/advanced/upgrading-cluster
   - /riak/kv/latest/setup/upgrading/cluster
+  - /riak/latest/setup/upgrading/cluster/
   - /riak/kv/latest/setup/upgrading/cluster/
   - /riakkv/latest/setup/upgrading/cluster/
 ---
-
 See [MDC v3 Configuration][config v3 mdc] for more information.
   * `riak_jmx`
   - /riak/latest/setup/upgrading/cluster/
   - /riak/latest/ops/upgrading/rolling-upgrades/
   - /riak/kv/latest/ops/advanced/upgrading-cluster
   - /riak/kv/latest/setup/upgrading/cluster
+  - /riak/latest/setup/upgrading/cluster/
   - /riak/kv/latest/setup/upgrading/cluster/
   - /riakkv/latest/setup/upgrading/cluster/
 ---
-
 See [JMX Monitoring][jmx monitor] for more information.
   * `snmp`
   - /riak/latest/setup/upgrading/cluster/
   - /riak/latest/ops/upgrading/rolling-upgrades/
   - /riak/kv/latest/ops/advanced/upgrading-cluster
   - /riak/kv/latest/setup/upgrading/cluster
+  - /riak/latest/setup/upgrading/cluster/
   - /riak/kv/latest/setup/upgrading/cluster/
   - /riakkv/latest/setup/upgrading/cluster/
 ---
-
 See [SNMP][snmp] for more information.
 8. Start Riak KV on the upgraded node.
 
@@ -339,6 +339,7 @@ riak-admin diag
 
 Make the recommended changes from the command output to ensure optimal
 node operation.
+
 
 
 

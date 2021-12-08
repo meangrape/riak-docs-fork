@@ -16,7 +16,6 @@ aliases:
   - /riakkv/latest/configuring/global-object-expiration/
 ---
 
-
 [ttl]: https://en.wikipedia.org/wiki/Time_to_live
 
 By default, LevelDB keeps all of your data. But Riak KV allows you to configure global object expiration (`expiry`) or [time to live (TTL)][ttl] for your data. 
@@ -88,5 +87,6 @@ leveldb.expiration = off
 leveldb.expiration.retention_time = 1d
 leveldb.expiration.mode = whole_file
 ```
+
 
 

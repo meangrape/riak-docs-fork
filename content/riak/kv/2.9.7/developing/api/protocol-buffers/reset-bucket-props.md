@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/protocol-buffers/reset-bucket-props/
 ---
 
-
 Request to reset the properties of a given bucket or bucket type.
 
 ## Request
@@ -61,5 +60,6 @@ Erlang <<0,0,0,1,30>>
 
 RpbResetBucketResp - only message code defined
 ```
+
 
 

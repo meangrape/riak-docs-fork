@@ -19,7 +19,6 @@ aliases:
 ---
 
 
-
 [concept aae]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/active-anti-entropy
 [concept clusters]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/clusters
 [concept eventual consistency]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/eventual-consistency
@@ -287,5 +286,6 @@ information can be found in the [Object Updates][usage updating objects] doc.
 * [Improving Logical Clocks in Riak with Dotted Version Vectors: A Case Study]
 * [Dotted Version Vector Sets]
 * [A History of Time in Riak]
+
 
 

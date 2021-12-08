@@ -21,7 +21,6 @@ aliases:
 ---
 
 
-
 [concept buckets]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/buckets
 [concept causal context vc]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/causal-context/#vector-clocks
 [concept clusters]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/clusters
@@ -200,5 +199,6 @@ whether the operation truly failed.
 
 * [Understanding Riak's Configurable Behaviors blog series](http://basho.com/understanding-riaks-configurable-behaviors-part-1/)
 * Werner Vogels, et. al.: [Eventually Consistent - Revisited](http://www.allthingsdistributed.com/2008/12/eventually_consistent.html)
+
 
 

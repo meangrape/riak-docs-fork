@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/http/counters/
 ---
 
-
 Riak counters are a CRDT (convergent replicated data type) that (eventually)
 converge to the correct total. You merely increment the counter with some
 integer, and any potential conflicts will be automatically resolved by Riak.
@@ -80,5 +79,6 @@ curl http://localhost:8098/buckets/my_bucket/counters/my_key
 curl -XPOST http://localhost:8098/buckets/my_bucket/counters/my_key -d "-1"
 100
 ```
+
 
 

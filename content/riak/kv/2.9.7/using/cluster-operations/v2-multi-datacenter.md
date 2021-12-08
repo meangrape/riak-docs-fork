@@ -20,7 +20,6 @@ aliases:
   - /riakkv/latest/using/cluster-operations/v2-multi-datacenter/
 ---
 
-
 {{% note title="Deprecation Warning" %}}
 v2 Multi-Datacenter Replication is deprecated and will be removed in a future version. Please use [v3]({{<baseurl>}}riak/kv/2.9.7/using/cluster-operations/v3-multi-datacenter/) instead.
 {{% /note %}}
@@ -224,19 +223,16 @@ Field | Description
   - /riak/kv/latest/using/cluster-operations/v2-multi-datacenter/
   - /riakkv/latest/using/cluster-operations/v2-multi-datacenter/
 ---
-
 The IP address and port of a connected client (site)</li><li>`cluster_name`
   - /riak/latest/using/cluster-operations/v2-multi-datacenter/
   - /riak/kv/latest/using/cluster-operations/v2-multi-datacenter/
   - /riakkv/latest/using/cluster-operations/v2-multi-datacenter/
 ---
-
 The name of the connected client (site)</li><li>`connecting`
   - /riak/latest/using/cluster-operations/v2-multi-datacenter/
   - /riak/kv/latest/using/cluster-operations/v2-multi-datacenter/
   - /riakkv/latest/using/cluster-operations/v2-multi-datacenter/
 ---
-
 The PID, IP address, and port of a client currently establishing a connection</li></ul>
 `state` | State shows what the current replication strategy is currently processing. The following definitions appear in the status output if keylist strategy is being used. They can be used by Basho support to identify replication issues.<ul><li>`request_partition`</li><li>`wait_for_fullsync`</li><li>`send_keylist`</li><li>`wait_ack`</li></ul>
 
@@ -279,5 +275,6 @@ Field | Description
 `partition_start` | The number of elapsed seconds since replication has started on a given partition
 `stage_start` | The number of elapsed seconds since replication has started on a given stage
 `get_pool_size` | The number of Riak get finite state workers available to process requests
+
 
 

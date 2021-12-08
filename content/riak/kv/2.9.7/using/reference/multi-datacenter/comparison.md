@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/using/reference/multi-datacenter/comparison/
 ---
 
-
 This document is a systematic comparison of [Version 2]({{<baseurl>}}riak/kv/2.9.7/using/reference/v2-multi-datacenter) and [Version 3]({{<baseurl>}}riak/kv/2.9.7/using/reference/v3-multi-datacenter) of Riak's Multi-Datacenter
 Replication capabilities.
 
@@ -98,5 +97,6 @@ version 3.
 * Riak CS MDC `proxy_get` connections will be distributed across the
   source cluster (as CS blocks are requested from the sink cluster in
   this scenario).
+
 
 

@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/protocol-buffers/dt-fetch/
 ---
 
-
 The equivalent of [`RpbGetReq`]({{<baseurl>}}riak/kv/2.9.7/developing/api/protocol-buffers/fetch-object) for [Riak Data Types]({{<baseurl>}}riak/kv/2.9.7/developing/data-types). This request results in a `DtFetchResp`
 message (explained in the **Response** section below).
 
@@ -128,6 +127,7 @@ message MapEntry {
     repeated MapEntry map_value      = 6;
 }
 ```
+
 
 
 

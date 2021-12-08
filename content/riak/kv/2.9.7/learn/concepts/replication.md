@@ -21,7 +21,6 @@ aliases:
 ---
 
 
-
 [cluster ops v3 mdc]: {{<baseurl>}}riak/kv/2.9.7/using/cluster-operations/v3-multi-datacenter
 [concept aae]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/active-anti-entropy
 [concept causal context vc]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/causal-context/#vector-clocks
@@ -320,6 +319,7 @@ respond, the process will continue to manage that partition and check
 the parent node again after a delay. The hometest is also run by
 partition processes to account for changes in the ring, such as the
 addition or removal of nodes to the cluster.
+
 
 
 

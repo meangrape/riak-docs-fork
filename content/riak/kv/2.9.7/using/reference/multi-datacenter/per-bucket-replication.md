@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/using/reference/multi-datacenter/per-bucket-replication/
 ---
 
-
 To enable or disable replication per bucket, you can use the `repl`
 bucket property.
 
@@ -32,14 +31,12 @@ above:
   - /riak/kv/latest/using/reference/multi-datacenter/per-bucket-replication/
   - /riakkv/latest/using/reference/multi-datacenter/per-bucket-replication/
 ---
-
 Enable replication (realtime + fullsync)
   * `false`
   - /riak/latest/using/reference/multi-datacenter/per-bucket-replication/
   - /riak/kv/latest/using/reference/multi-datacenter/per-bucket-replication/
   - /riakkv/latest/using/reference/multi-datacenter/per-bucket-replication/
 ---
-
 Disable replication (realtime + fullsync)
 
 These option values are only available in Riak Enterprise version 1.2
@@ -50,21 +47,18 @@ and above:
   - /riak/kv/latest/using/reference/multi-datacenter/per-bucket-replication/
   - /riakkv/latest/using/reference/multi-datacenter/per-bucket-replication/
 ---
-
 Replication only occurs in realtime for this bucket
   * `fullsync`
   - /riak/latest/using/reference/multi-datacenter/per-bucket-replication/
   - /riak/kv/latest/using/reference/multi-datacenter/per-bucket-replication/
   - /riakkv/latest/using/reference/multi-datacenter/per-bucket-replication/
 ---
-
 Replication only occurs during a fullsync operation
   * `both`
   - /riak/latest/using/reference/multi-datacenter/per-bucket-replication/
   - /riak/kv/latest/using/reference/multi-datacenter/per-bucket-replication/
   - /riakkv/latest/using/reference/multi-datacenter/per-bucket-replication/
 ---
-
 Replication occurs in realtime and during fullsync
 
 ### Example of Disabling
@@ -94,5 +88,6 @@ It's important to note that this goes for properties such as `backend`.
 If the bucket doesn't exist in the destination cluster, Riak will create
 it with the default backend and _not_ with the backend used in the
 source cluster.
+
 
 

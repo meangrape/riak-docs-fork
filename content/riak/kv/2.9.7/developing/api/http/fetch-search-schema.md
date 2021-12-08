@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/http/fetch-search-schema/
 ---
 
-
 Retrieves a Riak KV [search schema]({{<baseurl>}}riak/kv/2.9.7/developing/usage/search-schemas).
 
 ## Request
@@ -39,12 +38,12 @@ GET /search/schema/<schema_name>
   - /riak/kv/latest/developing/api/http/fetch-search-schema/
   - /riakkv/latest/developing/api/http/fetch-search-schema/
 ---
-
 The request timed out internally
 
 ## Response
 
 If the schema is found, Riak will return the contents of the schema as
 XML (all Riak Search schemas are XML).
+
 
 

@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/using/repair-recovery/errors/
 ---
 
-
 [config reference]: {{<baseurl>}}riak/kv/2.9.7/configuring/reference
 
 This is not a comprehensive listing of every error that Riak may
@@ -364,5 +363,6 @@ RPC to 'node@example.com' failed: {'EXIT', {badarg, [{ets,lookup, [schema_table,
         ```
   6. When all have finished successfully you may restart the node: `riak start`
   7. Check for proper operation by looking at log files in /var/log/riak and in the LOG files in the effected LevelDB vnodes.
+
 
 

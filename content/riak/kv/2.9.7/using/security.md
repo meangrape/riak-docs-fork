@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/using/security/
 ---
 
-
 [config reference search]: {{<baseurl>}}riak/kv/2.9.7/configuring/reference/#search
 [config search enabling]: {{<baseurl>}}riak/kv/2.9.7/configuring/search/#enabling-riak-search
 [config v3 ssl]: {{<baseurl>}}riak/kv/2.9.7/configuring/v3-multi-datacenter/ssl
@@ -197,5 +196,6 @@ Replication, you can configure Riak 1.2+ to communicate over SSL, to
 seamlessly encrypt the message traffic.
 
 See also: [Multi Data Center Replication: SSL][config v3 ssl]
+
 
 

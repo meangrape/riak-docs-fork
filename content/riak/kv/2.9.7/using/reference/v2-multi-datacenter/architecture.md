@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/using/reference/v2-multi-datacenter/architecture/
 ---
 
-
 {{% note title="Deprecation Warning" %}}
 v2 Multi-Datacenter Replication is deprecated and will be removed in a future version. Please use [v3]({{<baseurl>}}riak/kv/2.9.7/using/reference/v3-multi-datacenter/architecture/) instead.
 {{% /note %}}
@@ -128,5 +127,6 @@ either fullsync or realtime replication, both clusters must have the
 same [ring size]({{<baseurl>}}riak/kv/2.9.7/learn/concepts/clusters/#the-ring); if you are using fullsync
 replication, every bucket's [`n_val`]({{<baseurl>}}riak/kv/2.9.7/developing/app-guide/replication-properties#n-value-and-replication) must be the same in both the
 source and sink cluster.
+
 
 

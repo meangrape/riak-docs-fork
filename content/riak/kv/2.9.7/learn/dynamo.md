@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/learn/dynamo/
 ---
 
-
 <div style="text-align:center;font-style:italic">
   Giuseppe DeCandia, Deniz Hastorun, Madan Jampani, Gunavardhan Kakulapati,
   Avinash Lakshman, Alex Pilchin, Swaminathan Sivasubramanian, Peter Vosshall
@@ -1926,5 +1925,6 @@ techniques can be combined to provide a single highly-available system. Its
 success in one of the most challenging application environments shows that an
 eventual-consistent storage system can be a building block for highly-available
 applications.
+
 
 

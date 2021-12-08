@@ -17,7 +17,6 @@ aliases:
   - /riakkv/latest/add-ons/redis/redis-add-on-features/
 ---
 
-
 [ee]: https://www.tiot.jp/en/about-us/contact-us/
 [GET-sequence]: {{<baseurl>}}images/redis/GET_seq.msc.png
 [SET-sequence]: {{<baseurl>}}images/redis/SET_seq.msc.png
@@ -134,5 +133,6 @@ full object lifetime for a key-value is represented by the following
 sequence diagram:
 
 ![Object lifetime sequence diagram]({{<baseurl>}}images/redis/Object_lifetime.msc.png)
+
 
 

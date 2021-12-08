@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/protocol-buffers/search/
 ---
 
-
 Send a Search request to retrieve a list of documents, along with a few
 stats.
 
@@ -47,14 +46,12 @@ Required Parameters
   - /riak/kv/latest/developing/api/protocol-buffers/search/
   - /riakkv/latest/developing/api/protocol-buffers/search/
 ---
-
 The contents of the query
 * `index`
   - /riak/latest/developing/api/protocol-buffers/search/
   - /riak/kv/latest/developing/api/protocol-buffers/search/
   - /riakkv/latest/developing/api/protocol-buffers/search/
 ---
-
 The name of the index to search
 
 Optional Parameters
@@ -64,14 +61,12 @@ Optional Parameters
   - /riak/kv/latest/developing/api/protocol-buffers/search/
   - /riakkv/latest/developing/api/protocol-buffers/search/
 ---
-
 The maximum number of rows to return
 * `start`
   - /riak/latest/developing/api/protocol-buffers/search/
   - /riak/kv/latest/developing/api/protocol-buffers/search/
   - /riakkv/latest/developing/api/protocol-buffers/search/
 ---
-
 A start offset, i.e. the number of keys to skip before
   returning values
 * `sort`
@@ -79,14 +74,12 @@ A start offset, i.e. the number of keys to skip before
   - /riak/kv/latest/developing/api/protocol-buffers/search/
   - /riakkv/latest/developing/api/protocol-buffers/search/
 ---
-
 How the search results are to be sorted
 * `filter`
   - /riak/latest/developing/api/protocol-buffers/search/
   - /riak/kv/latest/developing/api/protocol-buffers/search/
   - /riakkv/latest/developing/api/protocol-buffers/search/
 ---
-
 Filters search with additional query scoped to inline
   fields
 * `df`
@@ -94,14 +87,12 @@ Filters search with additional query scoped to inline
   - /riak/kv/latest/developing/api/protocol-buffers/search/
   - /riakkv/latest/developing/api/protocol-buffers/search/
 ---
-
 Override the `default_field` setting in the schema file
 * `op`
   - /riak/latest/developing/api/protocol-buffers/search/
   - /riak/kv/latest/developing/api/protocol-buffers/search/
   - /riakkv/latest/developing/api/protocol-buffers/search/
 ---
-
 `and` or `or`, to override the `default_op` operation setting
   in the schema file
 * `fl`
@@ -109,14 +100,12 @@ Override the `default_field` setting in the schema file
   - /riak/kv/latest/developing/api/protocol-buffers/search/
   - /riakkv/latest/developing/api/protocol-buffers/search/
 ---
-
 Return the fields limit
 * `presort`
   - /riak/latest/developing/api/protocol-buffers/search/
   - /riak/kv/latest/developing/api/protocol-buffers/search/
   - /riakkv/latest/developing/api/protocol-buffers/search/
 ---
-
 Presort. The options are `key` or `score`
 
 
@@ -155,21 +144,18 @@ Values
   - /riak/kv/latest/developing/api/protocol-buffers/search/
   - /riakkv/latest/developing/api/protocol-buffers/search/
 ---
-
 A list of docs that match the search request
 * `max_score`
   - /riak/latest/developing/api/protocol-buffers/search/
   - /riak/kv/latest/developing/api/protocol-buffers/search/
   - /riakkv/latest/developing/api/protocol-buffers/search/
 ---
-
 The top score returned
 * `num_found`
   - /riak/latest/developing/api/protocol-buffers/search/
   - /riak/kv/latest/developing/api/protocol-buffers/search/
   - /riakkv/latest/developing/api/protocol-buffers/search/
 ---
-
 Returns the total number of values matched by this
   search
 
@@ -228,5 +214,6 @@ docs {
 }
 num_found: 2
 ```
+
 
 

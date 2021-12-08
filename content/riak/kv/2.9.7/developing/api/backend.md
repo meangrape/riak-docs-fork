@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/backend/
 ---
 
-
 [plan backend]: {{<baseurl>}}riak/kv/2.9.7/setup/planning/backend
 
 Riak's storage API uniformly applies to all of the
@@ -116,5 +115,6 @@ into a custom storage backend module.
 %% @doc Register an asynchronous callback
 -spec callback(reference(), any(), state()) -> {ok, state()}.
 ```
+
 
 

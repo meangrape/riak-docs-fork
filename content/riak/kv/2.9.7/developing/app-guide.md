@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/app-guide/
 ---
 
-
 [usage conflict resolution]: {{<baseurl>}}riak/kv/2.9.7/developing/usage/conflict-resolution
 [dev data model#log]: {{<baseurl>}}riak/kv/2.9.7/developing/data-modeling/#log-data
 [dev data model#sensor]: {{<baseurl>}}riak/kv/2.9.7/developing/data-modeling/#sensor-data
@@ -94,7 +93,6 @@ following:
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 While Riak provides several means of
   [resolving conflicts][usage conflict resolution] between different replicas
   of objects, those processes can lead to slower performance in some
@@ -105,7 +103,6 @@ While Riak provides several means of
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 Riak was not built as a store for large objects
   like video files or other
   [BLOB](http://en.wikipedia.org/wiki/Binary_large_object)s. We built
@@ -117,7 +114,6 @@ Riak was not built as a store for large objects
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 Objects that do not have interdependencies
   on other objects are a good fit for Riak's [eventually consistent][concept eventual consistency] nature.
 * **Objects with "natural" keys**
@@ -125,7 +121,6 @@ Objects that do not have interdependencies
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 It is almost always advisable to
   build keys for objects out of timestamps, [usernames][dev data model#user],
   or other ["natural" markers][dev kv model] that distinguish
@@ -136,7 +131,6 @@ It is almost always advisable to
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 If
   you're working with mutable data, one option is to run basic CRUD
   operations on that data in a standard key/value fashion and either
@@ -156,7 +150,6 @@ Riak may not such be a good choice if you use it to store:
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 If you will be
   storing a lot of objects over that size, we would recommend checking
   out [Riak CS]({{<baseurl>}}riak/cs/latest/) instead, as Riak
@@ -167,7 +160,6 @@ If you will be
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 If your data cannot be
   easily denormalized or if it requires that objects can be easily
   assembled into and accessible as larger wholes---think columns or
@@ -206,14 +198,12 @@ using the Solr API.
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 Getting started with Riak Search
 * [Search Details][use ref search]
   - /riak/latest/developing/app-guide/
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 A detailed overview of the concepts and design
   consideration behind Riak Search
 * [Search Schema][usage search schema]
@@ -221,7 +211,6 @@ A detailed overview of the concepts and design
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 How to create custom schemas for extracting data
   from Riak Search
 
@@ -232,7 +221,6 @@ How to create custom schemas for extracting data
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 Riak Search gives you access
   to the entirety of [Solr](http://lucene.apache.org/solr/)'s extremely
   broad API, which enables you to query on the basis of wildcards,
@@ -254,7 +242,6 @@ for you.
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 At the moment, you should
     consider [secondary indexes][usage 2i] instead of
     Search if your use case requires deep pagination. This will be
@@ -265,7 +252,6 @@ At the moment, you should
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 In clusters larger than 8-10 nodes, you may
     experience slower performance when using Search. In clusters of that
     size, we would recommend using Search in a limited fashion, setting
@@ -293,7 +279,6 @@ own.
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 A guide to setting up Riak to use Data Types,
   including a variety of code samples for all of the Basho's official
   [client libraries][dev client libraries]
@@ -302,7 +287,6 @@ A guide to setting up Riak to use Data Types,
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 A theoretical treatment of Riak Data Types, along
   with implementation details
 * [Data Modeling with Riak Data Types][dev data model]
@@ -310,7 +294,6 @@ A theoretical treatment of Riak Data Types, along
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 An object modeling example that relies on Riak Data Types.
 
 > **Note**:
@@ -327,7 +310,6 @@ Types and Search is coming soon.
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 If the data that you're storing can be
   modeled as one of the five available types, Riak Data Types could be a
   very good option. Please note that in many cases there may not be a
@@ -340,7 +322,6 @@ If the data that you're storing can be
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 If your use case
   doesn't require that your application have access to siblings and
   allows for sibling convergence logic to take place at the Riak level
@@ -354,7 +335,6 @@ If your use case
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 If your
   application needs to have access to all sibling values, then Riak Data
   Types are not a good choice because they by definition do not produce
@@ -364,7 +344,6 @@ If your
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 While the five existing Data
   Types allow for a great deal of flexibility and a wide range of use
   cases, they don't cover all use cases. If you have data that requires
@@ -375,7 +354,6 @@ While the five existing Data
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 Riak Data Types
   behave much like other Riak objects, but they tend to carry more
   metadata than normal Riak objects, especially maps. In most cases the
@@ -398,14 +376,12 @@ or you can write and run your own MapReduce jobs in
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 A general guide to using MapReduce
 * [Advanced MapReduce][apps mapreduce]
   - /riak/latest/developing/app-guide/
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 A more in-depth guide to MapReduce,
   including code samples and implementation details
 
@@ -416,7 +392,6 @@ A more in-depth guide to MapReduce,
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 You should use MapReduce only when truly
   truly necessary. MapReduce jobs are very computationally expensive and
   can degrade performance in production clusters. You should restrict
@@ -431,7 +406,6 @@ You should use MapReduce only when truly
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 Before even considering
   using MapReduce, you should thoroughly investigate [Riak Search][usage search] or [secondary indexes][usage 2i] as possible
   solutions to your needs.
@@ -457,7 +431,6 @@ you're storing binary data that is opaque to features like [Riak Search][usage s
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 A general guide to using 2i, along
   with code samples and information on 2i features like pagination,
   streaming, and sorting
@@ -466,7 +439,6 @@ A general guide to using 2i, along
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 Implementation details behind 2i
 
 ### When to Use Secondary Indexes
@@ -476,7 +448,6 @@ Implementation details behind 2i
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 At the moment, 2i's
     deep pagination capabilities are more performant than those offered
     by Search if you require pagination of more than 3-5 pages. This
@@ -490,7 +461,6 @@ At the moment, 2i's
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 If your use case does not
     involve deep pagination, we recommend Search over 2i for _all_
     querying purposes.
@@ -499,7 +469,6 @@ If your use case does not
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 2i is available only in the
     [LevelDB][plan backend leveldb] backend. If you'd like to use [Bitcask][plan backend bitcask] or the [Memory][plan backend memory] backend, you will not be able to use 2i.
 
@@ -592,7 +561,6 @@ will help you get up and running:
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 Install Riak KV and start up a 5-node Riak
   cluster
 * [Client Libraries][dev client libraries]
@@ -600,7 +568,6 @@ Install Riak KV and start up a 5-node Riak
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 A listing of official and non-official client
   libraries for building applications with Riak
 * [Getting Started with Client Libraries][getting started]
@@ -608,7 +575,6 @@ A listing of official and non-official client
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 How to
   get up and going with one of Basho's official client libraries (Java,
   Ruby, Python, and Erlang)
@@ -617,16 +583,15 @@ How to
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 A guide to basic key/value operations and other common tasks in Riak KV.
 * [Riak KV Glossary][glossary]
   - /riak/latest/developing/app-guide/
   - /riak/kv/latest/developing/app-guide/
   - /riakkv/latest/developing/app-guide/
 ---
-
 A listing of frequently used terms in Riak's
   documentation
+
 
 
 

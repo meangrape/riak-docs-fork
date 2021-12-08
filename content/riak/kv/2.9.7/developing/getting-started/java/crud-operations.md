@@ -17,7 +17,6 @@ aliases:
   - /riakkv/latest/developing/getting-started/java/crud-operations/
 ---
 
-
 ## Creating Objects in Riak
 
 The first object that we create is a very basic object with a content
@@ -204,5 +203,6 @@ For more in depth information on updating objects and sibling resolution in
 Riak, see [Updating Objects]({{<baseurl>}}riak/kv/2.9.7/developing/usage/updating-objects/)
 and [Conflict Resolution]({{<baseurl>}}riak/kv/2.9.7/developing/usage/conflict-resolution/)
 documention.
+
 
 

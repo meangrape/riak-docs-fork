@@ -16,7 +16,6 @@ aliases:
   - /riakkv/latest/using/reference/v2-multi-datacenter/
 ---
 
-
 [v2 mdc arch]: ./architecture
 [v2 mdc fullsync]: ./scheduling-fullsync
 
@@ -38,5 +37,6 @@ Overview of the architecture undergirding Riak's Multi-Datacenter Replication ca
 Brief tutorial on scheduling fullsync operations.
 
 [Learn More >>][v2 mdc fullsync]
+
 
 

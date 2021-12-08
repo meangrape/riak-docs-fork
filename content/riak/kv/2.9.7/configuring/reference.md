@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/configuring/reference/
 ---
 
-
 [concept clusters]: ../../learn/concepts/clusters
 [plan backend bitcask]: ../../setup/planning/backend/bitcask
 [config backend bitcask]: ../../setup/planning/backend/bitcask/#configuring-bitcask
@@ -157,35 +156,30 @@ Riak enables you to choose from the following storage backends:
   - /riak/kv/latest/configuring/reference/
   - /riakkv/latest/configuring/reference/
 ---
-
 [configuration][config backend bitcask]
 * [LevelDB][plan backend leveldb]
   - /riak/latest/configuring/reference/
   - /riak/kv/latest/configuring/reference/
   - /riakkv/latest/configuring/reference/
 ---
-
 [configuration][config backend leveldb]
 * [Leveled][plan backend leveled]
   - /riak/latest/configuring/reference/
   - /riak/kv/latest/configuring/reference/
   - /riakkv/latest/configuring/reference/
 ---
-
 [configuration][config backend leveled]
 * [Memory][plan backend memory]
   - /riak/latest/configuring/reference/
   - /riak/kv/latest/configuring/reference/
   - /riakkv/latest/configuring/reference/
 ---
-
 [configuration][config backend memory]
 * [Multi][plan backend multi]
   - /riak/latest/configuring/reference/
   - /riak/kv/latest/configuring/reference/
   - /riakkv/latest/configuring/reference/
 ---
-
 [configuration][config backend multi]
 
 <table class="riak-conf">
@@ -2062,5 +2056,6 @@ Field | Default | Valid values |
 `cluster.job.riak_kv.secondary_index`|`enabled`|`enabled` or `disabled`
 `cluster.job.riak_search.query`|`enabled`|`enabled` or `disabled`
 `cluster.job.yokozuna.query`|`enabled`|`enabled` or `disabled`
+
 
 

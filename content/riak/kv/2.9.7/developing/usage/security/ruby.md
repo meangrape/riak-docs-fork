@@ -19,7 +19,6 @@ aliases:
   - /riakkv/latest/developing/usage/security/ruby/
 ---
 
-
 This tutorial shows you how to set up a Riak Ruby client to authenticate
 itself when connecting to Riak.
 
@@ -160,5 +159,6 @@ Protocol
 the OCSP endpoint will automatically be checked. If that endpoint is not
 available or if checking is running slowly, you can disable OCSP
 checking by setting `ocsp` to `false` in the `authentication` hash.
+
 
 

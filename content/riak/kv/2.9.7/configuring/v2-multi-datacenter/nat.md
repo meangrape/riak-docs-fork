@@ -20,7 +20,6 @@ aliases:
   - /riakkv/latest/configuring/v2-multi-datacenter/nat/
 ---
 
-
 [config v2 ssl]: {{<baseurl>}}riak/kv/2.9.7/configuring/v2-multi-datacenter/ssl
 
 {{% note title="Deprecation Warning" %}}
@@ -80,5 +79,6 @@ Configure a site (client) on Server C:
 ```bash
 riak-repl add-site 192.168.1.10 9010 server_a_to_c
 ```
+
 
 

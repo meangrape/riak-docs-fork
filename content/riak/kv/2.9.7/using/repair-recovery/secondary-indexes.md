@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/using/repair-recovery/secondary-indexes/
 ---
 
-
 The `riak-admin repair-2i` command can be used to repair any stale or missing secondary indexes.  This command scans and repairs any mismatches between the secondary index data used for querying and the secondary index data stored in the Riak objects. It can be run on all partitions of a node or on a subset of them.  We recommend scheduling these repairs outside of peak load time.
 
 ### Running a Repair
@@ -140,5 +139,6 @@ Repairs are not allowed to occur during ownership changes.  Since
 ownership entails the moving of partition data it is safest to make
 them mutually exclusive events.  If you join or remove a node all
 repairs across the entire cluster will be killed.
+
 
 

@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/http/list-keys/
 ---
 
-
 Lists keys in a bucket.
 
 {{% note title="Not for production use" %}}
@@ -78,5 +77,6 @@ thinking.png","victory.gif","slides","joyent.png","seancribbs-small.jpg","
 trollface.jpg","riak_logo_animated1.gif","victory.jpg","challenge.png","
 team_cribbs.png"]}
 ```
+
 
 

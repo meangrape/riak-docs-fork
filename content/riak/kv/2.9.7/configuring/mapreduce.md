@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/configuring/mapreduce/
 ---
 
-
 [usage mapreduce]: {{<baseurl>}}riak/kv/2.9.7/developing/usage/mapreduce
 [config reference#appconfig]: {{<baseurl>}}riak/kv/2.9.7/configuring/reference/#app-config
 [usage secondary-indexes]: {{<baseurl>}}riak/kv/2.9.7/developing/usage/secondary-indexes
@@ -198,5 +197,6 @@ Pre-reduce may also be enabled or disabled on a per-phase basis via the Erlang A
 > **Warning:**
 >
 >A known bug in Riak 1.0.0 prevents per-phase pre-reduce from being enabled over HTTP.  This bug also prevents per-phase pre-reduce from being enabled for Javascript phases.  Use the global app.config flag for these cases. This bug was fixed in 1.0.1.
+
 
 

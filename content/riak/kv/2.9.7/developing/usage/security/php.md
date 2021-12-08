@@ -19,7 +19,6 @@ aliases:
   - /riakkv/latest/developing/usage/security/php/
 ---
 
-
 This tutorial shows you how to set up a Riak PHP client to authenticate
 itself when connecting to Riak.
 
@@ -120,5 +119,6 @@ $riak = new Riak([$node]);
 
 Certificate-based authentication is not currently supported in the
 official Riak PHP client due to limitations in the HTTP interface.
+
 
 

@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/http/set-bucket-props/
 ---
 
-
 Sets bucket properties like "n_val" and "allow_mult".
 
 ## Request
@@ -114,5 +113,6 @@ OpenSSL/0.9.8l zlib/1.2.3
 * Connection #0 to host 127.0.0.1 left intact
 * Closing connection #0
 ```
+
 
 

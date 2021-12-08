@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/protocol-buffers/dt-store/
 ---
 
-
 A request to update the value of a [Riak Data Type]({{<baseurl>}}riak/kv/2.9.7/developing/data-types).
 
 ## Request
@@ -130,5 +129,6 @@ message MapEntry {
     repeated MapEntry map_value      = 6;
 }
 ```
+
 
 

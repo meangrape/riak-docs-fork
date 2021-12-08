@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/http/store-search-schema/
 ---
 
-
 Creates a new Riak [Search schema]({{<baseurl>}}riak/kv/2.9.7/developing/usage/search-schemas).
 
 ## Request
@@ -47,7 +46,6 @@ curl -XPUT http://localhost:8098/search/schema/my_custom_schema \
   - /riak/kv/latest/developing/api/http/store-search-schema/
   - /riakkv/latest/developing/api/http/store-search-schema/
 ---
-
 The schema has been successfully created
 
 ## Typical Error Codes
@@ -57,7 +55,6 @@ The schema has been successfully created
   - /riak/kv/latest/developing/api/http/store-search-schema/
   - /riakkv/latest/developing/api/http/store-search-schema/
 ---
-
 The schema cannot be created because there is
     something wrong with the schema itself, e.g. an XML formatting error
     that makes Riak Search unable to parse the schema
@@ -66,7 +63,6 @@ The schema cannot be created because there is
   - /riak/kv/latest/developing/api/http/store-search-schema/
   - /riakkv/latest/developing/api/http/store-search-schema/
 ---
-
 The schema cannot be created because there is
     already a schema with that name
 * `503 Service Unavailable`
@@ -74,7 +70,7 @@ The schema cannot be created because there is
   - /riak/kv/latest/developing/api/http/store-search-schema/
   - /riakkv/latest/developing/api/http/store-search-schema/
 ---
-
 The request timed out internally
+
 
 

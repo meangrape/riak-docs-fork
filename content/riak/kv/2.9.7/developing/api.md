@@ -16,7 +16,6 @@ aliases:
   - /riakkv/latest/developing/api/
 ---
 
-
 [dev api http]: ./http
 [dev api backend]: ./backend
 [dev api pbc]: ./protocol-buffers/
@@ -40,5 +39,6 @@ Information on Riak KV's Protocol Buffer Client API
 Overview of Riak KV's storage backend API.
 
 [Learn More >>][dev api backend]
+
 
 

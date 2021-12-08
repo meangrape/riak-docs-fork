@@ -20,7 +20,6 @@ aliases:
   - /riakkv/latest/using/reference/v3-multi-datacenter/aae/
 ---
 
-
 [glossary aae]: {{<baseurl>}}riak/kv/2.9.7/learn/glossary/#active-anti-entropy-aae
 [config reference#advanced]: {{<baseurl>}}riak/kv/2.9.7/configuring/reference/#advanced-configuration
 [concept clusters]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/clusters
@@ -127,5 +126,6 @@ To enable AAE w/ Version 3 MDC Replication:
              % ...
             ]}
 ```
+
 
 

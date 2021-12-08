@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/usage/security/
 ---
 
-
 Versions of Riak 2.0 and later come equipped with a [security subsystem]({{<baseurl>}}riak/kv/2.9.7/using/security/basics) that enables you to choose
 
 * which Riak users/clients are authorized to perform a wide variety of
@@ -101,5 +100,6 @@ Private key | `key.pem`
 CA-generated cert | `cert.pem`
 
 These filenames will be used in the client-library-specific tutorials.
+
 
 

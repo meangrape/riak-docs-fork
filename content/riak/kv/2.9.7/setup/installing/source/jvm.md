@@ -22,7 +22,6 @@ aliases:
   - /riakkv/latest/setup/installing/source/jvm/
 ---
 
-
 [usage search]: {{<baseurl>}}riak/kv/2.9.7/developing/usage/search
 
 If you are using [Riak Search 2.0][usage search], codename Yokozuna,
@@ -53,5 +52,6 @@ for `localhost` using
 ```bash
 scutil --set HostName "localhost"
 ```
+
 
 

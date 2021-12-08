@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/using/reference/handoff/
 ---
 
-
 [cluster ops handoff]: {{<baseurl>}}riak/kv/2.9.7/using/cluster-operations/handoff
 
 Riak is a distributed system built with two essential goals in mind:
@@ -199,5 +198,6 @@ handoff.inbound = off
 ### Enabling and Disabling Through the Command Line
 
 Check out the [Cluster Operations: Handoff][cluster ops handoff] for steps on enabling and disabling handoff via the command line.
+
 
 

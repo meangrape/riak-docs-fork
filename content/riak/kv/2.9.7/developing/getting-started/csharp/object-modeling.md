@@ -19,7 +19,6 @@ aliases:
   - /riakkv/latest/developing/getting-started/csharp/object-modeling/
 ---
 
-
 To get started, refer to [this source code][1] for the models that we'll
 be using.
 
@@ -108,6 +107,7 @@ So to recap, in this chapter we learned:
 [2]: https://github.com/basho/taste-of-riak/tree/master/csharp/Ch03-Msgy-Schema/Repositories
 [3]: https://github.com/basho/taste-of-riak/blob/master/csharp/Ch03-Msgy-Schema/Program.cs
 [iso_8601]: http://en.wikipedia.org/wiki/ISO_8601
+
 
 
 

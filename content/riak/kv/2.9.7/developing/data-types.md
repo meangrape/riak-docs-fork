@@ -21,7 +21,6 @@ aliases:
   - /riakkv/latest/developing/data-types/
 ---
 
-
 [wiki crdt]: https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type#Others
 [concept crdt]: ../../learn/concepts/crdts
 [ops bucket type]: ../../using/cluster-operations/bucket-types
@@ -277,5 +276,6 @@ the search platform behind Riak Search.
 
 In our Search documentation we offer a [full tutorial](../usage/searching-data-types) as well as a variety of [examples](../usage/searching-data-types/), including code
 samples from each of our official client libraries.
+
 
 

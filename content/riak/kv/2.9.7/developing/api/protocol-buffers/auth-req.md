@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/protocol-buffers/auth-req/
 ---
 
-
 Sends a username (`user`) and password (`password`) to Riak as part of
 an authentication request. Both values are sent as binaries.
 
@@ -32,5 +31,6 @@ message RpbAuthReq {
 ```
 
 For more on authentication, see our documentation on [Authentication and Authorization]({{<baseurl>}}riak/kv/2.9.7/using/security/basics).
+
 
 

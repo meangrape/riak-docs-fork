@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/add-ons/redis/using-rra/
 ---
 
-
 [addon redis develop]: ../developing-rra/
 [addon redis setup]: ../set-up-rra/
 [dev api http]: {{<baseurl>}}riak/kv/2.9.7/developing/api/http/
@@ -244,5 +243,6 @@ As with RRA, Redis statistics available on the Redis client port allow for monit
 * Custom - http://volumelabs.net/redis_monitoring/
 * NewRelic - http://newrelic.com/plugins/poison-pen-llc/28
 * Nagios - https://exchange.nagios.org/directory/Plugins/Databases/check_redis-2Epl/details
+
 
 

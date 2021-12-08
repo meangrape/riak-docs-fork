@@ -17,7 +17,6 @@ aliases:
   - /riakkv/latest/developing/getting-started/csharp/crud-operations/
 ---
 
-
 ### Creating Objects In Riak
 
 Pinging a Riak cluster sounds like a lot of fun, but eventually someone is going to want us to do productive work. Let's create a class to represent some data and save some objects into Riak.
@@ -146,5 +145,6 @@ else
 Just like other operations, we check the results that have come back from Riak to make sure the object was successfully deleted.
 
 The Riak .NET Client has a lot of additional functionality that makes it easy to build rich, complex applications with Riak. Check out the [documentation](https://github.com/basho/riak-dotnet-client/wiki) to learn more about working with the Riak .NET Client and Riak.
+
 
 

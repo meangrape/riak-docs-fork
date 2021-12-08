@@ -16,7 +16,6 @@ aliases:
   - /riakkv/latest/using/reference/strong-consistency/
 ---
 
-
 [usage bucket types]: {{<baseurl>}}riak/kv/2.9.7/developing/usage/bucket-types
 [concept eventual consistency]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/eventual-consistency
 
@@ -148,5 +147,6 @@ which can entail a performance hit of varying proportions, depending on
 a variety of factors.
 
 Ways to address this issue can be found in [strong consistency and performance]({{<baseurl>}}riak/kv/2.9.7/configuring/strong-consistency/#performance).
+
 
 

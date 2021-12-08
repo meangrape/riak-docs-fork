@@ -16,7 +16,6 @@ aliases:
   - /riakkv/latest/learn/concepts/
 ---
 
-
 [concept aae]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/active-anti-entropy
 [concept buckets]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/buckets
 [concept cap neg]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/capability-negotiation
@@ -47,5 +46,6 @@ Learn more about:
 * [Keys and Objects][concept keys objects]
 * [Replication][concept replication]
 * [Virtual Nodes (vnodes)][concept vnodes]
+
 
 

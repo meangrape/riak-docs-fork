@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/protocol-buffers/
 ---
 
-
 This is an overview of the operations you can perform using the
 [Protocol Buffers](https://code.google.com/p/protobuf/) Client (PBC)
 interface to Riak, and can be used as a guide for developing a
@@ -142,14 +141,12 @@ message RpbErrorResp {
   - /riak/kv/latest/developing/api/protocol-buffers/
   - /riakkv/latest/developing/api/protocol-buffers/
 ---
-
 A string representation of what went wrong
 * `errcode`
   - /riak/latest/developing/api/protocol-buffers/
   - /riak/kv/latest/developing/api/protocol-buffers/
   - /riakkv/latest/developing/api/protocol-buffers/
 ---
-
 A numeric code. Currently, only `RIAKC_ERR_GENERAL=1`
   is defined.
 
@@ -199,5 +196,6 @@ A numeric code. Currently, only `RIAKC_ERR_GENERAL=1`
 * [PBC Yokozuna Index Delete]({{<baseurl>}}riak/kv/2.9.7/developing/api/protocol-buffers/yz-index-delete)
 * [PBC Yokozuna Schema Get]({{<baseurl>}}riak/kv/2.9.7/developing/api/protocol-buffers/yz-schema-get)
 * [PBC Yokozuna Schema Put]({{<baseurl>}}riak/kv/2.9.7/developing/api/protocol-buffers/yz-schema-put)
+
 
 

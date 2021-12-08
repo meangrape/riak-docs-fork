@@ -19,7 +19,6 @@ aliases:
 ---
 
 
-
 [apps replication properties]: {{<baseurl>}}riak/kv/2.9.7/developing/app-guide/replication-properties
 [Basho Bench]: {{<baseurl>}}riak/kv/2.9.7/using/performance/benchmarking
 [cluster ops strong consistency]: {{<baseurl>}}riak/kv/2.9.7/using/cluster-operations/strong-consistency
@@ -223,5 +222,6 @@ according to which the majority of nodes must respond.
 
 There is more on [replication properties][apps replication properties] elsewhere in the
 documentation.
+
 
 

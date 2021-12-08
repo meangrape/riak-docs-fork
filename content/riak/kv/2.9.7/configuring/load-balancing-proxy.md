@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/configuring/load-balancing-proxy/
 ---
 
-
 [perf open files]: {{<baseurl>}}riak/kv/2.9.7/using/performance/open-files-limit
 
 The recommended best practice for operating Riak in production is to
@@ -273,5 +272,6 @@ queries over HTTP by adding the following directive to the appropriate
 ```
 underscores_in_headers on;
 ```
+
 
 

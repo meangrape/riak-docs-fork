@@ -13,9 +13,9 @@ toc: true
 aliases:
   - /riak/kv/latest/setup/upgrading/
   - /riak/latest/setup/upgrading/
+  - /riak/kv/latest/setup/upgrading/
   - /riakkv/latest/setup/upgrading/
 ---
-
 
 [upgrade checklist]: ./checklist
 [upgrade version]: ./version
@@ -36,5 +36,6 @@ An overview of what to consider before upgrading Riak KV in a production environ
 A tutorial on updating to Riak KV 2.9.7
 
 [Learn More >>][upgrade version]
+
 
 

@@ -19,7 +19,6 @@ aliases:
   - /riakkv/latest/developing/getting-started/golang/querying/
 ---
 
-
 ## Go Version Setup
 
 For the Go version, please download the source from GitHub by either [cloning](https://github.com/basho/taste-of-riak) the source code repository or downloading the [current zip of the master branch](https://github.com/basho/taste-of-riak/archive/master.zip). Ensure that the source is located in your `GOPATH`. The code for this chapter is in `go/ch02/ch02.go`. You may import this code into your favorite editor, or just run it from the command line using the `Makefile` if you are running on a *nix* OS.
@@ -578,5 +577,6 @@ So to recap:
 * Indexes can have either Integer or Binary(String) keys.
 * You can search for specific values or a range of values.
 * Riak will return a list of keys that match the index query.
+
 
 

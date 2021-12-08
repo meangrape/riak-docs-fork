@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/configuring/basic/
 ---
 
-
 [config reference]: {{<baseurl>}}riak/kv/2.9.7/configuring/reference
 [use running cluster]: {{<baseurl>}}riak/kv/2.9.7/using/running-a-cluster
 [use admin riak-admin#member-status]: {{<baseurl>}}riak/kv/2.9.7/using/admin/riak-admin/#member-status
@@ -237,5 +236,6 @@ cluster.
 ## Joining the nodes together
 
 Please see [Running A Cluster][use running cluster] for the cluster creation process.
+
 
 

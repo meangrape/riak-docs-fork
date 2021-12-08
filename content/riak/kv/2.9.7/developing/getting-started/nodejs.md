@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/getting-started/nodejs/
 ---
 
-
 [introduction.js]: https://github.com/basho/riak-nodejs-client-examples/blob/master/dev/taste-of-riak/introduction.js
 [npm]: https://www.npmjs.com/package/basho-riak-client
 [node_js_installation]: https://github.com/basho/riak-nodejs-client/wiki/Installation
@@ -102,5 +101,6 @@ We are now ready to start interacting with Riak.
 ## Next Steps
 
 [CRUD Operations]({{<baseurl>}}riak/kv/2.9.7/developing/getting-started/nodejs/crud-operations)
+
 
 

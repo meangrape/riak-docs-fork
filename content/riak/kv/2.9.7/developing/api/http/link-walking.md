@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/http/link-walking/
 ---
 
-
 {{% note title="Deprecation Warning" %}}
 This feature is deprecated and will be removed in a future version.
 {{% /note %}}
@@ -127,5 +126,6 @@ Last-Modified: Wed, 10 Mar 2010 18:11:41 GMT
 * Connection #0 to host 127.0.0.1 left intact
 * Closing connection #0
 ```
+
 
 

@@ -18,7 +18,6 @@ aliases:
 ---
 
 
-
 ## Creating Objects
 
 First let’s create a few objects and a bucket to keep them in:
@@ -374,5 +373,6 @@ Now, let’s delete the book:
 ```golang
 ...
 ```
+
 
 

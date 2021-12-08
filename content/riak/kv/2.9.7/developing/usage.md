@@ -16,7 +16,6 @@ aliases:
   - /riakkv/latest/developing/usage/
 ---
 
-
 ## In This Section
 
 #### [Creating Objects](./creating-objects)
@@ -136,5 +135,6 @@ Documentation on replication properties and their underlying implementation.
 Guide to conflict resolution during object updates.
 
 [Learn More >>](./conflict-resolution)
+
 
 

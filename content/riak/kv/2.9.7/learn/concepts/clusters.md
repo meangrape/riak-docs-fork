@@ -21,7 +21,6 @@ aliases:
 ---
 
 
-
 [concept buckets]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/buckets
 [concept keys objects]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/keys-and-objects
 [concept replication]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/replication
@@ -115,5 +114,6 @@ protocol." Whenever a node changes its claim on the ring, it announces,
 i.e. "gossips," this change to other nodes so that the other nodes can
 respond appropriately. Nodes also periodically re-announce what they
 know about ring in case any nodes happened to miss previous updates.
+
 
 

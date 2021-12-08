@@ -20,7 +20,6 @@ aliases:
   - /riakkv/latest/configuring/v3-multi-datacenter/nat/
 ---
 
-
 [config v3 ssl]: {{<baseurl>}}riak/kv/2.9.7/configuring/v3-multi-datacenter/ssl
 
 Riak's Version 3 Replication supports replication of data on
@@ -169,5 +168,6 @@ riak-repl realtime enable Cluster_C
 riak-repl realtime start Cluster_B
 riak-repl realtime start Cluster_C
 ```
+
 
 

@@ -17,7 +17,6 @@ aliases:
   - /riakkv/latest/developing/getting-started/erlang/crud-operations/
 ---
 
-
 ## Creating Objects In Riak
 
 First, let’s create a few Riak objects. For these examples we'll be
@@ -170,5 +169,6 @@ Next let’s clean up our mess:
 riakc_pb_socket:delete(Pid, <<"books">>, <<"1111979723">>).
 riakc_pb_socket:stop(Pid).
 ```
+
 
 

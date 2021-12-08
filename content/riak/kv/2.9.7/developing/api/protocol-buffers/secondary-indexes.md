@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/protocol-buffers/secondary-indexes/
 ---
 
-
 Request a set of keys that match a secondary index query.
 
 ## Request
@@ -123,5 +122,6 @@ RpbIndexResp protoc decode:
 keys: "hen"
 keys: "rooster"
 ```
+
 
 

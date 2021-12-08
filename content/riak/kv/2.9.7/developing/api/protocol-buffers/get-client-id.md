@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/api/protocol-buffers/get-client-id/
 ---
 
-
 {{% note title="Deprecation notice" %}}
 The use of client IDs in conflict resolution is now deprecated in Riak. If you
 are building or maintaining a Riak client that is intended to be compatible
@@ -63,5 +62,6 @@ Erlang <<0,0,0,7,4,10,4,1,101,1,181>>
 RpbGetClientIdResp protoc decode:
 client_id: "001e001265"
 ```
+
 
 

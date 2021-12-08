@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/using/reference/multi-datacenter/statistics/
 ---
 
-
 The following definitions describe the output of `riak-repl status`.
 Both Version 2 and Version 3 Replication statistics can be obtained
 using the `riak-repl status` command.
@@ -242,5 +241,6 @@ A simple way to view formatted statistics is to use a command such as:
 ```curl
 curl -q http://127.0.0.1:8098/riak-repl/stats | json_pp
 ```
+
 
 

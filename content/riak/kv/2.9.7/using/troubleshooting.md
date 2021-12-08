@@ -16,7 +16,6 @@ aliases:
   - /riakkv/latest/using/troubleshooting/
 ---
 
-
 [http 204]: ./http-204
 
 ## In This Section
@@ -26,5 +25,6 @@ aliases:
 About the HTTP 204 response.
 
 [Learn More >>][http 204]
+
 
 

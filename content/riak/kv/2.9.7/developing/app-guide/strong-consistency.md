@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/developing/app-guide/strong-consistency/
 ---
 
-
 [use ref strong consistency]: {{<baseurl>}}riak/kv/2.9.7/using/reference/strong-consistency
 [concept eventual consistency]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/eventual-consistency
 [use ref strong consistency#trade-offs]: {{<baseurl>}}riak/kv/2.9.7/using/reference/strong-consistency/#trade-offs
@@ -259,5 +258,6 @@ continue to fail.
 A future version of Riak will address these issues by modifying the
 server API to more accurately report errors specific to strongly
 consistent operations.
+
 
 

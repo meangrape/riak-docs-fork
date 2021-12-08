@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/using/admin/
 ---
 
-
 [use admin commands]: ./commands/
 [use admin riak cli]: ./riak-cli/
 [use admin riak-admin]: ./riak-admin/
@@ -49,5 +48,6 @@ Covers the `riak` interface, which enables control of the processes associated w
 Overview of Riak Control, a web-based administrative console for Riak clusters.
 
 [Learn More >>][use admin riak control]
+
 
 

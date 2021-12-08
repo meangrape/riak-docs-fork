@@ -19,7 +19,6 @@ aliases:
   - /riakkv/latest/developing/getting-started/java/object-modeling/
 ---
 
-
 To get started, let's create the models that we'll be using.
 
 ```java
@@ -430,5 +429,6 @@ So to recap, in this chapter we learned:
 
 * How to choose bucket names
 * How to choose natural keys based on how we want to partition our data
+
 
 

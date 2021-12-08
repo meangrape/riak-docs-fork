@@ -16,7 +16,6 @@ aliases:
   - /riakkv/latest/using/reference/v3-multi-datacenter/
 ---
 
-
 [v3 mdc arch]: ./architecture
 [v3 mdc aae]: ./aae
 [v3 mdc cascade]: ./cascading-writes
@@ -50,5 +49,6 @@ Details the cascading realtime writes feature.
 Brief tutorial on scheduling fullsync operations.
 
 [Learn More >>][v3 mdc fullsync]
+
 
 

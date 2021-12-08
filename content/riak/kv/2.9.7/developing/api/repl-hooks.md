@@ -19,7 +19,6 @@ aliases:
   - /riak/kv/latest/developing/api/repl-hooks/
   - /riakkv/latest/developing/api/repl-hooks/
 ---
-
 [object]: https://github.com/basho/riak_kv/blob/master/src/riak_object.erl 
 
 This document is a guide to developing extensions for Riak's
@@ -193,6 +192,7 @@ hook:
 ```bash
 -run riak_replication_hook_sample register
 ```
+
 
 
 

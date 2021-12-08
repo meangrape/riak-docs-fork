@@ -16,7 +16,6 @@ aliases:
   - /riakkv/latest/developing/usage/content-types/
 ---
 
-
 Riak KV is a fundamentally content-agnostic database. You can use it to
 store anything you want, from JSON to XML to HTML to binaries to images
 and beyond. It's important to note that _all_ objects stored in
@@ -190,5 +189,6 @@ curl -XPUT \
 # Please note that POST is also a valid method for writes, for the sake
 # of compatibility
 ```
+
 
 

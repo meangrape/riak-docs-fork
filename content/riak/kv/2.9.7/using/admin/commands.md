@@ -18,7 +18,6 @@ aliases:
   - /riakkv/latest/using/admin/commands/
 ---
 
-
 [use admin riak-admin#cluster]: {{<baseurl>}}riak/kv/2.9.7/using/admin/riak-admin/#cluster
 [concept clusters]: {{<baseurl>}}riak/kv/2.9.7/learn/concepts/clusters
 [cluster ops add remove node]: {{<baseurl>}}riak/kv/2.9.7/using/cluster-operations/adding-removing-nodes
@@ -93,21 +92,18 @@ The following information is then displayed for each node, by nodename
   - /riak/kv/latest/using/admin/commands/
   - /riakkv/latest/using/admin/commands/
 ---
-
 There are five possible values for status:
   * `valid`
   - /riak/latest/using/admin/commands/
   - /riak/kv/latest/using/admin/commands/
   - /riakkv/latest/using/admin/commands/
 ---
-
 The node has begun participating in cluster operations
   * `leaving`
   - /riak/latest/using/admin/commands/
   - /riak/kv/latest/using/admin/commands/
   - /riakkv/latest/using/admin/commands/
 ---
-
 The node is is currently unloading ownership of its
     [data partitions][concept clusters] to other nodes
   * `exiting`
@@ -115,7 +111,6 @@ The node is is currently unloading ownership of its
   - /riak/kv/latest/using/admin/commands/
   - /riakkv/latest/using/admin/commands/
 ---
-
 The node's ownership transfers are complete and it is
     currently shutting down
   * `joining`
@@ -123,7 +118,6 @@ The node's ownership transfers are complete and it is
   - /riak/kv/latest/using/admin/commands/
   - /riakkv/latest/using/admin/commands/
 ---
-
 The node is in the process of joining the cluster but
     but has not yet completed the join process
   * `down`
@@ -131,14 +125,12 @@ The node is in the process of joining the cluster but
   - /riak/kv/latest/using/admin/commands/
   - /riakkv/latest/using/admin/commands/
 ---
-
 The node is not currently responding
 * `avail`
   - /riak/latest/using/admin/commands/
   - /riak/kv/latest/using/admin/commands/
   - /riakkv/latest/using/admin/commands/
 ---
-
 There are two possible values: `up` if the node is
     available and taking requests and `down!` if the node is unavailable
 * `ring`
@@ -146,7 +138,6 @@ There are two possible values: `up` if the node is
   - /riak/kv/latest/using/admin/commands/
   - /riakkv/latest/using/admin/commands/
 ---
-
 What percentage of the Riak [ring][concept clusters] the
   node is responsible for
 * `pending`
@@ -154,7 +145,6 @@ What percentage of the Riak [ring][concept clusters] the
   - /riak/kv/latest/using/admin/commands/
   - /riakkv/latest/using/admin/commands/
 ---
-
 The number of pending transfers to or from the node
 
 In addition, the cluster's [claimant node][cluster ops add remove node] node will have a `(C)` next
@@ -430,5 +420,6 @@ the corresponding index:
 ```bash
 riak-admin cluster partition id=20
 ```
+
 
 
