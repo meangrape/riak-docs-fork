@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/references/protocol-buffers/fetch-object
   - /riak/kv/2.9.7/dev/references/protocol-buffers/fetch-object
-  - /riak/latest/developing/api/protocol-buffers/fetch-object/
-  - /riak/kv/latest/developing/api/protocol-buffers/fetch-object/
-  - /riakkv/latest/developing/api/protocol-buffers/fetch-object/
 ---
 
 Fetch an object from the specified bucket type/bucket/key location
@@ -227,6 +224,7 @@ content {
 }
 vclock: "k316a```314`312005R,254302[?e0%23452612354V267=312227005000"
 ```
+
 
 
 

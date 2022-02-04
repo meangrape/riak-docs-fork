@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/references/http/list-keys
   - /riak/kv/2.9.7/dev/references/http/list-keys
-  - /riak/latest/developing/api/http/list-keys/
-  - /riak/kv/latest/developing/api/http/list-keys/
-  - /riakkv/latest/developing/api/http/list-keys/
 ---
 
 Lists keys in a bucket.
@@ -77,6 +74,7 @@ thinking.png","victory.gif","slides","joyent.png","seancribbs-small.jpg","
 trollface.jpg","riak_logo_animated1.gif","victory.jpg","challenge.png","
 team_cribbs.png"]}
 ```
+
 
 
 

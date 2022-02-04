@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/taste-of-riak/nodejs
   - /riak/kv/2.9.7/dev/taste-of-riak/nodejs
-  - /riak/latest/developing/getting-started/nodejs/
-  - /riak/kv/latest/developing/getting-started/nodejs/
-  - /riakkv/latest/developing/getting-started/nodejs/
 ---
 
 [introduction.js]: https://github.com/basho/riak-nodejs-client-examples/blob/master/dev/taste-of-riak/introduction.js
@@ -101,6 +98,7 @@ We are now ready to start interacting with Riak.
 ## Next Steps
 
 [CRUD Operations]({{<baseurl>}}riak/kv/2.9.7/developing/getting-started/nodejs/crud-operations)
+
 
 
 

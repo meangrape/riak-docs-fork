@@ -131,6 +131,7 @@
     {{ if ( and $install_instructions_set $installing_page ) }}
 
     {{ $installing_uri := replace (printf "%s%s/%s/%s" $HugoNode.Site.BaseURL $version_path $install_instructions_set $installing_page) "//" "/" }}
+    {{ $installing_uri := replace $installing_uri "http:/localhost" "http://localhost" }}
 
           <tr>
             <td colspan="5" class="downloads__install-instructions">
@@ -144,7 +145,6 @@
         </table>
 
   {{end}}
-
 
   <!-- Range Over Source Packages Per Project
   =========================================== -->
@@ -177,6 +177,7 @@
     {{ if ( and $install_instructions_set $installing_page ) }}
 
       {{ $installing_uri := replace (printf "%s%s/%s/%s" $HugoNode.Site.BaseURL $version_path $install_instructions_set $installing_page) "//" "/" }}
+      {{ $installing_uri := replace $installing_uri "http:/localhost" "http://localhost" }}
 
             <tr>
               <td colspan="5" class="downloads__install-instructions">

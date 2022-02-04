@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/references/http/store-search-schema
   - /riak/kv/2.9.7/dev/references/http/store-search-schema
-  - /riak/latest/developing/api/http/store-search-schema/
-  - /riak/kv/latest/developing/api/http/store-search-schema/
-  - /riakkv/latest/developing/api/http/store-search-schema/
 ---
 
 Creates a new Riak [Search schema]({{<baseurl>}}riak/kv/2.9.7/developing/usage/search-schemas).
@@ -71,6 +68,7 @@ The schema cannot be created because there is
   - /riakkv/latest/developing/api/http/store-search-schema/
 ---
 The request timed out internally
+
 
 
 

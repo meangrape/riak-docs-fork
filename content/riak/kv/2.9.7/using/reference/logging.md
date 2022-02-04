@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.7/ops/running/logging
   - /riak/kv/2.9.7/ops/running/logging
-  - /riak/latest/using/reference/logging/
-  - /riak/kv/latest/using/reference/logging/
-  - /riakkv/latest/using/reference/logging/
 ---
 
 [cluster ops log]: {{<baseurl>}}riak/kv/2.9.7/using/cluster-operations/logging
@@ -343,6 +340,7 @@ The following four options are available:
 ## Enabling and Disabling Debug Logging
 
 Checkout [Cluster Operations: Enabling and Disabling Debug Logging][cluster ops log]
+
 
 
 

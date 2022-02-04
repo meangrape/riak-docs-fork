@@ -28,7 +28,7 @@ $css_dest   = "./static/css"
 $js_source  = "./dynamic/js"
 $js_dest    = "./static/js"
 $cache_dir  = "./dynamic/.cache"
-$hugo_dest  = "./public" # Should always be set to `publishdir` from config.yml
+$hugo_dest  = "./output" # Should always be set to `publishdir` from config.yml
 
 ### Rake directory definitions
 directory "#{$js_dest}"
@@ -48,7 +48,6 @@ if Gem::Version.new(min_ruby_version) > Gem::Version.new(RUBY_VERSION)
                "       Please upgrade this tool to at least version "\
                "#{min_ruby_version}.\n")
 end
-
 
 # Check if Hugo is installed, and confirm it's up to date.
 if (`which hugo`.empty?)
@@ -74,7 +73,7 @@ end
 # Default
 Rake::TaskManager.record_task_metadata = true
 task :default do
-  puts("Basho Documentation Generate System Usage:")
+  puts("Riak Documentation Generate System Usage:")
   puts("")
   Rake::application.options.show_tasks = :tasks  # this solves sidewaysmilk problem
   Rake::application.options.show_task_pattern = //

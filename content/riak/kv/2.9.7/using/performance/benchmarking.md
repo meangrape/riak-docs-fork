@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.7/ops/building/benchmarking
   - /riak/kv/2.9.7/ops/building/benchmarking
-  - /riak/latest/using/performance/benchmarking/
-  - /riak/kv/latest/using/performance/benchmarking/
-  - /riakkv/latest/using/performance/benchmarking/
 ---
 
 Basho Bench is a benchmarking tool created to conduct accurate and
@@ -724,6 +721,7 @@ run(Op, KeyGen, ValueGen, State) -> {ok, NewState} or {error, Reason, NewState}.
 See the [existing
 drivers](https://github.com/basho/basho_bench/tree/master/src) for
 more details.
+
 
 
 

@@ -16,10 +16,6 @@ aliases:
   - /riak/kv/2.9.7/ops/upgrading/rolling-upgrades/
   - /riak/kv/2.9.7/setup/upgrading/cluster/
 
-  - /riak/kv/latest/setup/upgrading/version/
-  - /riak/latest/setup/upgrading/version/
-  - /riak/kv/latest/setup/upgrading/version/
-  - /riakkv/latest/setup/upgrading/version/
 ---
 
 
@@ -261,6 +257,7 @@ riak-admin diag
 ```
 
 Make the recommended changes from the command output to ensure optimal node operation.
+
 
 
 

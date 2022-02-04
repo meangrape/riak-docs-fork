@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.7/ops/advanced/backends/leveldb/
   - /riak/kv/2.9.7/ops/advanced/backends/leveldb/
-  - /riak/latest/setup/planning/backend/leveldb/
-  - /riak/kv/latest/setup/planning/backend/leveldb/
-  - /riakkv/latest/setup/planning/backend/leveldb/
 ---
 
 [upgrade 2.0#upgrading-leveldB]: {{<baseurl>}}
@@ -513,6 +510,7 @@ automated.
 But if you'd like to use tiered storage in an existing installation that
 is not currently using it, you will need to manually move your
 installation's `.sst` files from one configuration to another.
+
 
 
 

@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/references/protocol-buffers
   - /riak/kv/2.9.7/dev/references/protocol-buffers
-  - /riak/latest/developing/api/protocol-buffers/
-  - /riak/kv/latest/developing/api/protocol-buffers/
-  - /riakkv/latest/developing/api/protocol-buffers/
 ---
 
 This is an overview of the operations you can perform using the
@@ -196,6 +193,7 @@ A numeric code. Currently, only `RIAKC_ERR_GENERAL=1`
 * [PBC Yokozuna Index Delete]({{<baseurl>}}riak/kv/2.9.7/developing/api/protocol-buffers/yz-index-delete)
 * [PBC Yokozuna Schema Get]({{<baseurl>}}riak/kv/2.9.7/developing/api/protocol-buffers/yz-schema-get)
 * [PBC Yokozuna Schema Put]({{<baseurl>}}riak/kv/2.9.7/developing/api/protocol-buffers/yz-schema-put)
+
 
 
 

@@ -14,9 +14,6 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/taste-of-riak/object-modeling-java
   - /riak/kv/2.9.7/dev/taste-of-riak/object-modeling-java
-  - /riak/latest/developing/getting-started/java/object-modeling/
-  - /riak/kv/latest/developing/getting-started/java/object-modeling/
-  - /riakkv/latest/developing/getting-started/java/object-modeling/
 ---
 
 To get started, let's create the models that we'll be using.
@@ -429,6 +426,7 @@ So to recap, in this chapter we learned:
 
 * How to choose bucket names
 * How to choose natural keys based on how we want to partition our data
+
 
 
 

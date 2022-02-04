@@ -16,10 +16,6 @@ aliases:
   - /riak/kv/2.9.7/ops/building/installing
   - /riak/2.9.7/installing/
   - /riak/kv/2.9.7/installing/
-  - /riak/kv/latest/setup/installing/
-  - /riak/latest/setup/installing/
-  - /riak/kv/latest/setup/installing/
-  - /riakkv/latest/setup/installing/
 ---
 
 [install aws]: {{<baseurl>}}riak/kv/2.9.7/setup/installing/amazon-web-services
@@ -58,6 +54,7 @@ Check out [Community Projects][community projects] for installing with tools suc
 ## Upgrading
 
 For information on upgrading an existing cluster see [Upgrading Riak KV][upgrade index].
+
 
 
 
