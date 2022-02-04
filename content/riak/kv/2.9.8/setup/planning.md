@@ -11,10 +11,6 @@ menu:
     parent: "setup_index"
 toc: true
 aliases:
-  - /riak/kv/latest/setup/planning/
-  - /riak/latest/setup/planning/
-  - /riak/kv/latest/setup/planning/
-  - /riakkv/latest/setup/planning/
 ---
 
 [plan start]: ./start
@@ -56,6 +52,7 @@ A calculator that will assist you in sizing your cluster if you plan to use the 
 A set of best practices that will enable you to improve performance and reliability at all stages in the life of your Riak KV cluster.
 
 [Learn More >>][plan best practices]
+
 
 
 

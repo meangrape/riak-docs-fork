@@ -14,9 +14,6 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/taste-of-riak/querying-nodejs
   - /riak/kv/2.9.7/dev/taste-of-riak/querying-nodejs
-  - /riak/latest/developing/getting-started/nodejs/querying/
-  - /riak/kv/latest/developing/getting-started/nodejs/querying/
-  - /riakkv/latest/developing/getting-started/nodejs/querying/
 ---
 
 ## Node.js Version Setup
@@ -143,6 +140,7 @@ So to recap:
 * Indexes can have either Integer or Binary(String) keys
 * You can search for specific values, or a range of values
 * Riak will return a list of keys that match the index query
+
 
 
 

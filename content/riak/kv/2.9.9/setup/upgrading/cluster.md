@@ -15,13 +15,6 @@ version_history:
 aliases:
   - /riak/2.9.9/ops/upgrading/rolling-upgrades/
   - /riak/kv/2.9.9/ops/upgrading/rolling-upgrades/
-  - /riak/latest/setup/upgrading/cluster/
-  - /riak/latest/ops/upgrading/rolling-upgrades/
-  - /riak/kv/latest/ops/advanced/upgrading-cluster
-  - /riak/kv/latest/setup/upgrading/cluster
-  - /riak/latest/setup/upgrading/cluster/
-  - /riak/kv/latest/setup/upgrading/cluster/
-  - /riakkv/latest/setup/upgrading/cluster/
 ---
 
 [production checklist]: {{<baseurl>}}riak/kv/2.9.9/setup/upgrading/checklist
@@ -339,6 +332,7 @@ riak-admin diag
 
 Make the recommended changes from the command output to ensure optimal
 node operation.
+
 
 
 

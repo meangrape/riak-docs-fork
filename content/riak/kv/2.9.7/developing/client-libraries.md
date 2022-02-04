@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/using/libraries
   - /riak/kv/2.9.7/dev/using/libraries
-  - /riak/latest/developing/client-libraries/
-  - /riak/kv/latest/developing/client-libraries/
-  - /riakkv/latest/developing/client-libraries/
 ---
 
 ## Basho-Supported Libraries
@@ -690,6 +687,7 @@ A Riak client for
 A Pharo Smalltalk interface to Riak. There is also a blog post
   with some additional info about the client
   [here](http://blog.epigent.com/2011/03/riak-interface-for-pharo-smalltalk.html).
+
 
 
 

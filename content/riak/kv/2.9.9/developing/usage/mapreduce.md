@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.9/dev/using/mapreduce
   - /riak/kv/2.9.9/dev/using/mapreduce
-  - /riak/latest/developing/usage/mapreduce/
-  - /riak/kv/latest/developing/usage/mapreduce/
-  - /riakkv/latest/developing/usage/mapreduce/
 ---
 
 [usage 2i]: {{<baseurl>}}riak/kv/2.9.9/developing/usage/secondary-indexes
@@ -253,6 +250,7 @@ counting the number of instances of the word.
 
 For more detailed information on MapReduce queries in Riak KV, we recommend
 checking out our [Advanced MapReduce][guide mapreduce] guide.
+
 
 
 

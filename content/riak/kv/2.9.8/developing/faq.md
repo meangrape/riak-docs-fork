@@ -14,9 +14,6 @@ toc: true
 aliases:
   - /riak/2.9.8/community/faqs/developing
   - /riak/kv/2.9.8/community/faqs/developing
-  - /riak/latest/developing/faq/
-  - /riak/kv/latest/developing/faq/
-  - /riakkv/latest/developing/faq/
 ---
 
 [[Basho Bench]: {{<baseurl>}}riak/kv/2.9.8/using/performance/benchmarking
@@ -764,6 +761,7 @@ if the connection is lost, `riakc_pb_socket` will attempt to reconnect automatic
   ```
 
   JSON has no "tuple" notion. For the time being, a recommended workaround would be to use a list of length-2 lists.
+
 
 
 

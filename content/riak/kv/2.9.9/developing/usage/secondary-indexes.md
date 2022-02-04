@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.9/dev/using/2i
   - /riak/kv/2.9.9/dev/using/2i
-  - /riak/latest/developing/usage/secondary-indexes/
-  - /riak/kv/latest/developing/usage/secondary-indexes/
-  - /riakkv/latest/developing/usage/secondary-indexes/
 ---
 
 [plan backend leveldb]: {{<baseurl>}}riak/kv/2.9.9/setup/planning/backend/leveldb
@@ -2047,6 +2044,7 @@ curl -XPOST localhost:8098/mapred\
 }
 EOF
 ```
+
 
 
 

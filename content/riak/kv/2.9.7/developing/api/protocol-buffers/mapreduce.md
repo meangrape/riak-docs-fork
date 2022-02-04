@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/references/protocol-buffers/mapreduce
   - /riak/kv/2.9.7/dev/references/protocol-buffers/mapreduce
-  - /riak/latest/developing/api/protocol-buffers/mapreduce/
-  - /riak/kv/latest/developing/api/protocol-buffers/mapreduce/
-  - /riakkv/latest/developing/api/protocol-buffers/mapreduce/
 ---
 
 Execute a MapReduce job.
@@ -170,6 +167,7 @@ RpbMapRedResp protoc decode:
 done: true
 
 ```
+
 
 
 

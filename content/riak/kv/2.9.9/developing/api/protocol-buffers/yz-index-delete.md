@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.9/dev/references/protocol-buffers/yz-index-delete
   - /riak/kv/2.9.9/dev/references/protocol-buffers/yz-index-delete
-  - /riak/latest/developing/api/protocol-buffers/yz-index-delete/
-  - /riak/kv/latest/developing/api/protocol-buffers/yz-index-delete/
-  - /riakkv/latest/developing/api/protocol-buffers/yz-index-delete/
 ---
 
 Delete a search index.
@@ -33,6 +30,7 @@ message RpbYokozunaIndexDeleteReq {
 ## Response
 
 Returns a [RpbDelResp]({{<baseurl>}}riak/kv/2.9.9/developing/api/protocol-buffers/#message-codes) code with no data on success.
+
 
 
 

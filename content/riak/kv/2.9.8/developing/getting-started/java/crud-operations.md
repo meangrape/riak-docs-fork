@@ -12,9 +12,6 @@ menu:
     parent: "getting_started_java"
 toc: true
 aliases:
-  - /riak/latest/developing/getting-started/java/crud-operations/
-  - /riak/kv/latest/developing/getting-started/java/crud-operations/
-  - /riakkv/latest/developing/getting-started/java/crud-operations/
 ---
 
 ## Creating Objects in Riak
@@ -203,6 +200,7 @@ For more in depth information on updating objects and sibling resolution in
 Riak, see [Updating Objects]({{<baseurl>}}riak/kv/2.9.8/developing/usage/updating-objects/)
 and [Conflict Resolution]({{<baseurl>}}riak/kv/2.9.8/developing/usage/conflict-resolution/)
 documention.
+
 
 
 

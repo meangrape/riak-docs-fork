@@ -15,10 +15,6 @@ aliases:
   - /riak/kv/2.9.9/intro-v20
   - /riak/2.9.9/intro-v20
   - /riak/kv/2.9.9/introduction
-  - /riak/kv/latest/release-notes/
-  - /riak/latest/release-notes/
-  - /riak/kv/latest/release-notes/
-  - /riakkv/latest/release-notes/
 ---
 
 Released Aug 16, 2020.
@@ -47,6 +43,7 @@ The system is now stable under specific load tests designed to trigger AAE failu
 ## Previous Release Notes
 
 Please see the KV 2.9.4 release notes [here]({{<baseurl>}}riak/kv/2.9.2/release-notes/), the KV 2.9.2 release notes [here]({{<baseurl>}}riak/kv/2.9.1/release-notes/), and the KV 2.9.1 release notes [here]({{<baseurl>}}riak/kv/2.9.0p5/release-notes/).
+
 
 
 

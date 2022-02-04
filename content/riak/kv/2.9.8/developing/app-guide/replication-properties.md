@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.8/dev/advanced/replication-properties
   - /riak/kv/2.9.8/dev/advanced/replication-properties
-  - /riak/latest/developing/app-guide/replication-properties/
-  - /riak/kv/latest/developing/app-guide/replication-properties/
-  - /riakkv/latest/developing/app-guide/replication-properties/
 ---
 
 [usage bucket types]: {{<baseurl>}}riak/kv/2.9.8/developing/usage/bucket-types
@@ -601,6 +598,7 @@ id="http://player.vimeo.com/video/11172656"></div>
 <a href="http://vimeo.com/11172656">Tuning CAP Controls in Riak</a> from
 <a href="http://vimeo.com/bashotech">Basho Technologies</a> on <a
 href="http://vimeo.com">Vimeo</a>.
+
 
 
 

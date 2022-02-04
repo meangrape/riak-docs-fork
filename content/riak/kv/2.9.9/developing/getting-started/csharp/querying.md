@@ -14,9 +14,6 @@ toc: true
 aliases:
   - /riak/2.9.9/dev/taste-of-riak/querying-csharp
   - /riak/kv/2.9.9/dev/taste-of-riak/querying-csharp
-  - /riak/latest/developing/getting-started/csharp/querying/
-  - /riak/kv/latest/developing/getting-started/csharp/querying/
-  - /riakkv/latest/developing/getting-started/csharp/querying/
 ---
 
 ## C Sharp Version Setup
@@ -211,6 +208,7 @@ So to recap:
 
 [taste_of_riak]: https://github.com/basho/taste-of-riak
 [master_zip]: https://github.com/basho/taste-of-riak/archive/master.zip
+
 
 
 

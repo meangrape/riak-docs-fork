@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.8/ops/running/security-sources
   - /riak/kv/2.9.8/ops/running/security-sources
-  - /riak/latest/using/security/managing-sources/
-  - /riak/kv/latest/using/security/managing-sources/
-  - /riakkv/latest/using/security/managing-sources/
 ---
 
 If you're looking for more general information on Riak Security, it may
@@ -270,6 +267,7 @@ output:
 
 As we can see, `password` is set as the security source for `riakuser`,
 whereas everyone else will authenticate using `certificate`.
+
 
 
 

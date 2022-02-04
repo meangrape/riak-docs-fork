@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.8/dev/references/http/delete-object
   - /riak/kv/2.9.8/dev/references/http/delete-object
-  - /riak/latest/developing/api/http/delete-object/
-  - /riak/kv/latest/developing/api/http/delete-object/
-  - /riakkv/latest/developing/api/http/delete-object/
 ---
 
 Deletes an object from the specified bucket / key.
@@ -76,6 +73,7 @@ $ curl -v -X DELETE http://127.0.0.1:8098/buckets/test/keys/test2
 * Connection #0 to host 127.0.0.1 left intact
 * Closing connection #0
 ```
+
 
 
 

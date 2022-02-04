@@ -11,9 +11,6 @@ menu:
     parent: "managing_cluster_operations"
 toc: true
 aliases:
-  - /riak/latest/using/cluster-operations/strong-consistency/
-  - /riak/kv/latest/using/cluster-operations/strong-consistency/
-  - /riakkv/latest/using/cluster-operations/strong-consistency/
 ---
 
 {{% note title="Please Note:" %}}
@@ -73,6 +70,7 @@ Stat | Description
 `consistent_put_time_95` | 95th-percentile time between reception of client PUTs to strongly consistent keys and subsequent response
 `consistent_put_time_99` | 99th-percentile time between reception of client PUTs to strongly consistent keys and subsequent response
 `consistent_put_time_100` | 100th-percentile time between reception of client PUTs to strongly consistent keys and subsequent response
+
 
 
 

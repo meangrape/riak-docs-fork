@@ -11,9 +11,6 @@ menu:
     parent: "developing_usage"
 toc: true
 aliases:
-  - /riak/latest/developing/usage/deleting-objects/
-  - /riak/kv/latest/developing/usage/deleting-objects/
-  - /riakkv/latest/developing/usage/deleting-objects/
 ---
 
 The delete command follows a predictable pattern and looks like this:
@@ -154,6 +151,7 @@ $response = (new \Basho\Riak\Command\Builder\FetchObject($riak))
 
 echo $response->getVclock(); // a85hYGBgzGDKBVI8m9WOeb835ZRhYCg1zGBKZM5jZdhnceAcXxYA
 ```
+
 
 
 

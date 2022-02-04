@@ -13,10 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.7/ops/upgrading/production-checklist/
   - /riak/kv/2.9.7/ops/upgrading/production-checklist/
-  - /riak/kv/latest/setup/upgrading/checklist/
-  - /riak/latest/setup/upgrading/checklist/
-  - /riak/kv/latest/setup/upgrading/checklist/
-  - /riakkv/latest/setup/upgrading/checklist/
 ---
 
 [perf open files]: {{<baseurl>}}riak/kv/2.9.7/using/performance/open-files-limit
@@ -222,6 +218,7 @@ trouble.
 When you go to increase capacity down the line, having historic metrics
 will give you very clear indicators of having resolved scaling problems,
 as well as metrics for understanding what to upgrade and when.
+
 
 
 

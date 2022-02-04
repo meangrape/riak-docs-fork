@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.8/ops/running/stats-and-monitoring
   - /riak/kv/2.9.8/ops/running/stats-and-monitoring
-  - /riak/latest/using/reference/statistics-monitoring/
-  - /riak/kv/latest/using/reference/statistics-monitoring/
-  - /riakkv/latest/using/reference/statistics-monitoring/
 ---
 
 Riak provides data related to current operating status, which includes
@@ -392,6 +389,7 @@ Docs](https://github.com/basho/basho_docs).
 [riak_zabbix]: https://github.com/basho/riak-zabbix
 [riak_new_relic]: https://github.com/basho/riak_newrelic
 [riak_ganglia]: https://github.com/jnewland/gmond_python_modules/tree/master/riak/
+
 
 
 

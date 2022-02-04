@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.7/ops/mdc/monitoring
   - /riak/kv/2.9.7/ops/mdc/monitoring
-  - /riak/latest/using/reference/multi-datacenter/monitoring/
-  - /riak/kv/latest/using/reference/multi-datacenter/monitoring/
-  - /riakkv/latest/using/reference/multi-datacenter/monitoring/
 ---
 
 Monitoring Riak's realtime replication allows you to identify trends and
@@ -177,6 +174,7 @@ It's important to note that each node in a cluster has its own realtime
 replication queue. The general process needs to be applied to every
 node in the source cluster, with a variety of canary objects and states,
 to get a complete picture of realtime replication between two clusters.
+
 
 
 

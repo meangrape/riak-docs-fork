@@ -11,9 +11,6 @@ menu:
     parent: "managing_ref"
 toc: true
 aliases:
-  - /riak/latest/using/reference/strong-consistency/
-  - /riak/kv/latest/using/reference/strong-consistency/
-  - /riakkv/latest/using/reference/strong-consistency/
 ---
 
 [usage bucket types]: {{<baseurl>}}riak/kv/2.9.8/developing/usage/bucket-types
@@ -147,6 +144,7 @@ which can entail a performance hit of varying proportions, depending on
 a variety of factors.
 
 Ways to address this issue can be found in [strong consistency and performance]({{<baseurl>}}riak/kv/2.9.8/configuring/strong-consistency/#performance).
+
 
 
 

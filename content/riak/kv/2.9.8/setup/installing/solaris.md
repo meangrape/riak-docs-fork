@@ -16,8 +16,6 @@ aliases:
   - /riak/kv/2.9.8/ops/building/installing/Installing-on-Solaris
   - /riak/2.9.8/installing/solaris/
   - /riak/kv/2.9.8/installing/solaris/
-  - /riak/kv/latest/setup/installing/solaris/
-  - /riak/kv/latest/installing/solaris/
 ---
 
 
@@ -90,3 +88,4 @@ If all responses indicate that riak is up and running, then you have successfull
 ## Next Steps
 
 Now that Riak is installed, check out [Verifying a Riak Installation][install verify].
+

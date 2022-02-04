@@ -15,9 +15,6 @@ commercial_offering: true
 aliases:
   - /riak/2.9.9/ops/mdc/v3/nat
   - /riak/kv/2.9.9/ops/mdc/v3/nat
-  - /riak/latest/configuring/v3-multi-datacenter/nat/
-  - /riak/kv/latest/configuring/v3-multi-datacenter/nat/
-  - /riakkv/latest/configuring/v3-multi-datacenter/nat/
 ---
 
 [config v3 ssl]: {{<baseurl>}}riak/kv/2.9.9/configuring/v3-multi-datacenter/ssl
@@ -168,6 +165,7 @@ riak-repl realtime enable Cluster_C
 riak-repl realtime start Cluster_B
 riak-repl realtime start Cluster_C
 ```
+
 
 
 

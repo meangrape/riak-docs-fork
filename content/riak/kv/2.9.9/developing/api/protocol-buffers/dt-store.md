@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.9/dev/references/protocol-buffers/dt-store
   - /riak/kv/2.9.9/dev/references/protocol-buffers/dt-store
-  - /riak/latest/developing/api/protocol-buffers/dt-store/
-  - /riak/kv/latest/developing/api/protocol-buffers/dt-store/
-  - /riakkv/latest/developing/api/protocol-buffers/dt-store/
 ---
 
 A request to update the value of a [Riak Data Type]({{<baseurl>}}riak/kv/2.9.9/developing/data-types).
@@ -129,6 +126,7 @@ message MapEntry {
     repeated MapEntry map_value      = 6;
 }
 ```
+
 
 
 

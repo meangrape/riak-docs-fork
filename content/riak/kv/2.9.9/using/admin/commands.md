@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.9/ops/running/cluster-admin
   - /riak/kv/2.9.9/ops/running/cluster-admin
-  - /riak/latest/using/admin/commands/
-  - /riak/kv/latest/using/admin/commands/
-  - /riakkv/latest/using/admin/commands/
 ---
 
 [use admin riak-admin#cluster]: {{<baseurl>}}riak/kv/2.9.9/using/admin/riak-admin/#cluster
@@ -420,6 +417,7 @@ the corresponding index:
 ```bash
 riak-admin cluster partition id=20
 ```
+
 
 
 

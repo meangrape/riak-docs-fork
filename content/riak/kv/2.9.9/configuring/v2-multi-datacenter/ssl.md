@@ -15,9 +15,6 @@ commercial_offering: true
 aliases:
   - /riak/2.9.9/ops/mdc/v2/ssl
   - /riak/kv/2.9.9/ops/mdc/v2/ssl
-  - /riak/latest/configuring/v2-multi-datacenter/ssl/
-  - /riak/kv/latest/configuring/v2-multi-datacenter/ssl/
-  - /riakkv/latest/configuring/v2-multi-datacenter/ssl/
 ---
 
 {{% note title="Deprecation Warning" %}}
@@ -161,6 +158,7 @@ guide](http://www.debian-administration.org/articles/618).
 
 Make sure that you remove the password protection from the keys you
 generate.
+
 
 
 

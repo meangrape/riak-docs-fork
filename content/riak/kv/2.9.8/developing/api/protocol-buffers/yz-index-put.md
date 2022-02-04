@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.8/dev/references/protocol-buffers/yz-index-put
   - /riak/kv/2.9.8/dev/references/protocol-buffers/yz-index-put
-  - /riak/latest/developing/api/protocol-buffers/yz-index-put/
-  - /riak/kv/latest/developing/api/protocol-buffers/yz-index-put/
-  - /riakkv/latest/developing/api/protocol-buffers/yz-index-put/
 ---
 
 Create a new index or modify an existing index.
@@ -45,6 +42,7 @@ binary (as `name`). Optionally, you can specify a [`schema`]({{<baseurl>}}riak/k
 ## Response
 
 Returns a [RpbPutResp]({{<baseurl>}}riak/kv/2.9.8/developing/api/protocol-buffers/#message-codes) code with no data on success.
+
 
 
 

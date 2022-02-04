@@ -11,9 +11,6 @@ menu:
     parent: "managing_repair_recover"
 toc: true
 aliases:
-  - /riak/latest/using/repair-recovery/rolling-replaces/
-  - /riak/kv/latest/using/repair-recovery/rolling-replaces/
-  - /riakkv/latest/using/repair-recovery/rolling-replaces/
 ---
 
 [upgrade]: {{<baseurl>}}riak/kv/2.9.9/setup/upgrading/cluster/
@@ -73,6 +70,7 @@ riak-admin transfers
 7\. Repeat steps 2-6 above until each node has been replaced.
 
 8\. Join the replaced node back into the cluster or decommission the additional node that was created.
+
 
 
 

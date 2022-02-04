@@ -11,10 +11,6 @@ menu:
     pre: install
 toc: false
 aliases:
-  - /riak/kv/latest/setup/
-  - /riak/latest/setup/
-  - /riak/kv/latest/setup/
-  - /riakkv/latest/setup/
 ---
 
 [plan index]: ../setup/planning
@@ -47,6 +43,7 @@ Guides on upgrading your Riak KV cluster.
 A guide on downgrading your Riak KV cluster.
 
 [Learn More >>][downgrade]
+
 
 
 

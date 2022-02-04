@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.9/ops/tuning/latency-reduction
   - /riak/kv/2.9.9/ops/tuning/latency-reduction
-  - /riak/latest/using/performance/latency-reduction/
-  - /riak/kv/latest/using/performance/latency-reduction/
-  - /riakkv/latest/using/performance/latency-reduction/
 ---
 
 Although latency is unavoidable in distributed systems like Riak, there
@@ -264,6 +261,7 @@ stored in Riak:
 You can set the object storage format using the `object.format`
 parameter: `0` selects Erlang's `term_to_binary` format while `1` (the
 default) selects the Riak-specific format.
+
 
 
 

@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.9/dev/references/protocol-buffers/delete-object
   - /riak/kv/2.9.9/dev/references/protocol-buffers/delete-object
-  - /riak/latest/developing/api/protocol-buffers/delete-object/
-  - /riak/kv/latest/developing/api/protocol-buffers/delete-object/
-  - /riakkv/latest/developing/api/protocol-buffers/delete-object/
 ---
 
 Delete an object in the specified [bucket type]({{<baseurl>}}riak/kv/2.9.9/using/cluster-operations/bucket-types)/bucket/key location.
@@ -101,6 +98,7 @@ Erlang <<0,0,0,1,14>>
 
 RpbDelResp - only message code defined
 ```
+
 
 
 

@@ -12,9 +12,6 @@ menu:
 toc: true
 commercial_offering: true
 aliases:
-  - /riak/latest/add-ons/redis/
-  - /riak/kv/latest/add-ons/redis/
-  - /riakkv/latest/add-ons/redis/
 ---
 
 
@@ -60,6 +57,7 @@ RRA is compatible with the following services:
 * [Use RRA with various clients.][addon redis use]
 * [Develop with RRA.][addon redis develop]
 * [Learn about RRA's features.][addon redis features]
+
 
 
 

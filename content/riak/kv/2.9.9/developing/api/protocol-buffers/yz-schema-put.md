@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.9/dev/references/protocol-buffers/yz-schema-put
   - /riak/kv/2.9.9/dev/references/protocol-buffers/yz-schema-put
-  - /riak/latest/developing/api/protocol-buffers/yz-schema-put/
-  - /riak/kv/latest/developing/api/protocol-buffers/yz-schema-put/
-  - /riakkv/latest/developing/api/protocol-buffers/yz-schema-put/
 ---
 
 Create a new Solr [search schema]({{<baseurl>}}riak/kv/2.9.9/developing/usage/search-schemas).
@@ -42,6 +39,7 @@ This message *must* include both the schema `name` and its Solr [search schema](
 ## Response
 
 Returns a [RpbPutResp]({{<baseurl>}}riak/kv/2.9.9/developing/api/protocol-buffers/#message-codes) code with no data on success.
+
 
 
 

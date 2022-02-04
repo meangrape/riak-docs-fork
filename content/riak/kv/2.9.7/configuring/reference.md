@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.7/ops/advanced/configs/configuration-files/
   - /riak/kv/2.9.7/ops/advanced/configs/configuration-files/
-  - /riak/latest/configuring/reference/
-  - /riak/kv/latest/configuring/reference/
-  - /riakkv/latest/configuring/reference/
 ---
 
 [concept clusters]: ../../learn/concepts/clusters
@@ -2056,6 +2053,7 @@ Field | Default | Valid values |
 `cluster.job.riak_kv.secondary_index`|`enabled`|`enabled` or `disabled`
 `cluster.job.riak_search.query`|`enabled`|`enabled` or `disabled`
 `cluster.job.yokozuna.query`|`enabled`|`enabled` or `disabled`
+
 
 
 

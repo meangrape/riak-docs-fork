@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.9/dev/advanced/strong-consistency
   - /riak/kv/2.9.9/dev/advanced/strong-consistency
-  - /riak/latest/developing/app-guide/strong-consistency/
-  - /riak/kv/latest/developing/app-guide/strong-consistency/
-  - /riakkv/latest/developing/app-guide/strong-consistency/
 ---
 
 [use ref strong consistency]: {{<baseurl>}}riak/kv/2.9.9/using/reference/strong-consistency
@@ -258,6 +255,7 @@ continue to fail.
 A future version of Riak will address these issues by modifying the
 server API to more accurately report errors specific to strongly
 consistent operations.
+
 
 
 

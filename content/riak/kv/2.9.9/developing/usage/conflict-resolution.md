@@ -13,10 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.9/dev/using/conflict-resolution
   - /riak/kv/2.9.9/dev/using/conflict-resolution
-  - /riak/latest/developing/usage/conflict-resolution/
-  - /riak/kv/latest/developing/usage/conflict-resolution/
-  - /riakkv/latest/developing/usage/conflict-resolution/
-  - /riak/kv/latest/dev/using/conflict-resolution/
 ---
 
 [usage bucket types]: {{<baseurl>}}riak/kv/2.9.9/developing/usage/bucket-types
@@ -709,6 +705,7 @@ Additional background information on vector clocks:
 * [Why Vector Clocks are Easy](http://basho.com/why-vector-clocks-are-easy/)
 * [Why Vector Clocks are Hard](http://basho.com/why-vector-clocks-are-hard/)
 * The vector clocks used in Riak are based on the [work of Leslie Lamport](http://portal.acm.org/citation.cfm?id=359563)
+
 
 
 

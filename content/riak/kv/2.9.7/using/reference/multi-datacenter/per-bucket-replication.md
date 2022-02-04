@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.7/ops/mdc/per-bucket
   - /riak/kv/2.9.7/ops/mdc/per-bucket
-  - /riak/latest/using/reference/multi-datacenter/per-bucket-replication/
-  - /riak/kv/latest/using/reference/multi-datacenter/per-bucket-replication/
-  - /riakkv/latest/using/reference/multi-datacenter/per-bucket-replication/
 ---
 
 To enable or disable replication per bucket, you can use the `repl`
@@ -88,6 +85,7 @@ It's important to note that this goes for properties such as `backend`.
 If the bucket doesn't exist in the destination cluster, Riak will create
 it with the default backend and _not_ with the backend used in the
 source cluster.
+
 
 
 

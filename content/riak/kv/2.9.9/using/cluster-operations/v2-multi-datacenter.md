@@ -15,9 +15,6 @@ commercial_offering: true
 aliases:
   - /riak/2.9.9/ops/mdc/v2/operations
   - /riak/kv/2.9.9/ops/mdc/v2/operations
-  - /riak/latest/using/cluster-operations/v2-multi-datacenter/
-  - /riak/kv/latest/using/cluster-operations/v2-multi-datacenter/
-  - /riakkv/latest/using/cluster-operations/v2-multi-datacenter/
 ---
 
 {{% note title="Deprecation Warning" %}}
@@ -275,6 +272,7 @@ Field | Description
 `partition_start` | The number of elapsed seconds since replication has started on a given partition
 `stage_start` | The number of elapsed seconds since replication has started on a given stage
 `get_pool_size` | The number of Riak get finite state workers available to process requests
+
 
 
 

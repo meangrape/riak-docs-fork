@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.9/dev/references/backend-api
   - /riak/kv/2.9.9/dev/references/backend-api
-  - /riak/latest/developing/api/backend/
-  - /riak/kv/latest/developing/api/backend/
-  - /riakkv/latest/developing/api/backend/
 ---
 
 [plan backend]: {{<baseurl>}}riak/kv/2.9.9/setup/planning/backend
@@ -115,6 +112,7 @@ into a custom storage backend module.
 %% @doc Register an asynchronous callback
 -spec callback(reference(), any(), state()) -> {ok, state()}.
 ```
+
 
 
 

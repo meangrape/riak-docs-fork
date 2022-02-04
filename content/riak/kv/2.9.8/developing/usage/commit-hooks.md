@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.8/dev/using/commit-hooks
   - /riak/kv/2.9.8/dev/using/commit-hooks
-  - /riak/latest/developing/usage/commit-hooks/
-  - /riak/kv/latest/developing/usage/commit-hooks/
-  - /riakkv/latest/developing/usage/commit-hooks/
 ---
 
 [usage bucket types]: {{<baseurl>}}riak/kv/2.9.8/developing/usage/bucket-types
@@ -255,6 +252,7 @@ functions, triggered by the same update, to execute in parallel.
 
 **Note**: All post-commit hook functions are executed for each create,
 update, or delete.
+
 
 
 

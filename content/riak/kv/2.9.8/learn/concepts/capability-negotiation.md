@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.8/theory/concepts/capability-negotiation
   - /riak/kv/2.9.8/theory/concepts/capability-negotiation
-  - /riak/latest/learn/concepts/capability-negotiation/
-  - /riak/kv/latest/learn/concepts/capability-negotiation/
-  - /riakkv/latest/learn/concepts/capability-negotiation/
 ---
 
 
@@ -31,6 +28,7 @@ Rolling upgrades no longer require you to disable and then re-enable features du
 {{% note title="Note on Mixed Versions" %}}
 The capability negotiation subsystem is used to manage mixed versions of Riak KV within a cluster ONLY during rolling upgrades. We strongly recommend not running mixed versions during normal operations.
 {{% /note %}}
+
 
 
 

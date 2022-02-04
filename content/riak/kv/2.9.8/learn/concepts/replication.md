@@ -15,9 +15,6 @@ aliases:
   - /riak/kv/2.9.8/theory/concepts/Replication
   - /riak/2.9.8/theory/concepts/replication
   - /riak/kv/2.9.8/theory/concepts/replication
-  - /riak/latest/learn/concepts/replication/
-  - /riak/kv/latest/learn/concepts/replication/
-  - /riakkv/latest/learn/concepts/replication/
 ---
 
 
@@ -319,6 +316,7 @@ respond, the process will continue to manage that partition and check
 the parent node again after a delay. The hometest is also run by
 partition processes to account for changes in the ring, such as the
 addition or removal of nodes to the cluster.
+
 
 
 

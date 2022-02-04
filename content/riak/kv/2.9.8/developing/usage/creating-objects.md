@@ -11,9 +11,6 @@ menu:
     parent: "developing_usage"
 toc: true
 aliases:
-  - /riak/latest/developing/usage/creating-objects/
-  - /riak/kv/latest/developing/usage/creating-objects/
-  - /riakkv/latest/developing/usage/creating-objects/
 ---
 
 [usage content types]: {{<baseurl>}}riak/kv/2.9.8/developing/usage/content-types
@@ -552,6 +549,7 @@ curl -i -XPOST \
 
 Location: /buckets/test/keys/G7FYUXtTsEdru4NP32eijMIRK3o
 ```
+
 
 
 

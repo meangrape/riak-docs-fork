@@ -11,9 +11,6 @@ menu:
     parent: "managing_ref"
 toc: true
 aliases:
-  - /riak/latest/using/reference/v2-multi-datacenter/
-  - /riak/kv/latest/using/reference/v2-multi-datacenter/
-  - /riakkv/latest/using/reference/v2-multi-datacenter/
 ---
 
 [v2 mdc arch]: ./architecture
@@ -37,6 +34,7 @@ Overview of the architecture undergirding Riak's Multi-Datacenter Replication ca
 Brief tutorial on scheduling fullsync operations.
 
 [Learn More >>][v2 mdc fullsync]
+
 
 
 

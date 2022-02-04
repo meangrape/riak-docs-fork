@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.8/dev/using/search
   - /riak/kv/2.9.8/dev/using/search
-  - /riak/latest/developing/usage/search/
-  - /riak/kv/latest/developing/usage/search/
-  - /riakkv/latest/developing/usage/search/
 ---
 
 [usage search schema]: ../search-schemas/
@@ -1452,6 +1449,7 @@ curl -XPOST $RIAK_HOST/mapred \
      -H 'Content-Type: application/json' \
      -d '{"inputs":{"module":"yokozuna","function":"mapred_search","arg":["famous","NOT leader_b:true"]},"query":[{"map":{"language":"javascript","keep":false,"source":"function(v) { return [1]; }"}},{"reduce":{"language":"javascript","keep":true,"name":"Riak.reduceSum"}}]}'
 ```
+
 
 
 

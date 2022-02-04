@@ -699,3 +699,4 @@ Basho's official [client
   libraries][dev client libraries] convert errors returned by Riak into generic exceptions,
   with a message derived from the returned server-side error message.
 
+

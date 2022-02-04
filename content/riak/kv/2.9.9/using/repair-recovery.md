@@ -11,9 +11,6 @@ menu:
     parent: "managing"
 toc: true
 aliases:
-  - /riak/latest/using/repair-recovery/
-  - /riak/kv/latest/using/repair-recovery/
-  - /riakkv/latest/using/repair-recovery/
 ---
 
 [repair recover fail]: ./failure-recovery/
@@ -50,6 +47,7 @@ Tutorials on running various repair operations.
 Brief guide on performing node-by-node restarts.
 
 [Learn More >>][repair recover restart]
+
 
 
 

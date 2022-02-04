@@ -16,10 +16,6 @@ aliases:
   - /riak/kv/2.9.7/ops/building/installing/Installing-on-SUSE
   - /riak/2.9.7/installing/suse/
   - /riak/kv/2.9.7/installing/suse/
-  - /riak/kv/latest/setup/installing/suse/
-  - /riak/latest/setup/installing/suse/
-  - /riak/kv/latest/setup/installing/suse/
-  - /riakkv/latest/setup/installing/suse/
 ---
 
 [install verify]: {{<baseurl>}}riak/kv/2.9.7/setup/installing/verify
@@ -49,6 +45,7 @@ sudo rpm -Uvh riak-2.2.3-1.SLES11.x86_64.rpm
 ## Next Steps
 
 Now that Riak is installed, check out [Verifying a Riak Installation][install verify].
+
 
 
 

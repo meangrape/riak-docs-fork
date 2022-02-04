@@ -15,9 +15,6 @@ commercial_offering: true
 aliases:
   - /riak/2.9.8/ops/mdc/v2/hooks
   - /riak/kv/2.9.8/ops/mdc/v2/hooks
-  - /riak/latest/developing/api/repl-hooks/
-  - /riak/kv/latest/developing/api/repl-hooks/
-  - /riakkv/latest/developing/api/repl-hooks/
 ---
 [object]: https://github.com/basho/riak_kv/blob/master/src/riak_object.erl 
 
@@ -192,6 +189,7 @@ hook:
 ```bash
 -run riak_replication_hook_sample register
 ```
+
 
 
 

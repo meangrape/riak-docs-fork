@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.9/ops/running/authz
   - /riak/kv/2.9.9/ops/running/authz
-  - /riak/latest/using/security/basics/
-  - /riak/kv/latest/using/security/basics/
-  - /riakkv/latest/using/security/basics/
 ---
 
 > **Note on Network security**
@@ -848,6 +845,7 @@ those checks, set the `secure_referer_check` parameter to `off`.
 If you are using [certificate-based authentication]({{<baseurl>}}riak/kv/2.9.9/using/security/managing-sources/#certificate-based-authentication), Riak will check the certificate revocation list (CRL) of connecting clients' certificate by
 default. To disable this behavior, set the `check_crl` parameter to
 `off`.
+
 
 
 

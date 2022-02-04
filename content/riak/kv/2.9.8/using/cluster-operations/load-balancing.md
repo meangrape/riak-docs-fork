@@ -12,12 +12,10 @@ project_version: 2.9.8
 #    parent: "managing_cluster_operations"
 toc: true
 aliases:
-  - /riak/latest/using/cluster-operations/load-balancing/
-  - /riak/kv/latest/using/cluster-operations/load-balancing/
-  - /riakkv/latest/using/cluster-operations/load-balancing/
 ---
 
 **TODO: Add content (not sure where this exists in docs)**
+
 
 
 

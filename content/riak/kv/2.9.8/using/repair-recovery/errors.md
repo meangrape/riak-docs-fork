@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.8/ops/running/recovery/errors
   - /riak/kv/2.9.8/ops/running/recovery/errors
-  - /riak/latest/using/repair-recovery/errors/
-  - /riak/kv/latest/using/repair-recovery/errors/
-  - /riakkv/latest/using/repair-recovery/errors/
 ---
 
 [config reference]: {{<baseurl>}}riak/kv/2.9.8/configuring/reference
@@ -363,6 +360,7 @@ RPC to 'node@example.com' failed: {'EXIT', {badarg, [{ets,lookup, [schema_table,
         ```
   6. When all have finished successfully you may restart the node: `riak start`
   7. Check for proper operation by looking at log files in /var/log/riak and in the LOG files in the effected LevelDB vnodes.
+
 
 
 

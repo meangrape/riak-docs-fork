@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.8/ops/running/recovery/failed-node
   - /riak/kv/2.9.8/ops/running/recovery/failed-node
-  - /riak/latest/using/repair-recovery/failed-node/
-  - /riak/kv/latest/using/repair-recovery/failed-node/
-  - /riakkv/latest/using/repair-recovery/failed-node/
 ---
 
 ## General Recovery Notes
@@ -111,6 +108,7 @@ Valid:1 / Leaving:0 / Exiting:0 / Joining:0 / Down:0
     ```bash
     riak-admin cluster commit
     ```
+
 
 
 

@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.8/dev/taste-of-riak/csharp
   - /riak/kv/2.9.8/dev/taste-of-riak/csharp
-  - /riak/latest/developing/getting-started/csharp/
-  - /riak/kv/latest/developing/getting-started/csharp/
-  - /riakkv/latest/developing/getting-started/csharp/
 ---
 
 
@@ -83,6 +80,7 @@ We are now ready to start interacting with Riak.
 ## Next Steps
 
 [CRUD Operations]({{<baseurl>}}riak/kv/2.9.8/developing/getting-started/csharp/crud-operations)
+
 
 
 

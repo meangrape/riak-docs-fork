@@ -14,9 +14,6 @@ toc: true
 aliases:
   - /riak/2.9.9/dev/taste-of-riak/querying-python
   - /riak/kv/2.9.9/dev/taste-of-riak/querying-python
-  - /riak/latest/developing/getting-started/python/querying/
-  - /riak/kv/latest/developing/getting-started/python/querying/
-  - /riakkv/latest/developing/getting-started/python/querying/
 ---
 
 #### A Quick Note on Querying and Schemas
@@ -237,6 +234,7 @@ So to recap:
 * Indexes can have either Integer or Binary(String) keys
 * You can search for specific values, or a range of values
 * Riak will return a list of keys that match the index query
+
 
 
 

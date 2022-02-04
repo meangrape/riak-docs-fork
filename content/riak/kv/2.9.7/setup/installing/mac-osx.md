@@ -16,10 +16,6 @@ aliases:
   - /riak/kv/2.9.7/ops/building/installing/Installing-on-Mac-OS-X
   - /riak/2.9.7/installing/mac-osx/
   - /riak/kv/2.9.7/installing/mac-osx/
-  - /riak/kv/latest/setup/installing/mac-osx/
-  - /riak/latest/setup/installing/mac-osx/
-  - /riak/kv/latest/setup/installing/mac-osx/
-  - /riakkv/latest/setup/installing/mac-osx/
 ---
 
 
@@ -118,6 +114,7 @@ system (Snow Leopard and higher: 64bit).
 ## Next Steps
 
 Now that Riak is installed, check out [Verifying a Riak Installation][install verify].
+
 
 
 

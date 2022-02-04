@@ -12,9 +12,6 @@ menu:
 toc: true
 aliases:
   - /riak/2.9.8/ops/advanced/deletion
-  - /riak/latest/using/reference/object-deletion/
-  - /riak/kv/latest/using/reference/object-deletion/
-  - /riakkv/latest/using/reference/object-deletion/
 ---
 
 [concept eventual consistency]: ../../../learn/concepts/eventual-consistency
@@ -133,6 +130,7 @@ Check out [Deleting Objects][usage delete objects] in the Developing section for
 ## Resources
 
 * [Discussion on the Riak mailing list](http://lists.basho.com/pipermail/riak-users_lists.basho.com/2011-October/006048.html)
+
 
 
 

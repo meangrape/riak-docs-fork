@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.7/dev/taste-of-riak/python
   - /riak/kv/2.9.7/dev/taste-of-riak/python
-  - /riak/latest/developing/getting-started/python/
-  - /riak/kv/latest/developing/getting-started/python/
-  - /riakkv/latest/developing/getting-started/python/
 ---
 
 
@@ -115,6 +112,7 @@ We are now ready to start interacting with Riak.
 ## Next Steps
 
 [CRUD Operations]({{<baseurl>}}riak/kv/2.9.7/developing/getting-started/python/crud-operations)
+
 
 
 

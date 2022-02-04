@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.9/ops/running/nodes/renaming
   - /riak/kv/2.9.9/ops/running/nodes/renaming
-  - /riak/latest/using/cluster-operations/changing-cluster-info/
-  - /riak/kv/latest/using/cluster-operations/changing-cluster-info/
-  - /riakkv/latest/using/cluster-operations/changing-cluster-info/
 ---
 
 [config reference]: {{<baseurl>}}riak/kv/2.9.9/configuring/reference
@@ -455,6 +452,7 @@ Once all nodes are marked as down and our first node is listed as the claimant, 
     Valid:5 / Leaving:0 / Exiting:0 / Joining:0 / Down:0
 
     ```
+
 
 
 

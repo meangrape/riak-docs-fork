@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.9/dev/advanced/bucket-types
   - /riak/kv/2.9.9/dev/advanced/bucket-types
-  - /riak/latest/developing/usage/bucket-types/
-  - /riak/kv/latest/developing/usage/bucket-types/
-  - /riakkv/latest/developing/usage/bucket-types/
 ---
 
 If you ever need to turn off indexing for a bucket, set the
@@ -99,6 +96,7 @@ curl -XPUT $RIAK_HOST/buckets/cats/props \
      -H'content-type:application/json' \
      -d'{"props":{"search_index":"famous"}}'
 ```
+
 
 
 

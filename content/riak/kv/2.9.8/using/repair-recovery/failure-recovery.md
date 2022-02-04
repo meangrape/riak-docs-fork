@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.8/ops/running/recovery/failure-recovery
   - /riak/kv/2.9.8/ops/running/recovery/failure-recovery
-  - /riak/latest/using/repair-recovery/failure-recovery/
-  - /riak/kv/latest/using/repair-recovery/failure-recovery/
-  - /riakkv/latest/using/repair-recovery/failure-recovery/
 ---
 
 Riak was built to withstand---or at the very least reduce the severity
@@ -141,6 +138,7 @@ If you are a TI Tokyo Riak supprt customer and require assistance or
 further advice with a cluster recovery, please file a ticket with the
 <a href="https://support.tiot.jp">TI Tokyo Helpdesk</a>.
 {{% /note %}}
+
 
 
 

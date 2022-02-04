@@ -12,10 +12,6 @@ menu:
 toc: false
 aliases:
   - /riak/2.9.9/
-  - /riak/kv/latest/
-  - /riak/latest/
-  - /riak/kv/latest/
-  - /riakkv/latest/
 ---
 
 [aboutenterprise]: https://www.tiot.jp/en/about-us/contact-us/
@@ -76,6 +72,7 @@ If you are looking to integrate Riak KV with your existing tools, check out the 
 3. [Developing with Riak KV: Searching][usage search]
 4. [Developing with Riak KV: Getting Started][getting started]
 5. [Developing with Riak KV: Client Libraries][dev client libraries]
+
 
 
 

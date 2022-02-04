@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.9/dev/references/http/search-index-info
   - /riak/kv/2.9.9/dev/references/http/search-index-info
-  - /riak/latest/developing/api/http/search-index-info/
-  - /riak/kv/latest/developing/api/http/search-index-info/
-  - /riakkv/latest/developing/api/http/search-index-info/
 ---
 
 Retrieves information about all currently available [Search indexes]({{<baseurl>}}riak/kv/2.9.9/developing/usage/search) in JSON format.
@@ -63,6 +60,7 @@ Typically returned if Riak Search is not
   - /riakkv/latest/developing/api/http/search-index-info/
 ---
 The request timed out internally
+
 
 
 

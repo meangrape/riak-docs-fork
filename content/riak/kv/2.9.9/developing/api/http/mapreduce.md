@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.9/dev/references/http/mapreduce
   - /riak/kv/2.9.9/dev/references/http/mapreduce
-  - /riak/latest/developing/api/http/mapreduce/
-  - /riak/kv/latest/developing/api/http/mapreduce/
-  - /riakkv/latest/developing/api/http/mapreduce/
 ---
 
 [MapReduce]({{<baseurl>}}riak/kv/2.9.9/developing/usage/mapreduce) is a generic way to query Riak by specifying inputs and constructing a set of map, reduce, and link phases through which data will flow.
@@ -71,6 +68,7 @@ $ curl -v -d '{"inputs":"test", "query":[{"link":{"bucket":"test"}},{"map":{"lan
 * Closing connection #0
 [{"foo":"bar"},{"riak":"CAP"}]
 ```
+
 
 
 

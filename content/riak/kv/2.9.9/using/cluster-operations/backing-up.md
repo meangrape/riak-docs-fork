@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.9/ops/running/backups
   - /riak/kv/2.9.9/ops/running/backups
-  - /riak/latest/using/cluster-operations/backing-up/
-  - /riak/kv/latest/using/cluster-operations/backing-up/
-  - /riakkv/latest/using/cluster-operations/backing-up/
 ---
 
 [concept clusters]: {{<baseurl>}}riak/kv/2.9.9/learn/concepts/clusters
@@ -268,6 +265,7 @@ and for any other nodes whose names have changed:
 ## Restoring a Cluster
 
 Restoring a cluster from backups is documented [on its own page]({{<baseurl>}}riak/kv/2.9.9/using/repair-recovery/failure-recovery/#cluster-recovery-from-backups).
+
 
 
 

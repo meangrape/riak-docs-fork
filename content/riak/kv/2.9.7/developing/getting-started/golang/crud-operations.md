@@ -12,9 +12,6 @@ menu:
     parent: "getting_started_go"
 toc: true
 aliases:
-  - /riak/latest/developing/getting-started/golang/crud-operations/
-  - /riak/kv/latest/developing/getting-started/golang/crud-operations/
-  - /riakkv/latest/developing/getting-started/golang/crud-operations/
 ---
 
 
@@ -373,6 +370,7 @@ Now, let’s delete the book:
 ```golang
 ...
 ```
+
 
 
 

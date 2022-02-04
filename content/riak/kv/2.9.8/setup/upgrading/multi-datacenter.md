@@ -12,15 +12,12 @@ project_version: 2.9.8
 #    parent: "upgrading"
 toc: true
 aliases:
-  - /riak/kv/latest/setup/upgrading/multi-datacenter/
-  - /riak/latest/setup/upgrading/multi-datacenter/
-  - /riak/kv/latest/setup/upgrading/multi-datacenter/
-  - /riakkv/latest/setup/upgrading/multi-datacenter/
 ---
 
 ## TODO
 
 How to update to a new version with multi-datacenter.
+
 
 
 

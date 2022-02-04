@@ -17,9 +17,6 @@ aliases:
   - /riak/kv/2.9.8/ops/building/installing/Installing-the-JVM
   - /riak/2.9.8/installing/source/jvm/
   - /riak/kv/2.9.8/installing/source/jvm/
-  - /riak/latest/setup/installing/source/jvm/
-  - /riak/kv/latest/setup/installing/source/jvm/
-  - /riakkv/latest/setup/installing/source/jvm/
 ---
 
 [usage search]: {{<baseurl>}}riak/kv/2.9.8/developing/usage/search
@@ -52,6 +49,7 @@ for `localhost` using
 ```bash
 scutil --set HostName "localhost"
 ```
+
 
 
 

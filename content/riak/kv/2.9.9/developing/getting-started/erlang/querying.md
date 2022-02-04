@@ -14,9 +14,6 @@ toc: true
 aliases:
   - /riak/2.9.9/dev/taste-of-riak/querying-erlang
   - /riak/kv/2.9.9/dev/taste-of-riak/querying-erlang
-  - /riak/latest/developing/getting-started/erlang/querying/
-  - /riak/kv/latest/developing/getting-started/erlang/querying/
-  - /riakkv/latest/developing/getting-started/erlang/querying/
 ---
 
 
@@ -305,6 +302,7 @@ So, to recap:
 * Indices can have either Integer or Binary(String) keys
 * You can search for specific values, or a range of values
 * Riak will return a list of keys that match the index query
+
 
 
 

@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.9/dev/search/custom-extractors
   - /riak/kv/2.9.9/dev/search/custom-extractors
-  - /riak/latest/developing/usage/custom-extractors/
-  - /riak/kv/latest/developing/usage/custom-extractors/
-  - /riakkv/latest/developing/usage/custom-extractors/
 ---
 
 Solr, and by extension Riak Search, has default extractors for a wide
@@ -431,6 +428,7 @@ curl "$RIAK_HOST/search/query/header_data?wt=json&q=method:GET"
 # This should return a fairly large JSON object with a "num_found" field
 # The value of that field should be 1
 ```
+
 
 
 

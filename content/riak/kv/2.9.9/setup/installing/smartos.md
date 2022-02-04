@@ -17,8 +17,6 @@ aliases:
   - /riak/2.9.9/installing/smartos/
   - /riak/kv/2.9.9/installing/smartos/
   - /riak/kv/2.9.9/installing/smartos/
-  - /riak/kv/latest/setup/installing/smartos/
-  - /riak/kv/latest/installing/smartos/
 ---
 
 [install verify]: {{<baseurl>}}riak/kv/2.9.0p5/setup/installing/verify
@@ -118,3 +116,4 @@ If all responses indicate that riak is up and running, then you have successfull
 ## Next Steps
 
 Now that Riak is installed, check out [Verifying a Riak Installation][install verify].
+

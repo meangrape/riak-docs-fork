@@ -15,9 +15,6 @@ version_history:
 aliases:
   - /riak/kv/2.9.7/ops/advanced/aae/
   - /riak/2.9.7/ops/advanced/aae/
-  - /riak/latest/using/cluster-operations/active-anti-entropy/
-  - /riak/kv/latest/using/cluster-operations/active-anti-entropy/
-  - /riakkv/latest/using/cluster-operations/active-anti-entropy/
 ---
 [config search#throttledelay]: {{<baseurl>}}riak/kv/2.9.7/configuring/search/#search-anti-entropy-throttle-tier-delay
 [config search#throttle]: {{<baseurl>}}riak/kv/2.9.7/configuring/search/#search-anti-entropy-throttle
@@ -286,6 +283,7 @@ riak-admin search aae-status
 
 The output from that command can be interpreted just like the output
 discussed in the section on [monitoring](#monitoring-aae) above.
+
 
 
 

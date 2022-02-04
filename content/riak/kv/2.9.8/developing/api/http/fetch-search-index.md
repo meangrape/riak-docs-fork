@@ -13,12 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.8/dev/references/http/fetch-search-index
   - /riak/kv/2.9.8/dev/references/http/fetch-search-index
-  - /riak/latest/developing/api/http/fetch-search-index
-  - /riak/kv/latest/developing/api/http/fetch-search-index
-  - /riakkv/latest/developing/api/http/fetch-search-index
-  - /riak/latest/developing/api/http/fetch-search-index/
-  - /riak/kv/latest/developing/api/http/fetch-search-index/
-  - /riakkv/latest/developing/api/http/fetch-search-index/
 ---
 
 Retrieves information about a Riak Search [index]({{<baseurl>}}riak/kv/2.9.8/developing/usage/search/#simple-setup).
@@ -67,6 +61,7 @@ index, including its name, the [`n_val`]({{<baseurl>}}riak/kv/2.9.8/developing/a
   "schema": "_yz_default"
 }
 ```
+
 
 
 

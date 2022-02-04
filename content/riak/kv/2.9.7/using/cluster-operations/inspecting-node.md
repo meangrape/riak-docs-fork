@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.7/ops/running/nodes/inspecting
   - /riak/kv/2.9.7/ops/running/nodes/inspecting
-  - /riak/latest/using/cluster-operations/inspecting-node/
-  - /riak/kv/latest/using/cluster-operations/inspecting-node/
-  - /riakkv/latest/using/cluster-operations/inspecting-node/
 ---
 
 When inspection of a Riak node to gather metrics on performance or
@@ -508,6 +505,7 @@ The user/UID as which the Riak node runs. In a source
 * [The riak-admin configuration management tool](../../admin/riak-admin/)
 * [Riaknostic](http://riaknostic.basho.com/)
 * [HTTP API Status](../../../developing/api/http/status/)
+
 
 
 

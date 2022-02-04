@@ -11,10 +11,6 @@ menu:
     pre: cog
 toc: true
 aliases:
-  - /riak/kv/latest/configuring/
-  - /riak/latest/configuring/
-  - /riak/kv/latest/configuring/
-  - /riakkv/latest/configuring/
 ---
 
 [config basic]: ../configuring/basic
@@ -84,6 +80,7 @@ Information on configuring and using Riak KV Search from an operational perspect
 A guide on configuring Riak's V3 Multi-Datacenter Replication
 
 [Learn More >>][config v3 mdc]
+
 
 
 

@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.7/ops/advanced/backends/leveled/
   - /riak/kv/2.9.7/ops/advanced/backends/leveled/
-  - /riak/latest/setup/planning/backend/leveled/
-  - /riak/kv/latest/setup/planning/backend/leveled/
-  - /riakkv/latest/setup/planning/backend/leveled/
 ---
 
 [glossary vnode]: {{<baseurl>}}riak/kv/2.9.7/learn/glossary/#vnode
@@ -137,6 +134,7 @@ often referenced in database performance literature.
 ## Implementation Details
 
 [Leveled](https://github.com/martinsumner/leveled) is an open source project that has been developed specifically as a backend option for Riak, rather than a generic backend.
+
 
 
 

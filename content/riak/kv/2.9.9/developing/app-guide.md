@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.9/dev/using/application-guide/
   - /riak/kv/2.9.9/dev/using/application-guide/
-  - /riak/latest/developing/app-guide/
-  - /riak/kv/latest/developing/app-guide/
-  - /riakkv/latest/developing/app-guide/
 ---
 
 [usage conflict resolution]: {{<baseurl>}}riak/kv/2.9.9/developing/usage/conflict-resolution
@@ -591,6 +588,7 @@ A guide to basic key/value operations and other common tasks in Riak KV.
 ---
 A listing of frequently used terms in Riak's
   documentation
+
 
 
 

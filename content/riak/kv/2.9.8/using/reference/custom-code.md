@@ -13,9 +13,6 @@ toc: true
 aliases:
   - /riak/2.9.8/ops/advanced/install-custom-code/
   - /riak/kv/2.9.8/ops/advanced/install-custom-code/
-  - /riak/latest/using/reference/custom-code/
-  - /riak/kv/latest/using/reference/custom-code/
-  - /riakkv/latest/using/reference/custom-code/
 ---
 
 Riak supports the use of Erlang named functions in compiled modules for
@@ -132,6 +129,7 @@ in the [Commands documentation]({{<baseurl>}}riak/kv/2.9.8/using/admin/riak-admi
 It is important that you ensure riak_kv is active before restarting the next
 node.
 {{% /note %}}
+
 
 
 

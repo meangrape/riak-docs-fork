@@ -15,10 +15,6 @@ aliases:
   - /riak/kv/2.9.9/ops/installing/Post-Installation
   - /riak/2.9.9/installing/verify-install/
   - /riak/kv/2.9.9/installing/verify-install/
-  - /riak/kv/latest/setup/installing/verify/
-  - /riak/latest/setup/installing/verify/
-  - /riak/kv/latest/setup/installing/verify/
-  - /riakkv/latest/setup/installing/verify/
 ---
 
 [client libraries]: {{<baseurl>}}riak/kv/2.9.9/developing/client-libraries
@@ -166,6 +162,7 @@ You have a working Riak node!
 From here you might want to check out the following resources:
 
 * [Client Libraries][client libraries] to use Riak with your favorite programming language
+
 
 
 
