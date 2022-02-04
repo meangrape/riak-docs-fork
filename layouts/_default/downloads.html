@@ -112,7 +112,7 @@
 
             <tr>
               <td></td>
-              <td class="downloads__arch">{{$arch_map.arch}}</td>
+              <td class="downloads__arch">PJAC001{{$arch_map.arch}}</td>
               <td class="downloads__link"><a href="{{$arch_map.file_info.file_href}}">{{$arch_map.file_info.file_name}}</a></td>
               <td class="downloads__size">{{ (div (div (int $arch_map.file_info.file_size) 1024) 1024) }} MB</td>
               {{ if $arch_map.file_info.chksum_href }}
@@ -141,11 +141,12 @@
     {{ end }}
 
           </tbody>
+          PJAC004
         </table>
 
   {{end}}
 
-
+  PJAC003
   <!-- Range Over Source Packages Per Project
   =========================================== -->
   {{ range $source_map := (where $target_download_metadata "os" "==" "source") }}
@@ -162,7 +163,7 @@
 
             <tr>
               <td></td>
-              <td class="downloads__arch"></td>
+              <td class="downloads__arch">PJAC002</td>
               <td class="downloads__link"><a href="{{$source_map.file_info.file_href}}">{{$source_map.file_info.file_name}}</a></td>
               <td class="downloads__size">{{ (div (div (int $source_map.file_info.file_size) 1024) 1024) }} MB</td>
               {{ if $source_map.file_info.chksum_href }}
@@ -189,6 +190,7 @@
   {{ end }}
 
           </tbody>
+          PJAC005
         </table>
 
 

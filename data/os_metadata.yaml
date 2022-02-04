@@ -35,6 +35,10 @@ rhel:
   title: "RHEL & CentOS"
   image_src: "images/shared/operating_system_branding/redhat.png"
   installing_instructions_page: "rhel-centos/"
+oracle:
+  title: "Oracle Linux"
+  image_src: "images/shared/operating_system_branding/oracle.png"
+  installing_instructions_page: "oracle/"
 sles:
   title: "SuSE Linux Enterprise Server"
   image_src: "images/shared/operating_system_branding/suse.png"

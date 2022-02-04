@@ -81,13 +81,13 @@ BASE_SFTP_URI = URI(BASE_SFTP_URL)
 # root paths used in the file server, and the lowest "major" version number to
 # pull information for.
 PROJECTS_TO_TRACK = {
-  "dataplatform"        =>{ "file_root"=>"data-platform",        "min_maj_ver"=>1.0 },
-  "dataplatform_extras" =>{ "file_root"=>"data-platform-extras", "min_maj_ver"=>1.0 },
+  "riak_kv"             =>{ "file_root"=>"kv",                   "min_maj_ver"=>2.0 },
+  "riak_cs"             =>{ "file_root"=>"cs",                   "min_maj_ver"=>2.0 },
   "stanchion"           =>{ "file_root"=>"stanchion",            "min_maj_ver"=>2.0 },
   "riak_cs_control"     =>{ "file_root"=>"cs-control",           "min_maj_ver"=>1.0 },
   "riak_ts"             =>{ "file_root"=>"ts",                   "min_maj_ver"=>1.2 },
-  "riak_cs"             =>{ "file_root"=>"cs",                   "min_maj_ver"=>2.0 },
-  "riak_kv"             =>{ "file_root"=>"kv",                   "min_maj_ver"=>2.0 },
+  "dataplatform"        =>{ "file_root"=>"data-platform",        "min_maj_ver"=>1.0 },
+  "dataplatform_extras" =>{ "file_root"=>"data-platform-extras", "min_maj_ver"=>1.0 },
 }
 
 # NOTE: All Hashes in this file use strings for keys, so we can correctly write
@@ -120,7 +120,7 @@ def generate_downloads_metadata_sftp()
       versions = fetch_index_sftp(sftp, "#{file_root}/#{major_version}")
                    .select { |k,v| v["type"] == "dir" }
                    .select { |k,v| k != "CURRENT" }
-                   .select { |k,v| k =~ /^\d+\.\d+\.\d(p\d)?+$/ }
+                   .select { |k,v| k =~ /^\d+\.\d+\.\d+(p\d+)?+$/ }
                    .keys()
       versions.each do |version|
         version_hash["#{version}"] = os_list = []
@@ -245,7 +245,7 @@ def fetch_index_sftp(sftp, relative_path)
       end
     end
   #puts results
-  #exit
+  results = results.sort.to_h
   return results
 end
 
