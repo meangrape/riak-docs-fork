@@ -18,5 +18,5 @@ services:
     volumes:
       - ..:/src
       - ../output:/output
-    restart: "no""
+    restart: "no"
 
